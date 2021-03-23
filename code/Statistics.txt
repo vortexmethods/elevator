@@ -1,0 +1,25 @@
+Passangers:
+#0, penalty = 203 (init = 5, started = 63, finished = 208)
+#1, penalty = 147 (init = 5, started = 65, finished = 152)
+#2, penalty = 205 (init = 5, started = 67, finished = 210)
+#3, penalty = 91 (init = 5, started = 69, finished = 96)
+#4, penalty = 352 (init = 5, started = 301, finished = 357)
+#5, penalty = 381 (init = 5, started = 303, finished = 386)
+#6, penalty = 580 (init = 5, started = 477, finished = 585)
+
+Number of passengers, that have finished the trip: 7
+ average waiting time = 187.143
+ average going time =   92.7143
+ average total time =   279.857
+Penalty for them = 1959
+
+Still waiting on floors = 0
+Penalty for them = 0
+
+Still in elevator = 0
+Penalty for them = 0
+
+Leaved the floors, because of too large waiting time = 0
+Penalty for them = 0
+
+TOTAL PENALTY = 1959

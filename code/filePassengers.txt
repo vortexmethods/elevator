@@ -1,0 +1,21 @@
+time = 5	Passenger #0	appeared on floor #5, goes to floor #10
+time = 5	Passenger #1	appeared on floor #5, goes to floor #8
+time = 5	Passenger #2	appeared on floor #5, goes to floor #10
+time = 5	Passenger #3	appeared on floor #5, goes to floor #6
+time = 5	Passenger #4	appeared on floor #5, goes to floor #3
+time = 5	Passenger #5	appeared on floor #5, goes to floor #2
+time = 5	Passenger #6	appeared on floor #5, goes to floor #9
+time = 63	Passenger #0	from floor #5 to floor #10	entered the elevator #0
+time = 65	Passenger #1	from floor #5 to floor #8	entered the elevator #0
+time = 67	Passenger #2	from floor #5 to floor #10	entered the elevator #0
+time = 69	Passenger #3	from floor #5 to floor #6	entered the elevator #0
+time = 96	Passenger #3	from floor #5 to floor #6	got off the elevator #0 (appeared t = 5, in elevator t = 69)
+time = 152	Passenger #1	from floor #5 to floor #8	got off the elevator #0 (appeared t = 5, in elevator t = 65)
+time = 208	Passenger #0	from floor #5 to floor #10	got off the elevator #0 (appeared t = 5, in elevator t = 63)
+time = 210	Passenger #2	from floor #5 to floor #10	got off the elevator #0 (appeared t = 5, in elevator t = 67)
+time = 301	Passenger #4	from floor #5 to floor #3	entered the elevator #0
+time = 303	Passenger #5	from floor #5 to floor #2	entered the elevator #0
+time = 357	Passenger #4	from floor #5 to floor #3	got off the elevator #0 (appeared t = 5, in elevator t = 301)
+time = 386	Passenger #5	from floor #5 to floor #2	got off the elevator #0 (appeared t = 5, in elevator t = 303)
+time = 477	Passenger #6	from floor #5 to floor #9	entered the elevator #0
+time = 585	Passenger #6	from floor #5 to floor #9	got off the elevator #0 (appeared t = 5, in elevator t = 477)
