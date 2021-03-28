@@ -5,13 +5,13 @@
 \file
 \brief Заголовочный файл с описанием класса Passenger и сопутствующих структур
 \author Марчевский Илья Константинович
-\version 0.2
-\date 25 марта 2021 г.
+\version 0.3
+\date 29 марта 2021 г.
 */
 
 #pragma once
 
-/*! \enum ElevatorAcceleration
+/*! \enum PassengerStatus
  \brief Статусы пассажиров (не может быть использовано напрямую в системе управления, внутренний параметр)
 */
 enum class PassengerStatus { 	
@@ -21,7 +21,7 @@ enum class PassengerStatus {
 	leaved    ///< Пассажир не дождался лифта и ушел
 };
 
-/*! \enum PassengerProperties
+/*! \struct PassengerProperties
  \brief Параметры пассажиров
 */
 struct PassengerProperties
@@ -75,11 +75,29 @@ private:
 	size_t getTimeInit() const { return properties.timeInit; };
 	size_t getFloorDeparture() const { return properties.floorDeparture; };
 	size_t getFloorDestination() const { return properties.floorDestination; };
+	bool PerformInverseProbability(size_t curTime) const
+	{
+		const PassengerProperties& pr = properties;
+
+		double curProb = pr.pInverseStartWaiting \
+			+ (double)(curTime - pr.timeInit) / pr.criticalWaitTime * (pr.pInverseStopWaiting - pr.pInverseStartWaiting);
+
+		double rnd = (double)rand() / (RAND_MAX + 1);
+
+		return (rnd < curProb);
+	};
+
+	bool PerformNoWaitingProbability() const
+	{
+		const PassengerProperties& pr = properties;
+		double rnd = (double)rand() / (RAND_MAX + 1);
+		return (rnd < pr.pStartGoing);
+	}
 
 public:
 	/// \brief Инициализирующий конструктор
 	///
-	/// \param[in] id порядковый номер пассажира
+	/// \param[in] id_ порядковый номер пассажира
 	/// \param[in] properties_ параметры пассажира
 	Passenger(size_t id_, const PassengerProperties& properties_)
 		: id(id_), properties(properties_), timeStart(-1), timeFinish(-1), status(PassengerStatus::waiting) 

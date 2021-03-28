@@ -1,2404 +1,3005 @@
 time = 1: 
  in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 2: 
  in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 3: 
  in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 4: 
  in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 5: 
  in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #1: 
+ on floors: #5(dn)  
 
 time = 6: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 7: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 8: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 9: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 10: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 11: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 12: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 13: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 14: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 15: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 16: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 17: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 18: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 19: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 20: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 21: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 22: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 23: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 24: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 25: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 26: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 27: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 28: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 29: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 30: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 31: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 32: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 33: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 34: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 35: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 36: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 37: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 38: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 39: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 40: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 41: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 42: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 43: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 44: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 45: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 46: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 47: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 48: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 49: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 50: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 51: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 52: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 53: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 54: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 55: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 56: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(dn)  
 
 time = 57: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(dn)  
 
 time = 58: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(dn)  
 
 time = 59: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(dn)  
 
 time = 60: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(dn)  
 
 time = 61: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(dn)  
 
 time = 62: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(dn)  
 
 time = 63: 
- in elevator #0: 10 
+ in elevator #0: 3 
+ in elevator #1: 
  on floors: #5(dn)  
 
 time = 64: 
- in elevator #0: 10 
+ in elevator #0: 3 
+ in elevator #1: 
  on floors: #5(dn)  
 
 time = 65: 
- in elevator #0: 8 10 
+ in elevator #0: 3 10 
+ in elevator #1: 
  on floors: #5(dn)  
 
 time = 66: 
- in elevator #0: 8 10 
+ in elevator #0: 3 10 
+ in elevator #1: 
  on floors: #5(dn)  
 
 time = 67: 
- in elevator #0: 8 10 
+ in elevator #0: 3 8 10 
+ in elevator #1: 
  on floors: #5(dn)  
 
 time = 68: 
- in elevator #0: 8 10 
+ in elevator #0: 3 8 10 
+ in elevator #1: 
  on floors: #5(dn)  
 
 time = 69: 
- in elevator #0: 6 8 10 
+ in elevator #0: 3 8 10 
+ in elevator #1: 
  on floors: #5(dn)  
 
 time = 70: 
- in elevator #0: 6 8 10 
+ in elevator #0: 3 8 10 
+ in elevator #1: 
  on floors: #5(dn)  
 
 time = 71: 
- in elevator #0: 6 8 10 
+ in elevator #0: 3 8 10 
+ in elevator #1: 
  on floors: #5(dn)  
 
 time = 72: 
- in elevator #0: 6 8 10 
+ in elevator #0: 3 8 10 
+ in elevator #1: 
  on floors: #5(dn)  
 
 time = 73: 
- in elevator #0: 6 8 10 
+ in elevator #0: 3 8 10 
+ in elevator #1: 
  on floors: #5(dn)  
 
 time = 74: 
- in elevator #0: 6 8 10 
+ in elevator #0: 3 8 10 
+ in elevator #1: 
  on floors: #5(dn)  
 
 time = 75: 
- in elevator #0: 6 8 10 
+ in elevator #0: 3 8 10 
+ in elevator #1: 
  on floors: #5(dn)  
 
 time = 76: 
- in elevator #0: 6 8 10 
+ in elevator #0: 3 8 10 
+ in elevator #1: 
  on floors: #5(dn)  
 
 time = 77: 
- in elevator #0: 6 8 10 
+ in elevator #0: 3 8 10 
+ in elevator #1: 
  on floors: #5(dn)  
 
 time = 78: 
- in elevator #0: 6 8 10 
+ in elevator #0: 3 8 10 
+ in elevator #1: 
  on floors: #5(dn)  
 
 time = 79: 
- in elevator #0: 6 8 10 
- on floors: #5(dn)  
+ in elevator #0: 3 8 10 
+ in elevator #1: 
+ on floors: #5(up dn)  
 
 time = 80: 
- in elevator #0: 6 8 10 
- on floors: #5(dn)  
+ in elevator #0: 3 8 10 
+ in elevator #1: 
+ on floors: #5(up dn)  
 
 time = 81: 
- in elevator #0: 6 8 10 
- on floors: #5(dn)  
+ in elevator #0: 3 8 10 
+ in elevator #1: 
+ on floors: #5(up dn)  
 
 time = 82: 
- in elevator #0: 6 8 10 
- on floors: #5(dn)  
+ in elevator #0: 3 8 10 
+ in elevator #1: 
+ on floors: #5(up dn)  
 
 time = 83: 
- in elevator #0: 6 8 10 
+ in elevator #0: 3 8 10 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 84: 
- in elevator #0: 6 8 10 
+ in elevator #0: 3 8 10 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 85: 
- in elevator #0: 6 8 10 
+ in elevator #0: 3 8 10 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 86: 
- in elevator #0: 6 8 10 
+ in elevator #0: 3 8 10 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 87: 
- in elevator #0: 6 8 10 
+ in elevator #0: 3 8 10 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 88: 
- in elevator #0: 6 8 10 
+ in elevator #0: 3 8 10 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 89: 
- in elevator #0: 6 8 10 
+ in elevator #0: 3 8 10 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 90: 
- in elevator #0: 6 8 10 
+ in elevator #0: 3 8 10 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 91: 
- in elevator #0: 8 10 
+ in elevator #0: 3 8 10 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 92: 
- in elevator #0: 8 10 
+ in elevator #0: 3 8 10 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 93: 
- in elevator #0: 8 10 
+ in elevator #0: 3 8 10 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 94: 
- in elevator #0: 8 10 
+ in elevator #0: 3 8 10 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 95: 
- in elevator #0: 8 10 
+ in elevator #0: 3 8 10 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 96: 
- in elevator #0: 8 10 
+ in elevator #0: 3 8 10 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 97: 
- in elevator #0: 8 10 
+ in elevator #0: 3 8 10 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 98: 
- in elevator #0: 8 10 
+ in elevator #0: 3 8 10 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 99: 
- in elevator #0: 8 10 
+ in elevator #0: 3 8 10 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 100: 
- in elevator #0: 8 10 
+ in elevator #0: 3 8 10 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 101: 
- in elevator #0: 8 10 
+ in elevator #0: 3 8 10 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 102: 
- in elevator #0: 8 10 
+ in elevator #0: 3 8 10 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 103: 
- in elevator #0: 8 10 
+ in elevator #0: 3 8 10 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 104: 
- in elevator #0: 8 10 
+ in elevator #0: 3 8 10 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 105: 
- in elevator #0: 8 10 
+ in elevator #0: 3 8 10 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 106: 
- in elevator #0: 8 10 
+ in elevator #0: 3 8 10 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 107: 
- in elevator #0: 8 10 
+ in elevator #0: 3 8 10 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 108: 
- in elevator #0: 8 10 
+ in elevator #0: 3 8 10 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 109: 
- in elevator #0: 8 10 
+ in elevator #0: 3 8 10 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 110: 
- in elevator #0: 8 10 
+ in elevator #0: 3 8 10 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 111: 
- in elevator #0: 8 10 
+ in elevator #0: 3 8 10 
+ in elevator #1: 
  on floors: #5(up dn)  
 
 time = 112: 
- in elevator #0: 8 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 8 10 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 113: 
- in elevator #0: 8 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 8 10 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 114: 
- in elevator #0: 8 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 8 10 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 115: 
- in elevator #0: 8 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 8 10 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 116: 
- in elevator #0: 8 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 8 10 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 117: 
- in elevator #0: 8 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 8 10 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 118: 
- in elevator #0: 8 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 8 10 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 119: 
- in elevator #0: 8 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 8 10 
+ in elevator #1: 2 
+ on floors: #5(up )  
 
 time = 120: 
- in elevator #0: 8 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 8 10 
+ in elevator #1: 2 
+ on floors: #5(up )  
 
 time = 121: 
- in elevator #0: 8 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 8 10 
+ in elevator #1: 2 
+ on floors: #5(up )  
 
 time = 122: 
- in elevator #0: 8 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 8 10 
+ in elevator #1: 2 
+ on floors: #5(up )  
 
 time = 123: 
- in elevator #0: 8 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 8 10 
+ in elevator #1: 2 
+ on floors: #5(up )  
 
 time = 124: 
- in elevator #0: 8 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 8 10 
+ in elevator #1: 2 
+ on floors: #5(up )  
 
 time = 125: 
- in elevator #0: 8 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 8 10 
+ in elevator #1: 2 
+ on floors: #5(up )  
 
 time = 126: 
- in elevator #0: 8 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 8 10 
+ in elevator #1: 2 
+ on floors: #5(up )  
 
 time = 127: 
- in elevator #0: 8 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 8 10 
+ in elevator #1: 2 
+ on floors: #5(up )  
 
 time = 128: 
- in elevator #0: 8 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 8 10 
+ in elevator #1: 2 
+ on floors: #5(up )  
 
 time = 129: 
- in elevator #0: 8 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 8 10 
+ in elevator #1: 2 
+ on floors: #5(up )  
 
 time = 130: 
- in elevator #0: 8 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 8 10 
+ in elevator #1: 2 
+ on floors: #5(up )  
 
 time = 131: 
- in elevator #0: 8 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 8 10 
+ in elevator #1: 2 
+ on floors: #5(up )  
 
 time = 132: 
- in elevator #0: 8 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 8 10 
+ in elevator #1: 2 
+ on floors: #5(up )  
 
 time = 133: 
- in elevator #0: 8 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 10 
+ in elevator #1: 2 
+ on floors: #5(up )  
 
 time = 134: 
- in elevator #0: 8 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 10 
+ in elevator #1: 2 
+ on floors: #5(up )  
 
 time = 135: 
- in elevator #0: 8 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 10 
+ in elevator #1: 2 
+ on floors: #5(up )  
 
 time = 136: 
- in elevator #0: 8 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 10 
+ in elevator #1: 2 
+ on floors: #5(up )  
 
 time = 137: 
- in elevator #0: 8 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 10 
+ in elevator #1: 2 
+ on floors: #5(up )  
 
 time = 138: 
- in elevator #0: 8 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 10 
+ in elevator #1: 2 
+ on floors: #5(up )  
 
 time = 139: 
- in elevator #0: 8 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 10 
+ in elevator #1: 2 
+ on floors: #5(up )  
 
 time = 140: 
- in elevator #0: 8 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 10 
+ in elevator #1: 2 
+ on floors: #5(up )  
 
 time = 141: 
- in elevator #0: 8 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 10 
+ in elevator #1: 2 
+ on floors: #5(up )  
 
 time = 142: 
- in elevator #0: 8 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 10 
+ in elevator #1: 2 
+ on floors: #5(up )  
 
 time = 143: 
- in elevator #0: 8 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 10 
+ in elevator #1: 2 
+ on floors: #5(up )  
 
 time = 144: 
- in elevator #0: 8 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 10 
+ in elevator #1: 2 
+ on floors: #5(up )  
 
 time = 145: 
- in elevator #0: 8 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 10 
+ in elevator #1: 2 
+ on floors: #5(up )  
 
 time = 146: 
- in elevator #0: 8 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 10 
+ in elevator #1: 2 
+ on floors: #5(up )  
 
 time = 147: 
- in elevator #0: 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 10 
+ in elevator #1: 2 
+ on floors: #5(up )  
 
 time = 148: 
- in elevator #0: 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 10 
+ in elevator #1: 2 
+ on floors: #5(up )  
 
 time = 149: 
- in elevator #0: 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 10 
+ in elevator #1: 2 
+ on floors: #5(up )  
 
 time = 150: 
- in elevator #0: 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 10 
+ in elevator #1: 2 
+ on floors: #5(up )  
 
 time = 151: 
- in elevator #0: 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 10 
+ in elevator #1: 2 
+ on floors: #5(up )  
 
 time = 152: 
- in elevator #0: 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 10 
+ in elevator #1: 2 
+ on floors: #5(up )  
 
 time = 153: 
- in elevator #0: 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 10 
+ in elevator #1: 2 
+ on floors: #5(up )  
 
 time = 154: 
- in elevator #0: 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 10 
+ in elevator #1: 2 
+ on floors: #5(up )  
 
 time = 155: 
- in elevator #0: 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 10 
+ in elevator #1: 2 
+ on floors: #5(up )  
 
 time = 156: 
- in elevator #0: 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 10 
+ in elevator #1: 2 
+ on floors: #5(up )  
 
 time = 157: 
- in elevator #0: 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 10 
+ in elevator #1: 2 
+ on floors: #5(up )  
 
 time = 158: 
- in elevator #0: 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 10 
+ in elevator #1: 2 
+ on floors: #5(up )  
 
 time = 159: 
- in elevator #0: 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 10 
+ in elevator #1: 2 
+ on floors: #5(up )  
 
 time = 160: 
- in elevator #0: 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 10 
+ in elevator #1: 2 
+ on floors: #5(up )  
 
 time = 161: 
- in elevator #0: 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 10 
+ in elevator #1: 2 
+ on floors: #5(up )  
 
 time = 162: 
- in elevator #0: 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 10 
+ in elevator #1: 2 
+ on floors: #5(up )  
 
 time = 163: 
- in elevator #0: 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 10 
+ in elevator #1: 2 
+ on floors: #5(up )  
 
 time = 164: 
- in elevator #0: 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 10 
+ in elevator #1: 2 
+ on floors: #5(up )  
 
 time = 165: 
- in elevator #0: 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 10 
+ in elevator #1: 2 
+ on floors: #5(up )  
 
 time = 166: 
- in elevator #0: 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 10 
+ in elevator #1: 2 
+ on floors: #5(up )  
 
 time = 167: 
- in elevator #0: 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 10 
+ in elevator #1: 2 
+ on floors: #5(up )  
 
 time = 168: 
- in elevator #0: 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 10 
+ in elevator #1: 2 
+ on floors: #5(up )  
 
 time = 169: 
- in elevator #0: 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 10 
+ in elevator #1: 2 
+ on floors: #5(up )  
 
 time = 170: 
- in elevator #0: 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 10 
+ in elevator #1: 2 
+ on floors: #5(up )  
 
 time = 171: 
- in elevator #0: 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 10 
+ in elevator #1: 2 
+ on floors: #5(up )  
 
 time = 172: 
- in elevator #0: 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 10 
+ in elevator #1: 2 
+ on floors: #5(up )  
 
 time = 173: 
- in elevator #0: 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 10 
+ in elevator #1: 2 
+ on floors: #5(up )  
 
 time = 174: 
- in elevator #0: 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 10 
+ in elevator #1: 2 
+ on floors: #5(up )  
 
 time = 175: 
- in elevator #0: 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 10 
+ in elevator #1: 2 
+ on floors: #5(up )  
 
 time = 176: 
- in elevator #0: 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 10 
+ in elevator #1: 2 
+ on floors: #5(up )  
 
 time = 177: 
- in elevator #0: 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 10 
+ in elevator #1: 2 
+ on floors: #5(up )  
 
 time = 178: 
- in elevator #0: 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 10 
+ in elevator #1: 2 
+ on floors: #5(up )  
 
 time = 179: 
- in elevator #0: 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 10 
+ in elevator #1: 2 
+ on floors: #5(up )  
 
 time = 180: 
- in elevator #0: 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 10 
+ in elevator #1: 2 
+ on floors: #5(up )  
 
 time = 181: 
- in elevator #0: 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 2 
+ on floors: #5(up )  
 
 time = 182: 
- in elevator #0: 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 2 
+ on floors: #5(up )  
 
 time = 183: 
- in elevator #0: 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 2 
+ on floors: #5(up )  
 
 time = 184: 
- in elevator #0: 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 2 
+ on floors: #5(up )  
 
 time = 185: 
- in elevator #0: 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 2 
+ on floors: #5(up )  
 
 time = 186: 
- in elevator #0: 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 2 
+ on floors: #5(up )  
 
 time = 187: 
- in elevator #0: 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 2 
+ on floors: #5(up )  
 
 time = 188: 
- in elevator #0: 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 189: 
- in elevator #0: 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 190: 
- in elevator #0: 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 191: 
- in elevator #0: 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 192: 
- in elevator #0: 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 193: 
- in elevator #0: 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 194: 
- in elevator #0: 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 195: 
- in elevator #0: 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 196: 
- in elevator #0: 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 197: 
- in elevator #0: 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 198: 
- in elevator #0: 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 199: 
- in elevator #0: 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 200: 
- in elevator #0: 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 201: 
- in elevator #0: 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 202: 
- in elevator #0: 10 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 203: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 204: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 205: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 206: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 207: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 208: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 209: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 210: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 211: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 212: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 213: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 214: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 215: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 216: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 217: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 218: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 219: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 220: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 221: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 222: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 223: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 224: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 225: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 226: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 227: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 228: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 229: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 230: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 231: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 232: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 233: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 234: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 235: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 236: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 237: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 238: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 239: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 240: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 241: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 242: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 243: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 244: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 245: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 246: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 247: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 248: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 249: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 250: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 251: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 252: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 253: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 254: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 255: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 256: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 257: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 258: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 259: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 260: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 261: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 262: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 263: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 264: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 265: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 266: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 267: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 268: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 269: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 270: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 271: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 272: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 273: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 274: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 275: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 276: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 277: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: 
 
 time = 278: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: 
 
 time = 279: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: 
 
 time = 280: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: 
 
 time = 281: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: 
 
 time = 282: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: 
 
 time = 283: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 
+ on floors: 
 
 time = 284: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 6 
+ on floors: 
 
 time = 285: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 6 
+ on floors: 
 
 time = 286: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 6 9 
+ on floors: 
 
 time = 287: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 6 9 
+ on floors: 
 
 time = 288: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 6 8 9 
+ on floors: 
 
 time = 289: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 6 8 9 
+ on floors: 
 
 time = 290: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 6 8 9 11 
+ on floors: 
 
 time = 291: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 6 8 9 11 
+ on floors: 
 
 time = 292: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 6 8 9 11 
+ on floors: 
 
 time = 293: 
- in elevator #0: 
- on floors: #5(up dn)  
+ in elevator #0: 3 
+ in elevator #1: 6 8 9 11 
+ on floors: 
 
 time = 294: 
- in elevator #0: 
- on floors: #5(up )  
+ in elevator #0: 3 
+ in elevator #1: 6 8 9 11 
+ on floors: 
 
 time = 295: 
- in elevator #0: 
- on floors: #5(up )  
+ in elevator #0: 3 
+ in elevator #1: 6 8 9 11 
+ on floors: 
 
 time = 296: 
- in elevator #0: 
- on floors: #5(up )  
+ in elevator #0: 3 
+ in elevator #1: 6 8 9 11 
+ on floors: 
 
 time = 297: 
- in elevator #0: 
- on floors: #5(up )  
+ in elevator #0: 3 
+ in elevator #1: 6 8 9 11 
+ on floors: 
 
 time = 298: 
- in elevator #0: 
- on floors: #5(up )  
+ in elevator #0: 3 
+ in elevator #1: 6 8 9 11 
+ on floors: 
 
 time = 299: 
- in elevator #0: 
- on floors: #5(up )  
+ in elevator #0: 3 
+ in elevator #1: 6 8 9 11 
+ on floors: 
 
 time = 300: 
- in elevator #0: 
+ in elevator #0: 3 
+ in elevator #1: 6 8 9 11 
  on floors: #5(up )  
 
 time = 301: 
  in elevator #0: 3 
+ in elevator #1: 6 8 9 11 
  on floors: #5(up )  
 
 time = 302: 
  in elevator #0: 3 
+ in elevator #1: 6 8 9 11 
  on floors: #5(up )  
 
 time = 303: 
- in elevator #0: 2 3 
+ in elevator #0: 3 
+ in elevator #1: 6 8 9 11 
  on floors: #5(up )  
 
 time = 304: 
- in elevator #0: 2 3 
+ in elevator #0: 3 
+ in elevator #1: 6 8 9 11 
  on floors: #5(up )  
 
 time = 305: 
- in elevator #0: 2 3 
+ in elevator #0: 3 
+ in elevator #1: 6 8 9 11 
  on floors: #5(up )  
 
 time = 306: 
- in elevator #0: 2 3 
+ in elevator #0: 3 
+ in elevator #1: 6 8 9 11 
  on floors: #5(up )  
 
 time = 307: 
- in elevator #0: 2 3 
+ in elevator #0: 3 
+ in elevator #1: 6 8 9 11 
  on floors: #5(up )  
 
 time = 308: 
- in elevator #0: 2 3 
+ in elevator #0: 3 
+ in elevator #1: 8 9 11 
  on floors: #5(up )  
 
 time = 309: 
- in elevator #0: 2 3 
+ in elevator #0: 3 
+ in elevator #1: 8 9 11 
  on floors: #5(up )  
 
 time = 310: 
- in elevator #0: 2 3 
+ in elevator #0: 3 
+ in elevator #1: 8 9 11 
  on floors: #5(up )  
 
 time = 311: 
- in elevator #0: 2 3 
+ in elevator #0: 3 
+ in elevator #1: 8 9 11 
  on floors: #5(up )  
 
 time = 312: 
- in elevator #0: 2 3 
+ in elevator #0: 3 
+ in elevator #1: 8 9 11 
  on floors: #5(up )  
 
 time = 313: 
- in elevator #0: 2 3 
+ in elevator #0: 3 
+ in elevator #1: 8 9 11 
  on floors: #5(up )  
 
 time = 314: 
- in elevator #0: 2 3 
+ in elevator #0: 3 
+ in elevator #1: 8 9 11 
  on floors: #5(up )  
 
 time = 315: 
- in elevator #0: 2 3 
+ in elevator #0: 3 
+ in elevator #1: 8 9 11 
  on floors: #5(up )  
 
 time = 316: 
- in elevator #0: 2 3 
+ in elevator #0: 3 
+ in elevator #1: 8 9 11 
  on floors: #5(up )  
 
 time = 317: 
- in elevator #0: 2 3 
+ in elevator #0: 3 
+ in elevator #1: 8 9 11 
  on floors: #5(up )  
 
 time = 318: 
- in elevator #0: 2 3 
+ in elevator #0: 3 
+ in elevator #1: 8 9 11 
  on floors: #5(up )  
 
 time = 319: 
- in elevator #0: 2 3 
+ in elevator #0: 3 
+ in elevator #1: 8 9 11 
  on floors: #5(up )  
 
 time = 320: 
- in elevator #0: 2 3 
+ in elevator #0: 3 
+ in elevator #1: 8 9 11 
  on floors: #5(up )  
 
 time = 321: 
- in elevator #0: 2 3 
+ in elevator #0: 3 
+ in elevator #1: 8 9 11 
  on floors: #5(up )  
 
 time = 322: 
- in elevator #0: 2 3 
+ in elevator #0: 3 
+ in elevator #1: 8 9 11 
  on floors: #5(up )  
 
 time = 323: 
- in elevator #0: 2 3 
+ in elevator #0: 3 
+ in elevator #1: 8 9 11 
  on floors: #5(up )  
 
 time = 324: 
- in elevator #0: 2 3 
+ in elevator #0: 3 
+ in elevator #1: 8 9 11 
  on floors: #5(up )  
 
 time = 325: 
- in elevator #0: 2 3 
+ in elevator #0: 3 
+ in elevator #1: 8 9 11 
  on floors: #5(up )  
 
 time = 326: 
- in elevator #0: 2 3 
+ in elevator #0: 3 
+ in elevator #1: 8 9 11 
  on floors: #5(up )  
 
 time = 327: 
- in elevator #0: 2 3 
+ in elevator #0: 3 
+ in elevator #1: 8 9 11 
  on floors: #5(up )  
 
 time = 328: 
- in elevator #0: 2 3 
+ in elevator #0: 3 
+ in elevator #1: 8 9 11 
  on floors: #5(up )  
 
 time = 329: 
- in elevator #0: 2 3 
+ in elevator #0: 3 
+ in elevator #1: 8 9 11 
  on floors: #5(up )  
 
 time = 330: 
- in elevator #0: 2 3 
+ in elevator #0: 3 
+ in elevator #1: 8 9 11 
  on floors: #5(up )  
 
 time = 331: 
- in elevator #0: 2 3 
+ in elevator #0: 3 
+ in elevator #1: 8 9 11 
  on floors: #5(up )  
 
 time = 332: 
- in elevator #0: 2 3 
+ in elevator #0: 3 
+ in elevator #1: 8 9 11 
  on floors: #5(up )  
 
 time = 333: 
- in elevator #0: 2 3 
+ in elevator #0: 3 
+ in elevator #1: 8 9 11 
  on floors: #5(up )  
 
 time = 334: 
- in elevator #0: 2 3 
+ in elevator #0: 3 
+ in elevator #1: 8 9 11 
  on floors: #5(up )  
 
 time = 335: 
- in elevator #0: 2 3 
+ in elevator #0: 3 
+ in elevator #1: 8 9 11 
  on floors: #5(up )  
 
 time = 336: 
- in elevator #0: 2 3 
+ in elevator #0: 3 
+ in elevator #1: 8 9 11 
  on floors: #5(up )  
 
 time = 337: 
- in elevator #0: 2 3 
+ in elevator #0: 3 
+ in elevator #1: 8 9 11 
  on floors: #5(up )  
 
 time = 338: 
- in elevator #0: 2 3 
+ in elevator #0: 3 
+ in elevator #1: 8 9 11 
  on floors: #5(up )  
 
 time = 339: 
- in elevator #0: 2 3 
+ in elevator #0: 3 
+ in elevator #1: 8 9 11 
  on floors: #5(up )  
 
 time = 340: 
- in elevator #0: 2 3 
+ in elevator #0: 3 
+ in elevator #1: 8 9 11 
  on floors: #5(up )  
 
 time = 341: 
- in elevator #0: 2 3 
+ in elevator #0: 3 
+ in elevator #1: 8 9 11 
  on floors: #5(up )  
 
 time = 342: 
- in elevator #0: 2 3 
+ in elevator #0: 3 
+ in elevator #1: 8 9 11 
  on floors: #5(up )  
 
 time = 343: 
- in elevator #0: 2 3 
+ in elevator #0: 3 
+ in elevator #1: 8 9 11 
  on floors: #5(up )  
 
 time = 344: 
- in elevator #0: 2 3 
+ in elevator #0: 3 
+ in elevator #1: 8 9 11 
  on floors: #5(up )  
 
 time = 345: 
- in elevator #0: 2 3 
+ in elevator #0: 3 
+ in elevator #1: 8 9 11 
  on floors: #5(up )  
 
 time = 346: 
- in elevator #0: 2 3 
+ in elevator #0: 3 
+ in elevator #1: 8 9 11 
  on floors: #5(up )  
 
 time = 347: 
- in elevator #0: 2 3 
+ in elevator #0: 3 
+ in elevator #1: 8 9 11 
  on floors: #5(up )  
 
 time = 348: 
- in elevator #0: 2 3 
+ in elevator #0: 3 
+ in elevator #1: 8 9 11 
  on floors: #5(up )  
 
 time = 349: 
- in elevator #0: 2 3 
+ in elevator #0: 3 
+ in elevator #1: 8 9 11 
  on floors: #5(up )  
 
 time = 350: 
- in elevator #0: 2 3 
+ in elevator #0: 3 
+ in elevator #1: 8 9 11 
  on floors: #5(up )  
 
 time = 351: 
- in elevator #0: 2 3 
+ in elevator #0: 3 
+ in elevator #1: 8 9 11 
  on floors: #5(up )  
 
 time = 352: 
- in elevator #0: 2 
+ in elevator #0: 3 
+ in elevator #1: 8 9 11 
  on floors: #5(up )  
 
 time = 353: 
- in elevator #0: 2 
+ in elevator #0: 3 
+ in elevator #1: 8 9 11 
  on floors: #5(up )  
 
 time = 354: 
- in elevator #0: 2 
+ in elevator #0: 3 
+ in elevator #1: 8 9 11 
  on floors: #5(up )  
 
 time = 355: 
- in elevator #0: 2 
+ in elevator #0: 3 
+ in elevator #1: 8 9 11 
  on floors: #5(up )  
 
 time = 356: 
- in elevator #0: 2 
+ in elevator #0: 3 
+ in elevator #1: 9 11 
  on floors: #5(up )  
 
 time = 357: 
- in elevator #0: 2 
+ in elevator #0: 3 
+ in elevator #1: 9 11 
  on floors: #5(up )  
 
 time = 358: 
- in elevator #0: 2 
+ in elevator #0: 3 
+ in elevator #1: 9 11 
  on floors: #5(up )  
 
 time = 359: 
- in elevator #0: 2 
+ in elevator #0: 3 
+ in elevator #1: 9 11 
  on floors: #5(up )  
 
 time = 360: 
- in elevator #0: 2 
+ in elevator #0: 3 
+ in elevator #1: 9 11 
  on floors: #5(up )  
 
 time = 361: 
- in elevator #0: 2 
+ in elevator #0: 3 
+ in elevator #1: 9 11 
  on floors: #5(up )  
 
 time = 362: 
- in elevator #0: 2 
+ in elevator #0: 3 
+ in elevator #1: 9 11 
  on floors: #5(up )  
 
 time = 363: 
- in elevator #0: 2 
+ in elevator #0: 3 
+ in elevator #1: 9 11 
  on floors: #5(up )  
 
 time = 364: 
- in elevator #0: 2 
+ in elevator #0: 3 
+ in elevator #1: 9 11 
  on floors: #5(up )  
 
 time = 365: 
- in elevator #0: 2 
+ in elevator #0: 3 
+ in elevator #1: 9 11 
  on floors: #5(up )  
 
 time = 366: 
- in elevator #0: 2 
+ in elevator #0: 3 
+ in elevator #1: 9 11 
  on floors: #5(up )  
 
 time = 367: 
- in elevator #0: 2 
+ in elevator #0: 3 
+ in elevator #1: 9 11 
  on floors: #5(up )  
 
 time = 368: 
- in elevator #0: 2 
+ in elevator #0: 3 
+ in elevator #1: 9 11 
  on floors: #5(up )  
 
 time = 369: 
- in elevator #0: 2 
+ in elevator #0: 3 
+ in elevator #1: 9 11 
  on floors: #5(up )  
 
 time = 370: 
- in elevator #0: 2 
+ in elevator #0: 3 
+ in elevator #1: 9 11 
  on floors: #5(up )  
 
 time = 371: 
- in elevator #0: 2 
+ in elevator #0: 3 
+ in elevator #1: 9 11 
  on floors: #5(up )  
 
 time = 372: 
- in elevator #0: 2 
+ in elevator #0: 3 
+ in elevator #1: 9 11 
  on floors: #5(up )  
 
 time = 373: 
- in elevator #0: 2 
+ in elevator #0: 3 
+ in elevator #1: 9 11 
  on floors: #5(up )  
 
 time = 374: 
- in elevator #0: 2 
+ in elevator #0: 3 
+ in elevator #1: 9 11 
  on floors: #5(up )  
 
 time = 375: 
- in elevator #0: 2 
+ in elevator #0: 3 
+ in elevator #1: 9 11 
  on floors: #5(up )  
 
 time = 376: 
- in elevator #0: 2 
+ in elevator #0: 3 
+ in elevator #1: 9 11 
  on floors: #5(up )  
 
 time = 377: 
- in elevator #0: 2 
+ in elevator #0: 3 
+ in elevator #1: 9 11 
  on floors: #5(up )  
 
 time = 378: 
- in elevator #0: 2 
+ in elevator #0: 3 
+ in elevator #1: 9 11 
  on floors: #5(up )  
 
 time = 379: 
- in elevator #0: 2 
+ in elevator #0: 3 
+ in elevator #1: 9 11 
  on floors: #5(up )  
 
 time = 380: 
- in elevator #0: 2 
+ in elevator #0: 3 
+ in elevator #1: 9 11 
  on floors: #5(up )  
 
 time = 381: 
- in elevator #0: 
+ in elevator #0: 3 
+ in elevator #1: 9 11 
  on floors: #5(up )  
 
 time = 382: 
- in elevator #0: 
+ in elevator #0: 3 
+ in elevator #1: 9 11 
  on floors: #5(up )  
 
 time = 383: 
- in elevator #0: 
+ in elevator #0: 3 
+ in elevator #1: 11 
  on floors: #5(up )  
 
 time = 384: 
- in elevator #0: 
+ in elevator #0: 3 
+ in elevator #1: 11 
  on floors: #5(up )  
 
 time = 385: 
- in elevator #0: 
+ in elevator #0: 3 
+ in elevator #1: 11 
  on floors: #5(up )  
 
 time = 386: 
- in elevator #0: 
+ in elevator #0: 3 
+ in elevator #1: 11 
  on floors: #5(up )  
 
 time = 387: 
- in elevator #0: 
+ in elevator #0: 3 
+ in elevator #1: 11 
  on floors: #5(up )  
 
 time = 388: 
- in elevator #0: 
+ in elevator #0: 3 
+ in elevator #1: 11 
  on floors: #5(up )  
 
 time = 389: 
- in elevator #0: 
+ in elevator #0: 3 
+ in elevator #1: 11 
  on floors: #5(up )  
 
 time = 390: 
- in elevator #0: 
+ in elevator #0: 3 
+ in elevator #1: 11 
  on floors: #5(up )  
 
 time = 391: 
- in elevator #0: 
+ in elevator #0: 3 
+ in elevator #1: 11 
  on floors: #5(up )  
 
 time = 392: 
- in elevator #0: 
+ in elevator #0: 3 
+ in elevator #1: 11 
  on floors: #5(up )  
 
 time = 393: 
- in elevator #0: 
+ in elevator #0: 3 
+ in elevator #1: 11 
  on floors: #5(up )  
 
 time = 394: 
- in elevator #0: 
+ in elevator #0: 3 
+ in elevator #1: 11 
  on floors: #5(up )  
 
 time = 395: 
- in elevator #0: 
+ in elevator #0: 3 
+ in elevator #1: 11 
  on floors: #5(up )  
 
 time = 396: 
- in elevator #0: 
+ in elevator #0: 3 
+ in elevator #1: 11 
  on floors: #5(up )  
 
 time = 397: 
- in elevator #0: 
+ in elevator #0: 3 
+ in elevator #1: 11 
  on floors: #5(up )  
 
 time = 398: 
- in elevator #0: 
+ in elevator #0: 3 
+ in elevator #1: 11 
  on floors: #5(up )  
 
 time = 399: 
- in elevator #0: 
+ in elevator #0: 3 
+ in elevator #1: 11 
  on floors: #5(up )  
 
 time = 400: 
  in elevator #0: 
+ in elevator #1: 11 
  on floors: #5(up )  
 
 time = 401: 
  in elevator #0: 
+ in elevator #1: 11 
  on floors: #5(up )  
 
 time = 402: 
  in elevator #0: 
+ in elevator #1: 11 
  on floors: #5(up )  
 
 time = 403: 
  in elevator #0: 
+ in elevator #1: 11 
  on floors: #5(up )  
 
 time = 404: 
  in elevator #0: 
+ in elevator #1: 11 
  on floors: #5(up )  
 
 time = 405: 
  in elevator #0: 
+ in elevator #1: 11 
  on floors: #5(up )  
 
 time = 406: 
  in elevator #0: 
+ in elevator #1: 11 
  on floors: #5(up )  
 
 time = 407: 
  in elevator #0: 
+ in elevator #1: 11 
  on floors: #5(up )  
 
 time = 408: 
  in elevator #0: 
+ in elevator #1: 11 
  on floors: #5(up )  
 
 time = 409: 
  in elevator #0: 
+ in elevator #1: 11 
  on floors: #5(up )  
 
 time = 410: 
  in elevator #0: 
+ in elevator #1: 11 
  on floors: #5(up )  
 
 time = 411: 
  in elevator #0: 
+ in elevator #1: 11 
  on floors: #5(up )  
 
 time = 412: 
  in elevator #0: 
+ in elevator #1: 11 
  on floors: #5(up )  
 
 time = 413: 
  in elevator #0: 
+ in elevator #1: 11 
  on floors: #5(up )  
 
 time = 414: 
  in elevator #0: 
+ in elevator #1: 11 
  on floors: #5(up )  
 
 time = 415: 
  in elevator #0: 
+ in elevator #1: 11 
  on floors: #5(up )  
 
 time = 416: 
  in elevator #0: 
+ in elevator #1: 11 
  on floors: #5(up )  
 
 time = 417: 
  in elevator #0: 
+ in elevator #1: 11 
  on floors: #5(up )  
 
 time = 418: 
  in elevator #0: 
+ in elevator #1: 11 
  on floors: #5(up )  
 
 time = 419: 
  in elevator #0: 
+ in elevator #1: 11 
  on floors: #5(up )  
 
 time = 420: 
  in elevator #0: 
+ in elevator #1: 11 
  on floors: #5(up )  
 
 time = 421: 
  in elevator #0: 
+ in elevator #1: 11 
  on floors: #5(up )  
 
 time = 422: 
  in elevator #0: 
+ in elevator #1: 11 
  on floors: #5(up )  
 
 time = 423: 
  in elevator #0: 
+ in elevator #1: 11 
  on floors: #5(up )  
 
 time = 424: 
  in elevator #0: 
+ in elevator #1: 11 
  on floors: #5(up )  
 
 time = 425: 
  in elevator #0: 
+ in elevator #1: 11 
  on floors: #5(up )  
 
 time = 426: 
  in elevator #0: 
+ in elevator #1: 11 
  on floors: #5(up )  
 
 time = 427: 
  in elevator #0: 
+ in elevator #1: 11 
  on floors: #5(up )  
 
 time = 428: 
  in elevator #0: 
+ in elevator #1: 11 
  on floors: #5(up )  
 
 time = 429: 
  in elevator #0: 
+ in elevator #1: 11 
  on floors: #5(up )  
 
 time = 430: 
  in elevator #0: 
+ in elevator #1: 11 
  on floors: #5(up )  
 
 time = 431: 
  in elevator #0: 
+ in elevator #1: 11 
  on floors: #5(up )  
 
 time = 432: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up )  
 
 time = 433: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up )  
 
 time = 434: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up )  
 
 time = 435: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up )  
 
 time = 436: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up )  
 
 time = 437: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up )  
 
 time = 438: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up )  
 
 time = 439: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up )  
 
 time = 440: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up )  
 
 time = 441: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up )  
 
 time = 442: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up )  
 
 time = 443: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up )  
 
 time = 444: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up )  
 
 time = 445: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up )  
 
 time = 446: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up )  
 
 time = 447: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up )  
 
 time = 448: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up )  
 
 time = 449: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up )  
 
 time = 450: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up )  
 
 time = 451: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up )  
 
 time = 452: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up )  
 
 time = 453: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up )  
 
 time = 454: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up )  
 
 time = 455: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up )  
 
 time = 456: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up )  
 
 time = 457: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up )  
 
 time = 458: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up )  
 
 time = 459: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up )  
 
 time = 460: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up )  
 
 time = 461: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up )  
 
 time = 462: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up )  
 
 time = 463: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up )  
 
 time = 464: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up )  
 
 time = 465: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up )  
 
 time = 466: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up )  
 
 time = 467: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up )  
 
 time = 468: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up )  
 
 time = 469: 
  in elevator #0: 
+ in elevator #1: 
  on floors: #5(up )  
 
 time = 470: 
  in elevator #0: 
- on floors: 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 471: 
  in elevator #0: 
- on floors: 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 472: 
  in elevator #0: 
- on floors: 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 473: 
  in elevator #0: 
- on floors: 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 474: 
  in elevator #0: 
- on floors: 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 475: 
  in elevator #0: 
- on floors: 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 476: 
  in elevator #0: 
- on floors: 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 477: 
- in elevator #0: 9 
- on floors: 
+ in elevator #0: 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 478: 
- in elevator #0: 9 
- on floors: 
+ in elevator #0: 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 479: 
- in elevator #0: 9 
- on floors: 
+ in elevator #0: 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 480: 
- in elevator #0: 9 
- on floors: 
+ in elevator #0: 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 481: 
- in elevator #0: 9 
- on floors: 
+ in elevator #0: 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 482: 
- in elevator #0: 9 
- on floors: 
+ in elevator #0: 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 483: 
- in elevator #0: 9 
- on floors: 
+ in elevator #0: 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 484: 
- in elevator #0: 9 
- on floors: 
+ in elevator #0: 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 485: 
- in elevator #0: 9 
- on floors: 
+ in elevator #0: 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 486: 
- in elevator #0: 9 
- on floors: 
+ in elevator #0: 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 487: 
- in elevator #0: 9 
- on floors: 
+ in elevator #0: 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 488: 
- in elevator #0: 9 
- on floors: 
+ in elevator #0: 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 489: 
- in elevator #0: 9 
- on floors: 
+ in elevator #0: 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 490: 
- in elevator #0: 9 
- on floors: 
+ in elevator #0: 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 491: 
- in elevator #0: 9 
- on floors: 
+ in elevator #0: 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 492: 
- in elevator #0: 9 
- on floors: 
+ in elevator #0: 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 493: 
- in elevator #0: 9 
- on floors: 
+ in elevator #0: 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 494: 
- in elevator #0: 9 
- on floors: 
+ in elevator #0: 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 495: 
- in elevator #0: 9 
- on floors: 
+ in elevator #0: 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 496: 
- in elevator #0: 9 
- on floors: 
+ in elevator #0: 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 497: 
- in elevator #0: 9 
- on floors: 
+ in elevator #0: 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 498: 
- in elevator #0: 9 
- on floors: 
+ in elevator #0: 
+ in elevator #1: 
+ on floors: #5(up )  
 
 time = 499: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 500: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 501: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 502: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 503: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 504: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 505: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 506: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 507: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 508: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 509: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 510: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 511: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 512: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 513: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 514: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 515: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 516: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 517: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 518: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 519: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 520: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 521: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 522: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 523: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 524: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 525: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 526: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 527: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 528: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 529: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 530: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 531: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 532: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 533: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 534: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 535: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 536: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 537: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 538: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 539: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 540: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 541: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 542: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 543: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 544: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 545: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 546: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 547: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 548: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 549: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 550: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 551: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 552: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 553: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 554: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 555: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 556: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 557: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 558: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 559: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 560: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 561: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 562: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 563: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 564: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 565: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 566: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 567: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 568: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 569: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 570: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 571: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 572: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 573: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 574: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 575: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 576: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 577: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 578: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 579: 
- in elevator #0: 9 
+ in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 580: 
  in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 581: 
  in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 582: 
  in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 583: 
  in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 584: 
  in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 585: 
  in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 586: 
  in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 587: 
  in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 588: 
  in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 589: 
  in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 590: 
  in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 591: 
  in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 592: 
  in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 593: 
  in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 594: 
  in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 595: 
  in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 596: 
  in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 597: 
  in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 598: 
  in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 599: 
  in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 600: 
  in elevator #0: 
+ in elevator #1: 
  on floors: 
 
 time = 601: 
  in elevator #0: 
+ in elevator #1: 
  on floors: 
 

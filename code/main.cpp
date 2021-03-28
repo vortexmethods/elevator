@@ -5,8 +5,8 @@
 \file
 \brief Основной файл программы elevator
 \author Марчевский Илья Константинович
-\version 0.2
-\date 25 марта 2021 г.
+\version 0.3
+\date 29 марта 2021 г.
 */
 
 /*!
@@ -20,8 +20,8 @@
 Требуется разработать алгоритм, при котором суммарный "штраф" будет как можно меньше!
 
 \author Марчевский Илья Константинович
-\version 0.2
-\date 25 марта 2021 г.
+\version 0.3
+\date 29 марта 2021 г.
 */
 
 
@@ -42,7 +42,7 @@ struct myParams
     size_t arbitraryParam = 0; 
 
     /// Признак того, что лифт выполняет работу
-    bool started = false;      
+    bool started = false;
 
     //можно добавить любое число параметров любого типа
 };
@@ -51,8 +51,7 @@ struct myParams
 //Задание условия задачи
 
 /// Число лифтов
-/// \warning Предлагаю пока потренироваться с одним лифтом
-const size_t numberOfElevators = 1; 
+const size_t numberOfElevators = 2; 
                                     
 /// Вместимость лифта
 /// \warning Тренироваться проще с меньшей вместимостью, в реальной задаче будет не менее 6 человек
@@ -128,20 +127,21 @@ int main(int argc, char** argv)
     // 1) время появления пассажира (от начала моделирования)
     // 2) этаж, где появляется пассажир
     // 3) этаж, куда направляется пассажир
-    // 4*) время, которое пассажир ждет и после которого, не вырерживая, уходит (начисляется штраф)
-    // 5*) вероятность сесть в лифт, идущий в обратном направлении, в начале ожидания
-    // 6*) вероятность сесть в лифт, идущий в обратном направлении, в конце ожидания
-    // 7*) вероятеность того, что пассажир, войдя в лифт, нажмет "ход" и лифт не будет стоять
-    // }
-    // ПРИМЕЧАНИЕ: * означает не реализованный (пока!) функционал, будет сделано позже,
-    //               но это не влияет на реализацию системы управления!    
-    control.AddPassengerToQueue({ 5, 5, 10, 120, 0.0, 0.0, 0.0 });
-    control.AddPassengerToQueue({ 5, 5,  8, 120, 0.0, 0.0, 0.0 });
-    control.AddPassengerToQueue({ 5, 5, 10, 120, 0.0, 0.0, 0.0 });
-    control.AddPassengerToQueue({ 5, 5,  6, 120, 0.0, 0.0, 0.0 });
-    control.AddPassengerToQueue({ 5, 5,  3, 120, 0.0, 0.0, 0.0 });
-    control.AddPassengerToQueue({ 5, 5,  2, 120, 0.0, 0.0, 0.0 });
-    control.AddPassengerToQueue({ 5, 5,  9, 120, 0.0, 0.0, 0.0 });
+    // 4) время, которое пассажир ждет и после которого, не вырерживая, уходит (начисляется штраф)
+    // 5) вероятность сесть в лифт, идущий в обратном направлении, в начале ожидания
+    // 6) вероятность сесть в лифт, идущий в обратном направлении, в конце ожидания
+    // 7) вероятеность того, что пассажир, войдя в лифт, нажмет "ход" и лифт не будет стоять
+    // }    
+    control.AddPassengerToQueue({  5, 5,  3, 300, 0.01, 0.20, 0.50 });
+    control.AddPassengerToQueue({  6, 5, 10, 300, 0.01, 0.20, 0.50 });    
+    control.AddPassengerToQueue({  7, 5,  2, 300, 0.01, 0.20, 0.50 });
+    control.AddPassengerToQueue({  8, 5,  8, 300, 0.01, 0.20, 0.50 });
+    control.AddPassengerToQueue({  9, 5, 10, 300, 0.01, 0.20, 0.50 });
+    control.AddPassengerToQueue({ 10, 5,  6, 300, 0.01, 0.20, 0.50 });
+    control.AddPassengerToQueue({ 11, 5,  9, 300, 0.01, 0.20, 0.50 });
+    control.AddPassengerToQueue({ 12, 5,  8, 300, 0.01, 0.20, 0.50 });
+    control.AddPassengerToQueue({ 13, 5, 11, 300, 0.01, 0.20, 0.50 });
+    control.AddPassengerToQueue({ 14, 5, 10, 300, 0.01, 0.20, 0.50 });
         
     myParams params;
 
@@ -156,7 +156,10 @@ int main(int argc, char** argv)
         
         //Вывод состояния лифта
         //control.PrintElevatorState(0);                //Вывод состояния лифта #0 на экран
+        //control.PrintElevatorState(1);                //Вывод состояния лифта #1 на экран
+
         control.PrintElevatorState(0, "fileElev0.txt"); //Вывод состояния лифта #0 в файл
+        control.PrintElevatorState(1, "fileElev1.txt"); //Вывод состояния лифта #1 в файл
         
         //Вывод состояния кнопок в лифте и на этажах
         //control.PrintButtonsState();                  //Вывод состояния кнопок на экран
@@ -331,12 +334,18 @@ void CONTROLSYSTEM(Control& control, myParams& params)
 
 
     //////////////////////////////////////////////////////////////////////////////////
-    // ПРИМЕР примитивной системы управления, при которой первоначально лифт стоит
-    // до момента появления первого пассажира на каком-либо этаже, а потом
-    // начинает кататься вверх-вниз, останавливаясь на каждом этаже 
+    // ПРИМЕР примитивной системы управления, при которой первоначально лифт #0 стоит
+    // в подвале, а лифту #1 отдается команда уехать на самый верхний этаж.
+    // Потом они оба ждут до момента появления первого пассажира на каком-либо этаже, 
+    // после чего начинают кататься вверх-вниз, останавливаясь на каждом этаже 
     // т.е. вообще не реагируя на кнопки!
     //////////////////////////////////////////////////////////////////////////////////
 
+    if (control.getCurrentTime() == 1)
+    {
+        control.SetElevatorDestination(1, maxFloor);
+        control.SetElevatorIndicator(1, ElevatorIndicator::up);
+    }
 
     if (!params.started)
     {
@@ -345,60 +354,65 @@ void CONTROLSYSTEM(Control& control, myParams& params)
         
         //Если хоть одна кнопка вверх или вниз на этажах нажата - запускаем лифт!
         if (nUp + nDn > 0)
-            params.started = true;
+        {
+            params.started = true;            
+        }
     }
 
-    // В данном примере новая команда (назначение) не отдается, 
-    // пока не выполнена предыдущая
-    if ( (params.started) && (control.isElevatorAchievedDestination(0)) )
-    {        
-        // считываем этаж, на которой лифт прибыл (изначально стоит в подвале)
-        size_t curDest = control.getElevatorDestination(0);
-         
-        // прибывая на этаж назначения лифт открывает двери, если либо он непустой, 
-        // либо на этом этаже нажата кнопка вызова хотя бы в какую-то сторону, 
-        // в противном случае прибывает на этаж и стоит, не открывая двери
-
-        // считываем текущее положение лифта
-        size_t nextDest = (size_t)(control.getElevatorPosition(0));
-
-        switch (control.getElevatorIndicator(0))
+    for (size_t elv = 0; elv < 2; ++elv)
+    {
+        // В данном примере новая команда (назначение) не отдается, 
+        // пока не выполнена предыдущая
+        if ((params.started) && (control.isElevatorAchievedDestination(elv)))
         {
-        case ElevatorIndicator::both:
-        case ElevatorIndicator::up:
-            ++nextDest;
-            break;
+            // считываем этаж, на который лифт прибыл
+            size_t curDest = control.getElevatorDestination(elv);
 
-        case ElevatorIndicator::down:
-            --nextDest;
-            break;
+            // прибывая на этаж назначения лифт открывает двери, если либо он непустой, 
+            // либо на этом этаже нажата кнопка вызова хотя бы в какую-то сторону, 
+            // в противном случае прибывает на этаж и стоит, не открывая двери
+
+            // считываем текущее положение лифта
+            size_t nextDest = (size_t)(control.getElevatorPosition(elv));
+
+            switch (control.getElevatorIndicator(elv))
+            {
+            case ElevatorIndicator::both:
+            case ElevatorIndicator::up:
+                ++nextDest;
+                break;
+
+            case ElevatorIndicator::down:
+                --nextDest;
+                break;
+            }
+
+            control.SetElevatorDestination(elv, nextDest);
         }
 
-        control.SetElevatorDestination(0, nextDest);
-    }
+        //Теперь устанавливаем индикатор   
+        if (control.isElevatorGoingUniformly(elv))
+        {
+            // считываем текущий индикатор движения (лифт изначально инициализирован в both)
+            ElevatorIndicator curInd = control.getElevatorIndicator(elv);
 
-    //Теперь устанавливаем индикатор   
-    if (control.isElevatorGoingUniformly(0))
-    {
-        // считываем текущий индикатор движения (лифт изначально инициализирован в both)
-        ElevatorIndicator curInd = control.getElevatorIndicator(0);
+            // индикатор, который будет установлен дальше, инициализируем его в текущим индикатором
+            ElevatorIndicator nextInd = curInd;
 
-        // индикатор, который будет установлен дальше, инициализируем его в текущим индикатором
-        ElevatorIndicator nextInd = curInd;
+            // поменяем его, если он установлен в both
+            if (curInd == ElevatorIndicator::both)
+                nextInd = ElevatorIndicator::up;
 
-        // поменяем его, если он установлен в both
-        if (curInd == ElevatorIndicator::both)
-            nextInd = ElevatorIndicator::up;
+            // при прибытии на максимальный этаж - переключаем индикатор "вниз"
+            if ((control.getElevatorDestination(elv) == maxFloor) && (control.getElevatorPosition(elv) > maxFloor - 1))
+                nextInd = ElevatorIndicator::down;
 
-        // при прибытии на максимальный этаж - переключаем индикатор "вниз"
-        if (control.getElevatorDestination(0) == maxFloor)
-            nextInd = ElevatorIndicator::down;
+            // при прибытии на миниимальный этаж (в подвал) - переключаем индикатор "вверх"
+            if ((control.getElevatorDestination(elv) == 0) && (control.getElevatorPosition(elv) < 1))
+                nextInd = ElevatorIndicator::up;
 
-        // при прибытии на миниимальный этаж (в подвал) - переключаем индикатор "вверх"
-        if (control.getElevatorDestination(0) == 0)
-            nextInd = ElevatorIndicator::up;
-
-        // собственно, установка значения индикатора
-        control.SetElevatorIndicator(0, nextInd);
+            // собственно, установка значения индикатора
+            control.SetElevatorIndicator(elv, nextInd);
+        }//if (control.isElevatorGoingUniformly(elv))
     }
 }

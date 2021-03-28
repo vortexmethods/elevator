@@ -1,17 +1,20 @@
 Passangers:
-#0, penalty = 203 (init = 5, started = 63, finished = 208)
-#1, penalty = 147 (init = 5, started = 65, finished = 152)
-#2, penalty = 205 (init = 5, started = 67, finished = 210)
-#3, penalty = 91 (init = 5, started = 69, finished = 96)
-#4, penalty = 352 (init = 5, started = 301, finished = 357)
-#5, penalty = 381 (init = 5, started = 303, finished = 386)
-#6, penalty = 580 (init = 5, started = 477, finished = 585)
+#0, penalty = 400 (init = 5, started = 63, finished = 405)
+#1, penalty = 180 (init = 6, started = 65, finished = 186)
+#2, penalty = 186 (init = 7, started = 119, finished = 193)
+#3, penalty = 130 (init = 8, started = 67, finished = 138)
+#4, penalty = 179 (init = 9, started = 69, finished = 188)
+#5, penalty = 303 (init = 10, started = 284, finished = 313)
+#6, penalty = 377 (init = 11, started = 286, finished = 388)
+#7, penalty = 349 (init = 12, started = 288, finished = 361)
+#8, penalty = 424 (init = 13, started = 290, finished = 437)
+#9, penalty = 1500 (init = 14, LEAVED THE FLOOR!!!)
 
-Number of passengers, that have finished the trip: 7
- average waiting time = 187.143
- average going time =   92.7143
- average total time =   279.857
-Penalty for them = 1959
+Number of passengers, that have finished the trip: 10
+ average waiting time = 143.5
+ average going time =   107.8
+ average total time =   251.3
+Penalty for them = 2528
 
 Still waiting on floors = 0
 Penalty for them = 0
@@ -19,7 +22,7 @@ Penalty for them = 0
 Still in elevator = 0
 Penalty for them = 0
 
-Leaved the floors, because of too large waiting time = 0
-Penalty for them = 0
+Leaved the floors, because of too large waiting time = 1
+Penalty for them = 1500
 
-TOTAL PENALTY = 1959
+TOTAL PENALTY = 4028

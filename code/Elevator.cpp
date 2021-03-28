@@ -5,8 +5,8 @@
 \file
 \brief Файл кода с описанием класса Elevator
 \author Марчевский Илья Константинович
-\version 0.2
-\date 25 марта 2021 г.
+\version 0.3
+\date 29 марта 2021 г.
 */
 
 #include <iostream>
@@ -50,6 +50,15 @@ void Elevator::setIndicator(ElevatorIndicator indicator)
 {
 	this->indicator = indicator;
 }//setIndicator(...)
+
+
+bool Elevator::isGoingButtonPressed() const
+{	
+	for (auto& p : passengers)
+		if (p.PerformNoWaitingProbability())
+			return true;
+	return false;
+}//isGoingButtonPressed
 
 
 std::string Elevator::getStateString() const
@@ -160,3 +169,4 @@ bool Elevator::isDestinationAchieved(const std::vector<bool>& upButtons, const s
 	
 	return (b1 && (b2 || b3 || b4));
 }//isDestinationAchieved(...)
+

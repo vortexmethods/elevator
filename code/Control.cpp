@@ -5,8 +5,8 @@
 \file
 \brief Файл кода с описанием класса Control
 \author Марчевский Илья Константинович
-\version 0.2
-\date 25 марта 2021 г.
+\version 0.3
+\date 29 марта 2021 г.
 */
 
 #include <algorithm>
@@ -72,6 +72,33 @@ void Control::PressingFloorButtons()
 }//PressingFloorButtons()
 
 
+void Control::LeavingFloors()
+{
+	for (size_t floor = 0; floor < queue->passOnFloor.size(); ++floor)
+	{
+		std::vector<Passenger> continueWaiting;
+
+		for (auto& p : queue->passOnFloor[floor])
+		{
+			if (getCurrentTime() - p.getTimeInit() < p.properties.criticalWaitTime)
+				continueWaiting.push_back(p);
+			else
+			{
+				p.status = PassengerStatus::leaved;
+				queue->finished.push_back(p);
+				passStatBuffer.push_back(\
+					"time = " + std::to_string(getCurrentTime()) \
+					+ "\tPassenger #" + std::to_string(p.id) \
+					+ "\tfrom floor #" + std::to_string(p.getFloorDeparture()) \
+					+ " to floor #" + std::to_string(p.getFloorDestination()) \
+					+ "\tleaved the floor (waiting time = " + std::to_string(getCurrentTime() - p.getTimeInit()) + ")");
+			}
+		}
+		queue->passOnFloor[floor] = std::move(continueWaiting);
+
+	}//for floor
+}
+
 void Control::MakeStep()
 {
 	passStatBuffer.resize(0);
@@ -84,6 +111,193 @@ void Control::MakeStep()
 
 	//Нажатие появившимися пассажирами кнопок на этажах	
 	PressingFloorButtons();
+
+	//Пассажиры, ждавшие слишком долго, уходят с этажей, и за это начисляется большой штраф
+	LeavingFloors();
+
+	//Посадка пассажиров в лифты на этажах
+	//цикл по этажам:
+	for (size_t pos = 0; pos < floorButtons->dnButtons.size(); ++pos)
+	{
+		//std::vector<ElevatorIndicator> ind = { ElevatorIndicator::up, ElevatorIndicator::down };
+		
+		//for (auto& indValue : ind)
+		//{
+			std::vector<Elevator*> elevOnFloor;
+			for (auto& e : elevators)
+			{
+				if ((e->position / 100 == pos) && (e->doorsStatus == ElevatorDoorsStatus::openedLoading)) 
+					if (e->getNumberOfPassengers() < e->capacity)
+						elevOnFloor.push_back(e.get());
+					else 
+					{
+						if (e->timeToSelfProgramme == 0)
+						{
+							e->timeToSelfProgramme = 4 + 1;
+							e->doorsStatus = ElevatorDoorsStatus::waiting;
+						}
+					}
+			}
+
+			if (elevOnFloor.size() > 1)
+				for (auto& pe : elevOnFloor)
+					pe->timeToSelfProgramme = elevOnFloor[0]->timeToSelfProgramme;
+
+			if (elevOnFloor.size() > 0)
+				if (elevOnFloor[0]->timeToSelfProgramme == 0)
+				{					
+					auto& pass = queue->passOnFloor[pos];
+
+					size_t passToUp = 0, passToDn = 0;
+					for (auto& p : pass)
+					{
+						if (p.getFloorDestination() > pos)
+							++passToUp;
+						else
+							++passToDn;
+					}
+
+					if (passToUp == 0)
+						for (auto& e : elevOnFloor)
+							if (e->getIndicator() == ElevatorIndicator::up)
+							{
+								e->timeToSelfProgramme = 4 + 1;
+								e->doorsStatus = ElevatorDoorsStatus::waiting;
+							};
+
+					if (passToDn == 0)
+						for (auto& e : elevOnFloor)
+							if (e->getIndicator() == ElevatorIndicator::down)
+							{
+								e->timeToSelfProgramme = 4 + 1;
+								e->doorsStatus = ElevatorDoorsStatus::waiting;
+							};
+
+					
+					std::vector<Passenger> stillWaiting;
+
+					for (auto& p : pass)
+					{
+
+						std::vector<Elevator*> elevAppropriate;
+						bool inverseWay = false;
+
+						bool inv = p.PerformInverseProbability(getCurrentTime());
+
+						for (auto& e : elevOnFloor)
+						{
+							if ((p.getFloorDestination() > pos) && (e->timeToSelfProgramme == 0) && (e->doorsStatus == ElevatorDoorsStatus::openedLoading) && (e->indicator == ElevatorIndicator::up || e->indicator == ElevatorIndicator::both))
+							{
+								e->lastChechedPassenger = std::max(p.id, e->lastChechedPassenger);
+								
+								if (e->getNumberOfPassengers() < e->capacity)
+									elevAppropriate.push_back(e);									
+								else
+								{
+									e->timeToSelfProgramme = 4 + 1;
+									e->doorsStatus = ElevatorDoorsStatus::waiting;
+								}
+							}
+							
+							if ((p.getFloorDestination() < pos) && (e->timeToSelfProgramme == 0) && (e->doorsStatus == ElevatorDoorsStatus::openedLoading) && (e->indicator == ElevatorIndicator::down || e->indicator == ElevatorIndicator::both))
+							{
+								e->lastChechedPassenger = std::max(p.id, e->lastChechedPassenger);
+
+								if (e->getNumberOfPassengers() < e->capacity)
+									elevAppropriate.push_back(e);
+								else
+								{
+									e->timeToSelfProgramme = 4 + 1;
+									e->doorsStatus = ElevatorDoorsStatus::waiting;
+								}
+							}
+						}
+
+						//Если человек готов сесть не туда
+						if ((elevAppropriate.size() == 0) && (inv))
+						{
+							
+							for (auto& e : elevOnFloor)
+							{																
+								if ((e->timeToSelfProgramme == 0) && (e->doorsStatus == ElevatorDoorsStatus::openedLoading))
+								{
+									e->lastChechedPassenger = std::max(p.id, e->lastChechedPassenger);
+
+									if (e->lastChechedPassenger <= p.id)
+									{
+										if (e->getNumberOfPassengers() < e->capacity)
+										{
+											elevAppropriate.push_back(e);
+											inverseWay = true;
+										}
+										else
+										{
+											e->timeToSelfProgramme = 4 + 1;
+											e->doorsStatus = ElevatorDoorsStatus::waiting;
+										}
+									}
+								}
+							}
+						}
+
+
+						if (elevAppropriate.size() > 0)
+						{
+							size_t elevWithSmallestPass = 0;
+							size_t smallestPass = elevAppropriate[0]->getNumberOfPassengers();
+
+							for (size_t numb = 1; numb < elevAppropriate.size(); ++numb)
+								if (elevAppropriate[numb]->getNumberOfPassengers() < smallestPass)
+								{
+									elevWithSmallestPass = numb;
+									smallestPass = elevAppropriate[numb]->getNumberOfPassengers();
+								}
+								
+
+							Elevator* e = elevAppropriate[elevWithSmallestPass];
+							
+							e->passengers.push_back(p);
+							e->passengers.back().status = PassengerStatus::going;
+							e->passengers.back().timeStart = getCurrentTime();
+							passStatBuffer.push_back("time = " + std::to_string(getCurrentTime()) \
+								+ "\tPassenger #" + std::to_string(e->passengers.back().id) \
+								+ "\tfrom floor #" + std::to_string(e->passengers.back().getFloorDeparture()) \
+								+ " to floor #" + std::to_string(e->passengers.back().getFloorDestination()) \
+								+ (inverseWay ? "*" : "") \
+								+ "\tentered the elevator #" + std::to_string(e->myid)); 
+							e->timeToSelfProgramme = 1 + 1;
+							e->buttons[e->passengers.back().getFloorDestination()] = true;
+							if (e->indicator == ElevatorIndicator::both)
+							{
+								if (e->passengers.back().properties.floorDestination > pos)
+									e->indicator = ElevatorIndicator::up;
+								else
+									e->indicator = ElevatorIndicator::down;
+							}
+								
+						}
+						else
+							stillWaiting.push_back(p);
+
+					}//for p
+
+					pass.clear();
+					pass = std::move(stillWaiting);
+
+				}
+		//}//for indValue
+	}//for pos
+
+
+	//Обработка нажатия кнопки "Ход"
+	for (auto& e : elevators)
+	{
+		if (e->doorsStatus == ElevatorDoorsStatus::waiting)
+			if (e->isGoingButtonPressed() && (e->timeToSelfProgramme > 1))
+			{
+				e->timeToSelfProgramme = 1;
+			}
+	}
 
 	//Обработка движения лифта
 	for (auto& e : elevators)
@@ -120,117 +334,12 @@ void Control::MakeStep()
 						e->passengers.erase(it);
 						break;
 					}// if it!=
-
+										
 					e->doorsStatus = ElevatorDoorsStatus::openedLoading;
+					e->lastChechedPassenger = 0;
 
 					break;
 				}//case ElevatorDoorsStatus::openedUnloading:
-				
-				case ElevatorDoorsStatus::openedLoading:
-					//Стоящий лифт с открытыми дверьми - закрываем двери
-
-					if (e->indicator == ElevatorIndicator::up)
-					{
-						if ((pass.size() > 0) && (e->getNumberOfPassengers() < e->capacity))
-						{
-							auto it = std::find_if(pass.begin(), pass.end(),
-								[=](const Passenger& p) { return p.getFloorDestination() > pos; });
-							if (it != pass.end())
-							{
-								e->passengers.push_back(*it);
-								pass.erase(it);
-								e->passengers.back().status = PassengerStatus::going;
-								e->passengers.back().timeStart = getCurrentTime();
-								passStatBuffer.push_back("time = " + std::to_string(getCurrentTime()) \
-									+ "\tPassenger #" + std::to_string(e->passengers.back().id) \
-									+ "\tfrom floor #" + std::to_string(e->passengers.back().getFloorDeparture()) \
-									+ " to floor #" + std::to_string(e->passengers.back().getFloorDestination()) \
-									+ "\tentered the elevator #" + std::to_string(e->myid)); e->timeToSelfProgramme = 1;
-								e->buttons[e->passengers.back().getFloorDestination()] = true;
-							}//if (it != pass.end())
-							else
-							{
-								e->timeToSelfProgramme = 4;
-								e->doorsStatus = ElevatorDoorsStatus::waiting;
-							}//else
-						}//if ((pass.size() > 0)...
-						else
-						{
-							e->timeToSelfProgramme = 4;
-							e->doorsStatus = ElevatorDoorsStatus::waiting;
-						}//else
-
-						break;
-					}//if (e->indicator == ElevatorIndicator::up)
-
-					if (e->indicator == ElevatorIndicator::down)
-					{
-						if ((pass.size() > 0) && (e->getNumberOfPassengers() < e->capacity))
-						{
-							auto it = std::find_if(pass.begin(), pass.end(),
-								[=](const Passenger& p) { return p.getFloorDestination() < pos; });
-							if (it != pass.end())
-							{
-								e->passengers.push_back(*it);
-								pass.erase(it);
-								e->passengers.back().status = PassengerStatus::going;
-								e->passengers.back().timeStart = getCurrentTime();
-								passStatBuffer.push_back("time = " + std::to_string(getCurrentTime()) \
-									+ "\tPassenger #" + std::to_string(e->passengers.back().id) \
-									+ "\tfrom floor #" + std::to_string(e->passengers.back().getFloorDeparture()) \
-									+ " to floor #" + std::to_string(e->passengers.back().getFloorDestination()) \
-									+ "\tentered the elevator #" + std::to_string(e->myid)); e->timeToSelfProgramme = 1;
-								e->buttons[e->passengers.back().getFloorDestination()] = true;
-							}//if (it != pass.end())
-							else
-							{
-								e->timeToSelfProgramme = 4;
-								e->doorsStatus = ElevatorDoorsStatus::waiting;
-							}//else
-						}//if ((pass.size() > 0)...
-						else
-						{
-							e->timeToSelfProgramme = 4;
-							e->doorsStatus = ElevatorDoorsStatus::waiting;
-						}//else
-
-						break;
-					}//if (e->indicator == ElevatorIndicator::down)
-
-					if (e->indicator == ElevatorIndicator::both)
-					{
-						if ((pass.size() > 0) && (e->getNumberOfPassengers() < e->capacity))
-						{
-							e->passengers.push_back(pass[0]);
-							pass.erase(pass.begin());
-							e->passengers.back().status = PassengerStatus::going;
-							e->passengers.back().timeStart = getCurrentTime();
-							passStatBuffer.push_back("time = " + std::to_string(getCurrentTime()) \
-								+ "\tPassenger #" + std::to_string(e->passengers.back().id) \
-								+ "\tfrom floor #" + std::to_string(e->passengers.back().getFloorDeparture()) \
-								+ " to floor #" + std::to_string(e->passengers.back().getFloorDestination()) \
-								+ "\tentered the elevator #" + std::to_string(e->myid));
-							e->timeToSelfProgramme = 1;
-							e->buttons[e->passengers.back().getFloorDestination()] = true;
-
-							if (e->passengers.back().properties.floorDestination > pos)
-							{
-								floorButtons->unsetUpButton(pos);
-								e->indicator = ElevatorIndicator::up;
-							}//if (e->passengers.back...
-
-							if (e->passengers.back().properties.floorDestination < pos)
-							{
-								floorButtons->unsetDnButton(pos);
-								e->indicator = ElevatorIndicator::down;
-							}//if (e->passengers.back...
-
-						}//if ((pass.size()...
-						break;
-					}//if (e->indicator == ElevatorIndicator::both)
-
-					break;
-
 
 				case ElevatorDoorsStatus::waiting:
 				{
@@ -343,7 +452,7 @@ void Control::MakeStep()
 			}//case ElevatorStatus::movingUp:                    
 			 //case ElevatorStatus::movingDn:
 			}
-			break;
+			
 
 		}//if (e->timeToSelfProgramme == 0)
 		else // если продолжается предыдущая операция
@@ -554,9 +663,9 @@ void Control::PrintStatistics(bool passengersDetails, const std::string& fname) 
 		case PassengerStatus::leaved:
 		{
 			++numLeaved;
-			penaltyLeaved += p.properties.criticalWaitTime * 4;
+			penaltyLeaved += p.properties.criticalWaitTime * 5;
 			if (passengersDetails)
-				str << "#" << p.id << ", penalty = " << p.properties.criticalWaitTime * 4 \
+				str << "#" << p.id << ", penalty = " << p.properties.criticalWaitTime * 5 \
 				<< " (init = " << p.getTimeInit() << ", LEAVED THE FLOOR!!!" << ")" \
 				<< std::endl;
 			break;

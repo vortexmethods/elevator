@@ -5,8 +5,8 @@
 \file
 \brief Заголовочный файл с описанием класса Elevator и сопутствующих структур
 \author Марчевский Илья Константинович
-\version 0.2
-\date 25 марта 2021 г.
+\version 0.3
+\date 29 марта 2021 г.
 */
 
 #pragma once
@@ -102,7 +102,6 @@ private:
 	/// id лифта
 	size_t myid;
 
-
 	/// Cтатус лифта (направление движения или признак остановки)
 	ElevatorStatus status;
 
@@ -120,6 +119,9 @@ private:
 		return indicator;
 	}
 
+	bool isGoingButtonPressed() const;
+
+	size_t lastChechedPassenger;
 	size_t timeToSelfProgramme;
 
 	size_t getNumberOfPassengers() const

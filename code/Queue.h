@@ -5,8 +5,8 @@
 \file
 \brief Заголовочный файл с описанием класса Queue
 \author Марчевский Илья Константинович
-\version 0.2
-\date 25 марта 2021 г.
+\version 0.3
+\date 29 марта 2021 г.
 */
 
 #pragma once
