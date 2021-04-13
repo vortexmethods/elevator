@@ -5,8 +5,8 @@
 \file
 \brief Файл кода с описанием класса Control
 \author Марчевский Илья Константинович
-\version 0.3
-\date 29 марта 2021 г.
+\version 0.4
+\date 14 апреля 2021 г.
 */
 
 #include <algorithm>
@@ -133,7 +133,7 @@ void Control::MakeStep()
 					{
 						if (e->timeToSelfProgramme == 0)
 						{
-							e->timeToSelfProgramme = 4 + 1;
+							e->timeToSelfProgramme = waitingTime;
 							e->doorsStatus = ElevatorDoorsStatus::waiting;
 						}
 					}
@@ -161,7 +161,7 @@ void Control::MakeStep()
 						for (auto& e : elevOnFloor)
 							if (e->getIndicator() == ElevatorIndicator::up)
 							{
-								e->timeToSelfProgramme = 4 + 1;
+								e->timeToSelfProgramme = waitingTime;
 								e->doorsStatus = ElevatorDoorsStatus::waiting;
 							};
 
@@ -169,7 +169,7 @@ void Control::MakeStep()
 						for (auto& e : elevOnFloor)
 							if (e->getIndicator() == ElevatorIndicator::down)
 							{
-								e->timeToSelfProgramme = 4 + 1;
+								e->timeToSelfProgramme = waitingTime;
 								e->doorsStatus = ElevatorDoorsStatus::waiting;
 							};
 
@@ -194,7 +194,7 @@ void Control::MakeStep()
 									elevAppropriate.push_back(e);									
 								else
 								{
-									e->timeToSelfProgramme = 4 + 1;
+									e->timeToSelfProgramme = waitingTime;
 									e->doorsStatus = ElevatorDoorsStatus::waiting;
 								}
 							}
@@ -207,7 +207,7 @@ void Control::MakeStep()
 									elevAppropriate.push_back(e);
 								else
 								{
-									e->timeToSelfProgramme = 4 + 1;
+									e->timeToSelfProgramme = waitingTime;
 									e->doorsStatus = ElevatorDoorsStatus::waiting;
 								}
 							}
@@ -232,7 +232,7 @@ void Control::MakeStep()
 										}
 										else
 										{
-											e->timeToSelfProgramme = 4 + 1;
+											e->timeToSelfProgramme = waitingTime;
 											e->doorsStatus = ElevatorDoorsStatus::waiting;
 										}
 									}
@@ -265,7 +265,7 @@ void Control::MakeStep()
 								+ " to floor #" + std::to_string(e->passengers.back().getFloorDestination()) \
 								+ (inverseWay ? "*" : "") \
 								+ "\tentered the elevator #" + std::to_string(e->myid)); 
-							e->timeToSelfProgramme = 1 + 1;
+							e->timeToSelfProgramme = timeEntering;
 							e->buttons[e->passengers.back().getFloorDestination()] = true;
 							if (e->indicator == ElevatorIndicator::both)
 							{
@@ -316,7 +316,7 @@ void Control::MakeStep()
 				{
 				case ElevatorDoorsStatus::openedUnloading:
 				{
-					e->timeToSelfProgramme = 1;
+					e->timeToSelfProgramme = timeLeaving - 1;
 					auto it = std::find_if(e->passengers.begin(), e->passengers.end(), \
 						[=](const Passenger& p) {return p.getFloorDestination() == pos; });
 					if (it != e->passengers.end())
@@ -344,7 +344,7 @@ void Control::MakeStep()
 				case ElevatorDoorsStatus::waiting:
 				{
 					e->doorsStatus = ElevatorDoorsStatus::closing;
-					e->timeToSelfProgramme = 3;
+					e->timeToSelfProgramme = timeClosing - 1;
 					break;
 				}//case ElevatorDoorsStatus::waiting:
 
@@ -364,7 +364,7 @@ void Control::MakeStep()
 					{
 						e->status = ElevatorStatus::movingUp;
 						e->acceleration = ElevatorAcceleration::accelerating;
-						e->timeToSelfProgramme = 3;
+						e->timeToSelfProgramme = timeAccelerating - 1;
 					}//if ((e->position...
 
 					//вниз
@@ -372,7 +372,7 @@ void Control::MakeStep()
 					{
 						e->status = ElevatorStatus::movingDn;
 						e->acceleration = ElevatorAcceleration::accelerating;
-						e->timeToSelfProgramme = 3;
+						e->timeToSelfProgramme = timeAccelerating - 1;
 					}//if (((e->position...
 
 					//3.1.4. Если лифт прибыл в пункт назначения - открываем двери
@@ -386,7 +386,7 @@ void Control::MakeStep()
 						{
 							e->doorsStatus = ElevatorDoorsStatus::opening;
 							e->buttons[pos] = false;
-							e->timeToSelfProgramme = 3;
+							e->timeToSelfProgramme = timeOpening - 1;
 
 							if ((floorButtons->getDnButton(e->destinationFloor)) &&
 								(e->indicator == ElevatorIndicator::down || e->indicator == ElevatorIndicator::both))
@@ -428,7 +428,7 @@ void Control::MakeStep()
 				case ElevatorAcceleration::accelerating:
 				{
 					int sign = (e->status == ElevatorStatus::movingUp) ? 1 : -1;
-					e->position += sign * 25;
+					e->position += sign * (int)(100*veloUniform);
 					e->acceleration = ElevatorAcceleration::uniform;
 					break;
 				}//case ElevatorAcceleration::accelerating:
@@ -436,13 +436,13 @@ void Control::MakeStep()
 				case ElevatorAcceleration::uniform:
 				{
 					int sign = (e->status == ElevatorStatus::movingUp) ? 1 : -1;
-					if (abs((int)((e->position - 100 * e->destinationFloor))) != 25)
-						e->position += sign * 25;
+					if (abs((int)((e->position - 100 * e->destinationFloor))) != (int)(100 * veloUniform))
+						e->position += sign * (int)(100 * veloUniform);
 					else
 					{
 						e->acceleration = ElevatorAcceleration::breaking;
 						e->position += sign * 12;
-						e->timeToSelfProgramme = 2;
+						e->timeToSelfProgramme = timeBreaking - 1;
 					}//else
 				}//case ElevatorAcceleration::uniform:
 

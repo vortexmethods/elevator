@@ -5,8 +5,8 @@
 \file
 \brief Заголовочный файл с описанием основного класса Control
 \author Марчевский Илья Константинович
-\version 0.3
-\date 29 марта 2021 г.
+\version 0.4
+\date 14 апреля 2021 г.
 */
 
 #pragma once
@@ -61,6 +61,30 @@ private:
 
 public:
 	
+	/// Время ожидания до закрытия дверей (если только кто-то не нажмет кнопку "ход" раньше)
+	const size_t waitingTime = 5;
+	
+	/// Время между входами двух пассажиров в лифт
+	const size_t timeEntering = 2;
+	
+	/// Время между выходами двух пассажиров в лифт
+	const size_t timeLeaving = 2;
+
+	/// Время открывания дверей
+	const size_t timeOpening = 4;
+
+	/// Время закрывания дверей
+	const size_t timeClosing = 4;
+
+	/// Время разгона лифта
+	const size_t timeAccelerating = 4;
+	
+	/// Время торможения лифта
+	const size_t timeBreaking = 3;
+
+	/// Скорость равномерно движения лифта (в долях этажа)
+	const double veloUniform = 0.25;
+
 	/// \brief Инициализирующий конструктор
 	/// 
 	/// \param[in] numberOfFloors число этажей (считая подвальный)

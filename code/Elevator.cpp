@@ -5,8 +5,8 @@
 \file
 \brief Файл кода с описанием класса Elevator
 \author Марчевский Илья Константинович
-\version 0.3
-\date 29 марта 2021 г.
+\version 0.4
+\date 14 апреля 2021 г.
 */
 
 #include <iostream>
