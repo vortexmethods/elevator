@@ -1,0 +1,406 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>elevator: Исходный файл Control.h</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/NativeMML"],
+});
+</script>
+<script type="text/javascript" async="async" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="../../logo.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">elevator
+   &#160;<span id="projectnumber">0.5</span>
+   </div>
+   <div id="projectbrief">Симулятор пассажирского лифта</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "../../search",false,'Поиск','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('../../',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('dc/df5/_control_8h_source.html','../../'); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">Control.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="../../dc/df5/_control_8h.html">См. документацию.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">// Проект elevator </span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">// (c) И.К. Марчевский, 2021</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#pragma once</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &lt;memory&gt;</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d3/da0/_elevator_8h.html">Elevator.h</a>&quot;</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../da/d6f/_floor_buttons_8h.html">FloorButtons.h</a>&quot;</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keyword">class </span><a class="code" href="../../d4/da4/class_queue.html">Queue</a>;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
+<div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="../../d7/d49/class_control.html">   25</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../d7/d49/class_control.html">Control</a></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;{</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    std::vector&lt;std::unique_ptr&lt;Elevator&gt;&gt; elevators;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    </div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    std::unique_ptr&lt;FloorButtons&gt; floorButtons;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    </div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordtype">size_t</span> time;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keywordtype">void</span> TimeIncrement();</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    std::unique_ptr&lt;Queue&gt; queue; </div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    </div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordtype">void</span> FindAppearingPassengers();</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keywordtype">void</span> PressingFloorButtons();</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160; </div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keywordtype">void</span> LeavingFloors();</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160; </div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keywordtype">bool</span> isElevatorOnFloor(<span class="keywordtype">size_t</span> stage) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160; </div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keyword">mutable</span> std::vector&lt;std::string&gt; passStatBuffer;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160; </div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    </div>
+<div class="line"><a name="l00065"></a><span class="lineno"><a class="line" href="../../d7/d49/class_control.html#a5cdb5f3e018fca019f95ffc3fe316348">   65</a></span>&#160;    <span class="keyword">const</span> <span class="keywordtype">size_t</span> <a class="code" href="../../d7/d49/class_control.html#a5cdb5f3e018fca019f95ffc3fe316348">waitingTime</a> = 5;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    </div>
+<div class="line"><a name="l00068"></a><span class="lineno"><a class="line" href="../../d7/d49/class_control.html#ad8e27707c5bec6a332cd038366ae7c90">   68</a></span>&#160;    <span class="keyword">const</span> <span class="keywordtype">size_t</span> <a class="code" href="../../d7/d49/class_control.html#ad8e27707c5bec6a332cd038366ae7c90">timeEntering</a> = 2;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    </div>
+<div class="line"><a name="l00071"></a><span class="lineno"><a class="line" href="../../d7/d49/class_control.html#a8755f7ae4b3b07093621d05a05764dfc">   71</a></span>&#160;    <span class="keyword">const</span> <span class="keywordtype">size_t</span> <a class="code" href="../../d7/d49/class_control.html#a8755f7ae4b3b07093621d05a05764dfc">timeLeaving</a> = 2;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160; </div>
+<div class="line"><a name="l00074"></a><span class="lineno"><a class="line" href="../../d7/d49/class_control.html#a2c6036e7f6f4d78a4fa3430180bc63bb">   74</a></span>&#160;    <span class="keyword">const</span> <span class="keywordtype">size_t</span> <a class="code" href="../../d7/d49/class_control.html#a2c6036e7f6f4d78a4fa3430180bc63bb">timeOpening</a> = 4;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160; </div>
+<div class="line"><a name="l00077"></a><span class="lineno"><a class="line" href="../../d7/d49/class_control.html#a8d2d688eef4088a0c6cda1e26c982217">   77</a></span>&#160;    <span class="keyword">const</span> <span class="keywordtype">size_t</span> <a class="code" href="../../d7/d49/class_control.html#a8d2d688eef4088a0c6cda1e26c982217">timeClosing</a> = 4;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160; </div>
+<div class="line"><a name="l00080"></a><span class="lineno"><a class="line" href="../../d7/d49/class_control.html#a8726322f590afe14cdf99fd27236cbb2">   80</a></span>&#160;    <span class="keyword">const</span> <span class="keywordtype">size_t</span> <a class="code" href="../../d7/d49/class_control.html#a8726322f590afe14cdf99fd27236cbb2">timeAccelerating</a> = 4;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    </div>
+<div class="line"><a name="l00083"></a><span class="lineno"><a class="line" href="../../d7/d49/class_control.html#a6257904094e1a7e3bb5f798634d6a29f">   83</a></span>&#160;    <span class="keyword">const</span> <span class="keywordtype">size_t</span> <a class="code" href="../../d7/d49/class_control.html#a6257904094e1a7e3bb5f798634d6a29f">timeBreaking</a> = 3;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160; </div>
+<div class="line"><a name="l00086"></a><span class="lineno"><a class="line" href="../../d7/d49/class_control.html#a81bee73beaba5077167492d1d8081a86">   86</a></span>&#160;    <span class="keyword">const</span> <span class="keywordtype">double</span> <a class="code" href="../../d7/d49/class_control.html#a81bee73beaba5077167492d1d8081a86">veloUniform</a> = 0.25;</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160; </div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    <a class="code" href="../../d7/d49/class_control.html#a603e4d87715759e77509c40dbaffa8ff">Control</a>(</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        <span class="keywordtype">size_t</span> <a class="code" href="../../df/d0a/main_8cpp.html#a365a9dbb84be610d5c7f44a6cfb5dcc6">numberOfFloors</a>, </div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        <span class="keywordtype">size_t</span> <a class="code" href="../../df/d0a/main_8cpp.html#ab007a698126fd17548d5efee792ff4cc">numberOfElevators</a>, </div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        <span class="keywordtype">size_t</span> capacityOfElevator);</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    </div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160; </div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    <a class="code" href="../../d7/d49/class_control.html#aedda1328c4f8b8d49bca8f0812d3bfd1">~Control</a>();</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160; </div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160; </div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d7/d49/class_control.html#aa27494d5cb489fd00e10e14a93667a7e">MakeStep</a>();</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160; </div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160; </div>
+<div class="line"><a name="l00110"></a><span class="lineno"><a class="line" href="../../d7/d49/class_control.html#ab446f2fd5dd6eb95053119e0629ec9f3">  110</a></span>&#160;    <span class="keywordtype">size_t</span> <a class="code" href="../../d7/d49/class_control.html#ab446f2fd5dd6eb95053119e0629ec9f3">getCurrentTime</a>()<span class="keyword"> const</span></div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;<span class="keyword">    </span>{</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;        <span class="keywordflow">return</span> time;</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    }</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160; </div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160; </div>
+<div class="line"><a name="l00120"></a><span class="lineno"><a class="line" href="../../d7/d49/class_control.html#a452bff3ad51327be43181710b7eee73d">  120</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d7/d49/class_control.html#a452bff3ad51327be43181710b7eee73d">SetElevatorDestination</a>(<span class="keywordtype">size_t</span> elevatorNumber, <span class="keywordtype">size_t</span> destination)</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    {</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;        elevators[elevatorNumber]-&gt;setDestination(destination);</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    }</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160; </div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160; </div>
+<div class="line"><a name="l00130"></a><span class="lineno"><a class="line" href="../../d7/d49/class_control.html#a96cd004fbddf03e59c9fef5aa1a0ac15">  130</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d7/d49/class_control.html#a96cd004fbddf03e59c9fef5aa1a0ac15">SetElevatorIndicator</a>(<span class="keywordtype">size_t</span> elevatorNumber, <a class="code" href="../../d3/da0/_elevator_8h.html#ab838fcfdcd7cb6f420315d792e8b7607">ElevatorIndicator</a> indicator)</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    {</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;        elevators[elevatorNumber]-&gt;setIndicator(indicator);</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;    }</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160; </div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160; </div>
+<div class="line"><a name="l00140"></a><span class="lineno"><a class="line" href="../../d7/d49/class_control.html#af065af4a47846adad7a0bcc10bffff30">  140</a></span>&#160;    <span class="keywordtype">size_t</span> <a class="code" href="../../d7/d49/class_control.html#af065af4a47846adad7a0bcc10bffff30">getElevatorDestination</a>(<span class="keywordtype">size_t</span> elevatorNumber)<span class="keyword"> const</span></div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;<span class="keyword">    </span>{</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;        <span class="keywordflow">return</span> elevators[elevatorNumber]-&gt;getDestination();</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;    }</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160; </div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160; </div>
+<div class="line"><a name="l00150"></a><span class="lineno"><a class="line" href="../../d7/d49/class_control.html#ab0228cfb751bdd51988c703ad89ce16d">  150</a></span>&#160;    <a class="code" href="../../d3/da0/_elevator_8h.html#ab838fcfdcd7cb6f420315d792e8b7607">ElevatorIndicator</a> <a class="code" href="../../d7/d49/class_control.html#ab0228cfb751bdd51988c703ad89ce16d">getElevatorIndicator</a>(<span class="keywordtype">size_t</span> elevatorNumber)<span class="keyword"> const</span></div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;<span class="keyword">    </span>{</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;        <span class="keywordflow">return</span> elevators[elevatorNumber]-&gt;getIndicator();</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;    }</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160; </div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160; </div>
+<div class="line"><a name="l00167"></a><span class="lineno"><a class="line" href="../../d7/d49/class_control.html#a663975be3c4ee628506092833442b1a3">  167</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="../../d7/d49/class_control.html#a663975be3c4ee628506092833442b1a3">isElevatorAchievedDestination</a>(<span class="keywordtype">size_t</span> elevatorNumber)<span class="keyword"> const</span></div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;<span class="keyword">    </span>{</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;        <span class="keywordflow">return</span> elevators[elevatorNumber]-&gt;isDestinationAchieved(floorButtons-&gt;getUpButtons(), floorButtons-&gt;getDnButtons());</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;    }</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160; </div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160; </div>
+<div class="line"><a name="l00188"></a><span class="lineno"><a class="line" href="../../d7/d49/class_control.html#aa5693e7ef5ad62d53da9678b001f1baf">  188</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="../../d7/d49/class_control.html#aa5693e7ef5ad62d53da9678b001f1baf">isElevatorEmptyAfterUnloading</a>(<span class="keywordtype">size_t</span> elevatorNumber)<span class="keyword"> const</span></div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;<span class="keyword">    </span>{</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;        <span class="keywordflow">return</span> elevators[elevatorNumber]-&gt;isEmptyAfterUnloading();</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;    }</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160; </div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160; </div>
+<div class="line"><a name="l00200"></a><span class="lineno"><a class="line" href="../../d7/d49/class_control.html#a2cc419c836a6050230769de92c26fa3c">  200</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="../../d7/d49/class_control.html#a2cc419c836a6050230769de92c26fa3c">isElevatorEmpty</a>(<span class="keywordtype">size_t</span> elevatorNumber)<span class="keyword"> const</span></div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;<span class="keyword">    </span>{</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;        <span class="keywordflow">return</span> elevators[elevatorNumber]-&gt;isEmpty();</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;    }</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160; </div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160; </div>
+<div class="line"><a name="l00212"></a><span class="lineno"><a class="line" href="../../d7/d49/class_control.html#a2674966744e15e1f611f06e709384eaf">  212</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="../../d7/d49/class_control.html#a2674966744e15e1f611f06e709384eaf">isElevatorGoingUp</a>(<span class="keywordtype">size_t</span> elevatorNumber)<span class="keyword"> const</span></div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;<span class="keyword">    </span>{</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;        <span class="keywordflow">return</span> elevators[elevatorNumber]-&gt;isGoingUp();</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;    }</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160; </div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160; </div>
+<div class="line"><a name="l00224"></a><span class="lineno"><a class="line" href="../../d7/d49/class_control.html#a208c4eb027cfad6b783aa09db7ec3900">  224</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="../../d7/d49/class_control.html#a208c4eb027cfad6b783aa09db7ec3900">isElevatorGoingDn</a>(<span class="keywordtype">size_t</span> elevatorNumber)<span class="keyword"> const</span></div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;<span class="keyword">    </span>{</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;        <span class="keywordflow">return</span> elevators[elevatorNumber]-&gt;isGoingDn();</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;    }</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160; </div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160; </div>
+<div class="line"><a name="l00238"></a><span class="lineno"><a class="line" href="../../d7/d49/class_control.html#ab47ee5471f0bb404731507851f2cb140">  238</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="../../d7/d49/class_control.html#ab47ee5471f0bb404731507851f2cb140">isElevatorStaying</a>(<span class="keywordtype">size_t</span> elevatorNumber)<span class="keyword"> const</span></div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;<span class="keyword">    </span>{</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;        <span class="keywordflow">return</span> elevators[elevatorNumber]-&gt;isStaying();</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;    }</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160; </div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160; </div>
+<div class="line"><a name="l00250"></a><span class="lineno"><a class="line" href="../../d7/d49/class_control.html#a33ac3c5967c5bb354ac6a82d9ba8c6ca">  250</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="../../d7/d49/class_control.html#a33ac3c5967c5bb354ac6a82d9ba8c6ca">isElevatorGoingUniformly</a>(<span class="keywordtype">size_t</span> elevatorNumber)<span class="keyword"> const</span></div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;<span class="keyword">    </span>{</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;        <span class="keywordflow">return</span> elevators[elevatorNumber]-&gt;isGoingUniformly();</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;    }</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160; </div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160; </div>
+<div class="line"><a name="l00262"></a><span class="lineno"><a class="line" href="../../d7/d49/class_control.html#a9647fa89a966699230e013f8946bc700">  262</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="../../d7/d49/class_control.html#a9647fa89a966699230e013f8946bc700">isElevatorAccelerating</a>(<span class="keywordtype">size_t</span> elevatorNumber)<span class="keyword"> const</span></div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;<span class="keyword">    </span>{</div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;        <span class="keywordflow">return</span> elevators[elevatorNumber]-&gt;isAccelerating();</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;    }</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160; </div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160; </div>
+<div class="line"><a name="l00274"></a><span class="lineno"><a class="line" href="../../d7/d49/class_control.html#a408313f531ba60ca24d2348957d877de">  274</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="../../d7/d49/class_control.html#a408313f531ba60ca24d2348957d877de">isElevatorBreaking</a>(<span class="keywordtype">size_t</span> elevatorNumber)<span class="keyword"> const</span></div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;<span class="keyword">    </span>{</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;        <span class="keywordflow">return</span> elevators[elevatorNumber]-&gt;isBreaking();</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;    }</div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160; </div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160; </div>
+<div class="line"><a name="l00286"></a><span class="lineno"><a class="line" href="../../d7/d49/class_control.html#a7bb8570f17b2f25bb4d7614d9eea6f4e">  286</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="../../d7/d49/class_control.html#a7bb8570f17b2f25bb4d7614d9eea6f4e">isElevatorDoorsOpening</a>(<span class="keywordtype">size_t</span> elevatorNumber)<span class="keyword"> const</span></div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;<span class="keyword">    </span>{</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;        <span class="keywordflow">return</span> elevators[elevatorNumber]-&gt;isDoorsOpening();</div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;    }</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160; </div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160; </div>
+<div class="line"><a name="l00298"></a><span class="lineno"><a class="line" href="../../d7/d49/class_control.html#a63ec5be8e645ad30e35d5ca038cabfab">  298</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="../../d7/d49/class_control.html#a63ec5be8e645ad30e35d5ca038cabfab">isElevatorDoorsClosing</a>(<span class="keywordtype">size_t</span> elevatorNumber)<span class="keyword"> const</span></div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;<span class="keyword">    </span>{</div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;        <span class="keywordflow">return</span> elevators[elevatorNumber]-&gt;isDoorsClosing();</div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;    }</div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160; </div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160; </div>
+<div class="line"><a name="l00310"></a><span class="lineno"><a class="line" href="../../d7/d49/class_control.html#a443f84586538dfe698c3307406e3b46e">  310</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="../../d7/d49/class_control.html#a443f84586538dfe698c3307406e3b46e">isElevatorDoorsOpened</a>(<span class="keywordtype">size_t</span> elevatorNumber)<span class="keyword"> const</span></div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;<span class="keyword">    </span>{</div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;        <span class="keywordflow">return</span> elevators[elevatorNumber]-&gt;isDoorsOpened();</div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;    }</div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160; </div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160; </div>
+<div class="line"><a name="l00322"></a><span class="lineno"><a class="line" href="../../d7/d49/class_control.html#ae4150c4fa9a98a4855b7e47694e62408">  322</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="../../d7/d49/class_control.html#ae4150c4fa9a98a4855b7e47694e62408">isElevatorStayingDoorsClosed</a>(<span class="keywordtype">size_t</span> elevatorNumber)<span class="keyword"> const</span></div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;<span class="keyword">    </span>{</div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;        <span class="keywordflow">return</span> elevators[elevatorNumber]-&gt;isStayingDoorsClosed();</div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;    }</div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160; </div>
+<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160; </div>
+<div class="line"><a name="l00332"></a><span class="lineno"><a class="line" href="../../d7/d49/class_control.html#a817312a31ff67d15fcd896e35c0101a6">  332</a></span>&#160;    <span class="keywordtype">double</span> <a class="code" href="../../d7/d49/class_control.html#a817312a31ff67d15fcd896e35c0101a6">getElevatorPosition</a>(<span class="keywordtype">size_t</span> elevatorNumber)<span class="keyword"> const</span></div>
+<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;<span class="keyword">    </span>{</div>
+<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;        <span class="keywordflow">return</span> elevators[elevatorNumber]-&gt;getPosition();</div>
+<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;    }</div>
+<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160; </div>
+<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160; </div>
+<div class="line"><a name="l00341"></a><span class="lineno"><a class="line" href="../../d7/d49/class_control.html#a4b52df6bb9c810d8f861e0118115bc04">  341</a></span>&#160;    <span class="keyword">const</span> std::vector&lt;bool&gt;&amp; <a class="code" href="../../d7/d49/class_control.html#a4b52df6bb9c810d8f861e0118115bc04">getFloorUpButtons</a>()<span class="keyword"> const</span></div>
+<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;<span class="keyword">    </span>{</div>
+<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;        <span class="keywordflow">return</span> floorButtons-&gt;getUpButtons();</div>
+<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;    }</div>
+<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160; </div>
+<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160; </div>
+<div class="line"><a name="l00350"></a><span class="lineno"><a class="line" href="../../d7/d49/class_control.html#ac7c416e2594c0c5a67a7416aed9bb136">  350</a></span>&#160;    <span class="keyword">const</span> std::vector&lt;bool&gt;&amp; <a class="code" href="../../d7/d49/class_control.html#ac7c416e2594c0c5a67a7416aed9bb136">getFloorDnButtons</a>()<span class="keyword"> const</span></div>
+<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;<span class="keyword">    </span>{</div>
+<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;        <span class="keywordflow">return</span> floorButtons-&gt;getDnButtons();</div>
+<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;    }</div>
+<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160; </div>
+<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160; </div>
+<div class="line"><a name="l00360"></a><span class="lineno"><a class="line" href="../../d7/d49/class_control.html#a8a3a64db673bef28c9a94a47b60bbf2a">  360</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="../../d7/d49/class_control.html#a8a3a64db673bef28c9a94a47b60bbf2a">getFloorUpButton</a>(<span class="keywordtype">size_t</span> floor)<span class="keyword"> const</span></div>
+<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;<span class="keyword">    </span>{</div>
+<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;        <span class="keywordflow">return</span> floorButtons-&gt;getUpButton(floor);</div>
+<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;    }</div>
+<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160; </div>
+<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160; </div>
+<div class="line"><a name="l00370"></a><span class="lineno"><a class="line" href="../../d7/d49/class_control.html#ae65042411a4de8861223d985e4df1bd3">  370</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="../../d7/d49/class_control.html#ae65042411a4de8861223d985e4df1bd3">getFloorDnButton</a>(<span class="keywordtype">size_t</span> floor)<span class="keyword"> const</span></div>
+<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;<span class="keyword">    </span>{</div>
+<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;        <span class="keywordflow">return</span> floorButtons-&gt;getDnButton(floor);</div>
+<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;    }</div>
+<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160; </div>
+<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160; </div>
+<div class="line"><a name="l00380"></a><span class="lineno"><a class="line" href="../../d7/d49/class_control.html#a63fc2225ceeabd2c5c6704f353827316">  380</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d7/d49/class_control.html#a63fc2225ceeabd2c5c6704f353827316">unsetUpButton</a>(<span class="keywordtype">size_t</span> floor)</div>
+<div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;    {</div>
+<div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;        floorButtons-&gt;unsetUpButton(floor);</div>
+<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;    }</div>
+<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160; </div>
+<div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160; </div>
+<div class="line"><a name="l00390"></a><span class="lineno"><a class="line" href="../../d7/d49/class_control.html#acfbbba80d9acb4ff35ccf3c5e2939c50">  390</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d7/d49/class_control.html#acfbbba80d9acb4ff35ccf3c5e2939c50">unsetDnButton</a>(<span class="keywordtype">size_t</span> floor)</div>
+<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;    {</div>
+<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;        floorButtons-&gt;unsetDnButton(floor);</div>
+<div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;    }</div>
+<div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160; </div>
+<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160; </div>
+<div class="line"><a name="l00400"></a><span class="lineno"><a class="line" href="../../d7/d49/class_control.html#a99713e4d37ca9a98d910ccddc8a78f91">  400</a></span>&#160;    <span class="keyword">const</span> std::vector&lt;bool&gt;&amp; <a class="code" href="../../d7/d49/class_control.html#a99713e4d37ca9a98d910ccddc8a78f91">getElevatorButtons</a>(<span class="keywordtype">size_t</span> elevatorNumber)<span class="keyword"> const</span></div>
+<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;<span class="keyword">    </span>{</div>
+<div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;        <span class="keywordflow">return</span> elevators[elevatorNumber]-&gt;getButtons();</div>
+<div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;    }</div>
+<div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160; </div>
+<div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160; </div>
+<div class="line"><a name="l00411"></a><span class="lineno"><a class="line" href="../../d7/d49/class_control.html#ad5264774f4a993f47feb2aafef7845f4">  411</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="../../d7/d49/class_control.html#ad5264774f4a993f47feb2aafef7845f4">getElevatorButton</a>(<span class="keywordtype">size_t</span> elevatorNumber, <span class="keywordtype">size_t</span> floor)<span class="keyword"> const</span></div>
+<div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;<span class="keyword">    </span>{</div>
+<div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;        <span class="keywordflow">return</span> elevators[elevatorNumber]-&gt;getButton(floor);</div>
+<div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;    }</div>
+<div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160; </div>
+<div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160;    </div>
+<div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d7/d49/class_control.html#a585941066b04edf4df274530e63541b9">AddPassengerToQueue</a>(<span class="keyword">const</span> <a class="code" href="../../d0/d91/struct_passenger_properties.html">PassengerProperties</a>&amp; passProp_);</div>
+<div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;    </div>
+<div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d7/d49/class_control.html#afa60538067330dfbc1beaacb9ddce8d9">ReadTimeTable</a>(<span class="keyword">const</span> std::string&amp; fileName_);</div>
+<div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160; </div>
+<div class="line"><a name="l00427"></a><span class="lineno">  427</span>&#160; </div>
+<div class="line"><a name="l00436"></a><span class="lineno">  436</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d7/d49/class_control.html#a43b2f70a0602f4973f47c070b4137d67">PrintElevatorState</a>(<span class="keywordtype">size_t</span> elevatorNumber, <span class="keyword">const</span> std::string&amp; fname = <span class="stringliteral">&quot;&quot;</span>) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00437"></a><span class="lineno">  437</span>&#160;    </div>
+<div class="line"><a name="l00438"></a><span class="lineno">  438</span>&#160; </div>
+<div class="line"><a name="l00446"></a><span class="lineno">  446</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d7/d49/class_control.html#a414c2700af846fb7bb4fe807f0036f20">PrintButtonsState</a>(<span class="keyword">const</span> std::string&amp; fname = <span class="stringliteral">&quot;&quot;</span>) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00447"></a><span class="lineno">  447</span>&#160; </div>
+<div class="line"><a name="l00448"></a><span class="lineno">  448</span>&#160; </div>
+<div class="line"><a name="l00462"></a><span class="lineno">  462</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d7/d49/class_control.html#a4d278476925f1daabd6e700dd574d59c">PrintPassengerState</a>(<span class="keyword">const</span> std::string&amp; fname = <span class="stringliteral">&quot;&quot;</span>) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00463"></a><span class="lineno">  463</span>&#160; </div>
+<div class="line"><a name="l00464"></a><span class="lineno">  464</span>&#160; </div>
+<div class="line"><a name="l00469"></a><span class="lineno">  469</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d7/d49/class_control.html#a3710347c41a0e352d0bca6fd67c510b2">PrintStatistics</a>(<span class="keywordtype">bool</span> passengersDetails, <span class="keyword">const</span> std::string&amp; fname = <span class="stringliteral">&quot;&quot;</span>) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00470"></a><span class="lineno">  470</span>&#160; </div>
+<div class="line"><a name="l00471"></a><span class="lineno">  471</span>&#160;};</div>
+<div class="line"><a name="l00472"></a><span class="lineno">  472</span>&#160; </div>
+<div class="ttc" id="a_elevator_8h_html"><div class="ttname"><a href="../../d3/da0/_elevator_8h.html">Elevator.h</a></div><div class="ttdoc">Заголовочный файл с описанием класса Elevator и сопутствующих структур</div></div>
+<div class="ttc" id="a_elevator_8h_html_ab838fcfdcd7cb6f420315d792e8b7607"><div class="ttname"><a href="../../d3/da0/_elevator_8h.html#ab838fcfdcd7cb6f420315d792e8b7607">ElevatorIndicator</a></div><div class="ttdeci">ElevatorIndicator</div><div class="ttdoc">Состояния лампочки (индикатора направления движения) кабины лифта</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/da0/_elevator_8h_source.html#l00036">Elevator.h:36</a></div></div>
+<div class="ttc" id="a_floor_buttons_8h_html"><div class="ttname"><a href="../../da/d6f/_floor_buttons_8h.html">FloorButtons.h</a></div><div class="ttdoc">Заголовочный файл с описанием класса FloorButtons.</div></div>
+<div class="ttc" id="aclass_control_html"><div class="ttname"><a href="../../d7/d49/class_control.html">Control</a></div><div class="ttdoc">Основной класс — симулятор пассажирского лифта</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/df5/_control_8h_source.html#l00025">Control.h:26</a></div></div>
+<div class="ttc" id="aclass_control_html_a208c4eb027cfad6b783aa09db7ec3900"><div class="ttname"><a href="../../d7/d49/class_control.html#a208c4eb027cfad6b783aa09db7ec3900">Control::isElevatorGoingDn</a></div><div class="ttdeci">bool isElevatorGoingDn(size_t elevatorNumber) const</div><div class="ttdoc">Проверка того, что кабина лифта движется вниз</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/df5/_control_8h_source.html#l00224">Control.h:224</a></div></div>
+<div class="ttc" id="aclass_control_html_a2674966744e15e1f611f06e709384eaf"><div class="ttname"><a href="../../d7/d49/class_control.html#a2674966744e15e1f611f06e709384eaf">Control::isElevatorGoingUp</a></div><div class="ttdeci">bool isElevatorGoingUp(size_t elevatorNumber) const</div><div class="ttdoc">Проверка того, что кабина лифта движется вверх</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/df5/_control_8h_source.html#l00212">Control.h:212</a></div></div>
+<div class="ttc" id="aclass_control_html_a2c6036e7f6f4d78a4fa3430180bc63bb"><div class="ttname"><a href="../../d7/d49/class_control.html#a2c6036e7f6f4d78a4fa3430180bc63bb">Control::timeOpening</a></div><div class="ttdeci">const size_t timeOpening</div><div class="ttdoc">Время открывания дверей</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/df5/_control_8h_source.html#l00074">Control.h:74</a></div></div>
+<div class="ttc" id="aclass_control_html_a2cc419c836a6050230769de92c26fa3c"><div class="ttname"><a href="../../d7/d49/class_control.html#a2cc419c836a6050230769de92c26fa3c">Control::isElevatorEmpty</a></div><div class="ttdeci">bool isElevatorEmpty(size_t elevatorNumber) const</div><div class="ttdoc">Проверка того, что кабина лифта пуста</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/df5/_control_8h_source.html#l00200">Control.h:200</a></div></div>
+<div class="ttc" id="aclass_control_html_a33ac3c5967c5bb354ac6a82d9ba8c6ca"><div class="ttname"><a href="../../d7/d49/class_control.html#a33ac3c5967c5bb354ac6a82d9ba8c6ca">Control::isElevatorGoingUniformly</a></div><div class="ttdeci">bool isElevatorGoingUniformly(size_t elevatorNumber) const</div><div class="ttdoc">Проверка того, что кабина лифта движется равномерно</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/df5/_control_8h_source.html#l00250">Control.h:250</a></div></div>
+<div class="ttc" id="aclass_control_html_a3710347c41a0e352d0bca6fd67c510b2"><div class="ttname"><a href="../../d7/d49/class_control.html#a3710347c41a0e352d0bca6fd67c510b2">Control::PrintStatistics</a></div><div class="ttdeci">void PrintStatistics(bool passengersDetails, const std::string &amp;fname=&quot;&quot;) const</div><div class="ttdoc">Функция печати в файл или на экран итоговой статистики, включая итоговый &quot;рейтинг&quot; (чем меньше - тем ...</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d8c/_control_8cpp_source.html#l00639">Control.cpp:639</a></div></div>
+<div class="ttc" id="aclass_control_html_a408313f531ba60ca24d2348957d877de"><div class="ttname"><a href="../../d7/d49/class_control.html#a408313f531ba60ca24d2348957d877de">Control::isElevatorBreaking</a></div><div class="ttdeci">bool isElevatorBreaking(size_t elevatorNumber) const</div><div class="ttdoc">Проверка того, что кабина лифта замедляется (тормозит)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/df5/_control_8h_source.html#l00274">Control.h:274</a></div></div>
+<div class="ttc" id="aclass_control_html_a414c2700af846fb7bb4fe807f0036f20"><div class="ttname"><a href="../../d7/d49/class_control.html#a414c2700af846fb7bb4fe807f0036f20">Control::PrintButtonsState</a></div><div class="ttdeci">void PrintButtonsState(const std::string &amp;fname=&quot;&quot;) const</div><div class="ttdoc">Функция печати в файл или на экран состояния кнопок в кабинах и на этажах в текущий момент времени</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d8c/_control_8cpp_source.html#l00566">Control.cpp:566</a></div></div>
+<div class="ttc" id="aclass_control_html_a43b2f70a0602f4973f47c070b4137d67"><div class="ttname"><a href="../../d7/d49/class_control.html#a43b2f70a0602f4973f47c070b4137d67">Control::PrintElevatorState</a></div><div class="ttdeci">void PrintElevatorState(size_t elevatorNumber, const std::string &amp;fname=&quot;&quot;) const</div><div class="ttdoc">Функция печати в файл или на экран состояния лифта в текущий момент времени</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d8c/_control_8cpp_source.html#l00545">Control.cpp:545</a></div></div>
+<div class="ttc" id="aclass_control_html_a443f84586538dfe698c3307406e3b46e"><div class="ttname"><a href="../../d7/d49/class_control.html#a443f84586538dfe698c3307406e3b46e">Control::isElevatorDoorsOpened</a></div><div class="ttdeci">bool isElevatorDoorsOpened(size_t elevatorNumber) const</div><div class="ttdoc">Проверка того, что у кабины лифта в данный момент открыты двери</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/df5/_control_8h_source.html#l00310">Control.h:310</a></div></div>
+<div class="ttc" id="aclass_control_html_a452bff3ad51327be43181710b7eee73d"><div class="ttname"><a href="../../d7/d49/class_control.html#a452bff3ad51327be43181710b7eee73d">Control::SetElevatorDestination</a></div><div class="ttdeci">void SetElevatorDestination(size_t elevatorNumber, size_t destination)</div><div class="ttdoc">Функция задания назначения лифту</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/df5/_control_8h_source.html#l00120">Control.h:120</a></div></div>
+<div class="ttc" id="aclass_control_html_a4b52df6bb9c810d8f861e0118115bc04"><div class="ttname"><a href="../../d7/d49/class_control.html#a4b52df6bb9c810d8f861e0118115bc04">Control::getFloorUpButtons</a></div><div class="ttdeci">const std::vector&lt; bool &gt; &amp; getFloorUpButtons() const</div><div class="ttdoc">Функция запроса состояний кнопок &quot;вверх&quot; на этажах</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/df5/_control_8h_source.html#l00341">Control.h:341</a></div></div>
+<div class="ttc" id="aclass_control_html_a4d278476925f1daabd6e700dd574d59c"><div class="ttname"><a href="../../d7/d49/class_control.html#a4d278476925f1daabd6e700dd574d59c">Control::PrintPassengerState</a></div><div class="ttdeci">void PrintPassengerState(const std::string &amp;fname=&quot;&quot;) const</div><div class="ttdoc">Функция печати в файл или на экран событий, произошедших с пассажирами за последний шаг (последнюю се...</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d8c/_control_8cpp_source.html#l00608">Control.cpp:608</a></div></div>
+<div class="ttc" id="aclass_control_html_a585941066b04edf4df274530e63541b9"><div class="ttname"><a href="../../d7/d49/class_control.html#a585941066b04edf4df274530e63541b9">Control::AddPassengerToQueue</a></div><div class="ttdeci">void AddPassengerToQueue(const PassengerProperties &amp;passProp_)</div><div class="ttdoc">Функция добавления пассажира в очередь</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d8c/_control_8cpp_source.html#l00504">Control.cpp:504</a></div></div>
+<div class="ttc" id="aclass_control_html_a5cdb5f3e018fca019f95ffc3fe316348"><div class="ttname"><a href="../../d7/d49/class_control.html#a5cdb5f3e018fca019f95ffc3fe316348">Control::waitingTime</a></div><div class="ttdeci">const size_t waitingTime</div><div class="ttdoc">Время ожидания до закрытия дверей (если только кто-то не нажмет кнопку &quot;ход&quot; раньше)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/df5/_control_8h_source.html#l00065">Control.h:65</a></div></div>
+<div class="ttc" id="aclass_control_html_a603e4d87715759e77509c40dbaffa8ff"><div class="ttname"><a href="../../d7/d49/class_control.html#a603e4d87715759e77509c40dbaffa8ff">Control::Control</a></div><div class="ttdeci">Control(size_t numberOfFloors, size_t numberOfElevators, size_t capacityOfElevator)</div><div class="ttdoc">Инициализирующий конструктор</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d8c/_control_8cpp_source.html#l00022">Control.cpp:22</a></div></div>
+<div class="ttc" id="aclass_control_html_a6257904094e1a7e3bb5f798634d6a29f"><div class="ttname"><a href="../../d7/d49/class_control.html#a6257904094e1a7e3bb5f798634d6a29f">Control::timeBreaking</a></div><div class="ttdeci">const size_t timeBreaking</div><div class="ttdoc">Время торможения лифта</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/df5/_control_8h_source.html#l00083">Control.h:83</a></div></div>
+<div class="ttc" id="aclass_control_html_a63ec5be8e645ad30e35d5ca038cabfab"><div class="ttname"><a href="../../d7/d49/class_control.html#a63ec5be8e645ad30e35d5ca038cabfab">Control::isElevatorDoorsClosing</a></div><div class="ttdeci">bool isElevatorDoorsClosing(size_t elevatorNumber) const</div><div class="ttdoc">Проверка того, что у кабины лифта в данный момент закрываются двери</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/df5/_control_8h_source.html#l00298">Control.h:298</a></div></div>
+<div class="ttc" id="aclass_control_html_a63fc2225ceeabd2c5c6704f353827316"><div class="ttname"><a href="../../d7/d49/class_control.html#a63fc2225ceeabd2c5c6704f353827316">Control::unsetUpButton</a></div><div class="ttdeci">void unsetUpButton(size_t floor)</div><div class="ttdoc">Функция сброса (выключения) кнопки &quot;вверх&quot; на конкретном этаже</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/df5/_control_8h_source.html#l00380">Control.h:380</a></div></div>
+<div class="ttc" id="aclass_control_html_a663975be3c4ee628506092833442b1a3"><div class="ttname"><a href="../../d7/d49/class_control.html#a663975be3c4ee628506092833442b1a3">Control::isElevatorAchievedDestination</a></div><div class="ttdeci">bool isElevatorAchievedDestination(size_t elevatorNumber) const</div><div class="ttdoc">Проверка того, что лифт завершил выполнение текущего назначения</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/df5/_control_8h_source.html#l00167">Control.h:167</a></div></div>
+<div class="ttc" id="aclass_control_html_a7bb8570f17b2f25bb4d7614d9eea6f4e"><div class="ttname"><a href="../../d7/d49/class_control.html#a7bb8570f17b2f25bb4d7614d9eea6f4e">Control::isElevatorDoorsOpening</a></div><div class="ttdeci">bool isElevatorDoorsOpening(size_t elevatorNumber) const</div><div class="ttdoc">Проверка того, что у кабины лифта в данный момент открываются двери</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/df5/_control_8h_source.html#l00286">Control.h:286</a></div></div>
+<div class="ttc" id="aclass_control_html_a817312a31ff67d15fcd896e35c0101a6"><div class="ttname"><a href="../../d7/d49/class_control.html#a817312a31ff67d15fcd896e35c0101a6">Control::getElevatorPosition</a></div><div class="ttdeci">double getElevatorPosition(size_t elevatorNumber) const</div><div class="ttdoc">Функция запроса текущего положения лифта</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/df5/_control_8h_source.html#l00332">Control.h:332</a></div></div>
+<div class="ttc" id="aclass_control_html_a81bee73beaba5077167492d1d8081a86"><div class="ttname"><a href="../../d7/d49/class_control.html#a81bee73beaba5077167492d1d8081a86">Control::veloUniform</a></div><div class="ttdeci">const double veloUniform</div><div class="ttdoc">Скорость равномерно движения лифта (в долях этажа)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/df5/_control_8h_source.html#l00086">Control.h:86</a></div></div>
+<div class="ttc" id="aclass_control_html_a8726322f590afe14cdf99fd27236cbb2"><div class="ttname"><a href="../../d7/d49/class_control.html#a8726322f590afe14cdf99fd27236cbb2">Control::timeAccelerating</a></div><div class="ttdeci">const size_t timeAccelerating</div><div class="ttdoc">Время разгона лифта</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/df5/_control_8h_source.html#l00080">Control.h:80</a></div></div>
+<div class="ttc" id="aclass_control_html_a8755f7ae4b3b07093621d05a05764dfc"><div class="ttname"><a href="../../d7/d49/class_control.html#a8755f7ae4b3b07093621d05a05764dfc">Control::timeLeaving</a></div><div class="ttdeci">const size_t timeLeaving</div><div class="ttdoc">Время между выходами двух пассажиров в лифт</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/df5/_control_8h_source.html#l00071">Control.h:71</a></div></div>
+<div class="ttc" id="aclass_control_html_a8a3a64db673bef28c9a94a47b60bbf2a"><div class="ttname"><a href="../../d7/d49/class_control.html#a8a3a64db673bef28c9a94a47b60bbf2a">Control::getFloorUpButton</a></div><div class="ttdeci">bool getFloorUpButton(size_t floor) const</div><div class="ttdoc">Функция запроса состояния кнопки &quot;вверх&quot; на конкретном этаже</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/df5/_control_8h_source.html#l00360">Control.h:360</a></div></div>
+<div class="ttc" id="aclass_control_html_a8d2d688eef4088a0c6cda1e26c982217"><div class="ttname"><a href="../../d7/d49/class_control.html#a8d2d688eef4088a0c6cda1e26c982217">Control::timeClosing</a></div><div class="ttdeci">const size_t timeClosing</div><div class="ttdoc">Время закрывания дверей</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/df5/_control_8h_source.html#l00077">Control.h:77</a></div></div>
+<div class="ttc" id="aclass_control_html_a9647fa89a966699230e013f8946bc700"><div class="ttname"><a href="../../d7/d49/class_control.html#a9647fa89a966699230e013f8946bc700">Control::isElevatorAccelerating</a></div><div class="ttdeci">bool isElevatorAccelerating(size_t elevatorNumber) const</div><div class="ttdoc">Проверка того, что кабина лифта ускоряется (разгоняется)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/df5/_control_8h_source.html#l00262">Control.h:262</a></div></div>
+<div class="ttc" id="aclass_control_html_a96cd004fbddf03e59c9fef5aa1a0ac15"><div class="ttname"><a href="../../d7/d49/class_control.html#a96cd004fbddf03e59c9fef5aa1a0ac15">Control::SetElevatorIndicator</a></div><div class="ttdeci">void SetElevatorIndicator(size_t elevatorNumber, ElevatorIndicator indicator)</div><div class="ttdoc">Функция задания состояния индикатора лифта (лампочка со стрелочкой, которую видят пассажиры)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/df5/_control_8h_source.html#l00130">Control.h:130</a></div></div>
+<div class="ttc" id="aclass_control_html_a99713e4d37ca9a98d910ccddc8a78f91"><div class="ttname"><a href="../../d7/d49/class_control.html#a99713e4d37ca9a98d910ccddc8a78f91">Control::getElevatorButtons</a></div><div class="ttdeci">const std::vector&lt; bool &gt; &amp; getElevatorButtons(size_t elevatorNumber) const</div><div class="ttdoc">Функция запроса состояний кнопок в кабине лифта</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/df5/_control_8h_source.html#l00400">Control.h:400</a></div></div>
+<div class="ttc" id="aclass_control_html_aa27494d5cb489fd00e10e14a93667a7e"><div class="ttname"><a href="../../d7/d49/class_control.html#aa27494d5cb489fd00e10e14a93667a7e">Control::MakeStep</a></div><div class="ttdeci">void MakeStep()</div><div class="ttdoc">Функция выполнения шага моделирования по времени</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d8c/_control_8cpp_source.html#l00102">Control.cpp:102</a></div></div>
+<div class="ttc" id="aclass_control_html_aa5693e7ef5ad62d53da9678b001f1baf"><div class="ttname"><a href="../../d7/d49/class_control.html#aa5693e7ef5ad62d53da9678b001f1baf">Control::isElevatorEmptyAfterUnloading</a></div><div class="ttdeci">bool isElevatorEmptyAfterUnloading(size_t elevatorNumber) const</div><div class="ttdoc">Проверка того, что лифт пустой после выхода очередного пассажира</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/df5/_control_8h_source.html#l00188">Control.h:188</a></div></div>
+<div class="ttc" id="aclass_control_html_ab0228cfb751bdd51988c703ad89ce16d"><div class="ttname"><a href="../../d7/d49/class_control.html#ab0228cfb751bdd51988c703ad89ce16d">Control::getElevatorIndicator</a></div><div class="ttdeci">ElevatorIndicator getElevatorIndicator(size_t elevatorNumber) const</div><div class="ttdoc">Функция запроса текущего состояния индикатора</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/df5/_control_8h_source.html#l00150">Control.h:150</a></div></div>
+<div class="ttc" id="aclass_control_html_ab446f2fd5dd6eb95053119e0629ec9f3"><div class="ttname"><a href="../../d7/d49/class_control.html#ab446f2fd5dd6eb95053119e0629ec9f3">Control::getCurrentTime</a></div><div class="ttdeci">size_t getCurrentTime() const</div><div class="ttdoc">Функция запроса текущего времени</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/df5/_control_8h_source.html#l00110">Control.h:110</a></div></div>
+<div class="ttc" id="aclass_control_html_ab47ee5471f0bb404731507851f2cb140"><div class="ttname"><a href="../../d7/d49/class_control.html#ab47ee5471f0bb404731507851f2cb140">Control::isElevatorStaying</a></div><div class="ttdeci">bool isElevatorStaying(size_t elevatorNumber) const</div><div class="ttdoc">Проверка того, что кабина лифта стоит (не движется)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/df5/_control_8h_source.html#l00238">Control.h:238</a></div></div>
+<div class="ttc" id="aclass_control_html_ac7c416e2594c0c5a67a7416aed9bb136"><div class="ttname"><a href="../../d7/d49/class_control.html#ac7c416e2594c0c5a67a7416aed9bb136">Control::getFloorDnButtons</a></div><div class="ttdeci">const std::vector&lt; bool &gt; &amp; getFloorDnButtons() const</div><div class="ttdoc">Функция запроса состояний кнопок &quot;вниз&quot; на этажах</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/df5/_control_8h_source.html#l00350">Control.h:350</a></div></div>
+<div class="ttc" id="aclass_control_html_acfbbba80d9acb4ff35ccf3c5e2939c50"><div class="ttname"><a href="../../d7/d49/class_control.html#acfbbba80d9acb4ff35ccf3c5e2939c50">Control::unsetDnButton</a></div><div class="ttdeci">void unsetDnButton(size_t floor)</div><div class="ttdoc">Функция сброса (выключения) кнопки &quot;вниз&quot; на конкретном этаже</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/df5/_control_8h_source.html#l00390">Control.h:390</a></div></div>
+<div class="ttc" id="aclass_control_html_ad5264774f4a993f47feb2aafef7845f4"><div class="ttname"><a href="../../d7/d49/class_control.html#ad5264774f4a993f47feb2aafef7845f4">Control::getElevatorButton</a></div><div class="ttdeci">bool getElevatorButton(size_t elevatorNumber, size_t floor) const</div><div class="ttdoc">Функция запроса состояния конкретной кнопки в кабине лифта</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/df5/_control_8h_source.html#l00411">Control.h:411</a></div></div>
+<div class="ttc" id="aclass_control_html_ad8e27707c5bec6a332cd038366ae7c90"><div class="ttname"><a href="../../d7/d49/class_control.html#ad8e27707c5bec6a332cd038366ae7c90">Control::timeEntering</a></div><div class="ttdeci">const size_t timeEntering</div><div class="ttdoc">Время между входами двух пассажиров в лифт</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/df5/_control_8h_source.html#l00068">Control.h:68</a></div></div>
+<div class="ttc" id="aclass_control_html_ae4150c4fa9a98a4855b7e47694e62408"><div class="ttname"><a href="../../d7/d49/class_control.html#ae4150c4fa9a98a4855b7e47694e62408">Control::isElevatorStayingDoorsClosed</a></div><div class="ttdeci">bool isElevatorStayingDoorsClosed(size_t elevatorNumber) const</div><div class="ttdoc">Проверка того, что у кабина лифта в данный момент стоит на этаже с закрытыми дверьми</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/df5/_control_8h_source.html#l00322">Control.h:322</a></div></div>
+<div class="ttc" id="aclass_control_html_ae65042411a4de8861223d985e4df1bd3"><div class="ttname"><a href="../../d7/d49/class_control.html#ae65042411a4de8861223d985e4df1bd3">Control::getFloorDnButton</a></div><div class="ttdeci">bool getFloorDnButton(size_t floor) const</div><div class="ttdoc">Функция запроса состояния кнопки &quot;вниз&quot; на конкретном этаже</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/df5/_control_8h_source.html#l00370">Control.h:370</a></div></div>
+<div class="ttc" id="aclass_control_html_aedda1328c4f8b8d49bca8f0812d3bfd1"><div class="ttname"><a href="../../d7/d49/class_control.html#aedda1328c4f8b8d49bca8f0812d3bfd1">Control::~Control</a></div><div class="ttdeci">~Control()</div><div class="ttdoc">Деструктор</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d8c/_control_8cpp_source.html#l00030">Control.cpp:30</a></div></div>
+<div class="ttc" id="aclass_control_html_af065af4a47846adad7a0bcc10bffff30"><div class="ttname"><a href="../../d7/d49/class_control.html#af065af4a47846adad7a0bcc10bffff30">Control::getElevatorDestination</a></div><div class="ttdeci">size_t getElevatorDestination(size_t elevatorNumber) const</div><div class="ttdoc">Функция запроса текущего назначения</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/df5/_control_8h_source.html#l00140">Control.h:140</a></div></div>
+<div class="ttc" id="aclass_control_html_afa60538067330dfbc1beaacb9ddce8d9"><div class="ttname"><a href="../../d7/d49/class_control.html#afa60538067330dfbc1beaacb9ddce8d9">Control::ReadTimeTable</a></div><div class="ttdeci">void ReadTimeTable(const std::string &amp;fileName_)</div><div class="ttdoc">Функция чтения расписания появления пассажиров на этажах</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d8c/_control_8cpp_source.html#l00509">Control.cpp:509</a></div></div>
+<div class="ttc" id="aclass_queue_html"><div class="ttname"><a href="../../d4/da4/class_queue.html">Queue</a></div><div class="ttdoc">Класс — очередь пассажиров</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc4/_queue_8h_source.html#l00021">Queue.h:22</a></div></div>
+<div class="ttc" id="amain_8cpp_html_a365a9dbb84be610d5c7f44a6cfb5dcc6"><div class="ttname"><a href="../../df/d0a/main_8cpp.html#a365a9dbb84be610d5c7f44a6cfb5dcc6">numberOfFloors</a></div><div class="ttdeci">const size_t numberOfFloors</div><div class="ttdoc">Общее число этажей</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d0a/main_8cpp_source.html#l00065">main.cpp:65</a></div></div>
+<div class="ttc" id="amain_8cpp_html_ab007a698126fd17548d5efee792ff4cc"><div class="ttname"><a href="../../df/d0a/main_8cpp.html#ab007a698126fd17548d5efee792ff4cc">numberOfElevators</a></div><div class="ttdeci">const size_t numberOfElevators</div><div class="ttdoc">Число лифтов</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d0a/main_8cpp_source.html#l00054">main.cpp:54</a></div></div>
+<div class="ttc" id="astruct_passenger_properties_html"><div class="ttname"><a href="../../d0/d91/struct_passenger_properties.html">PassengerProperties</a></div><div class="ttdoc">Параметры пассажиров</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d71/_passenger_8h_source.html#l00027">Passenger.h:28</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../dc/df5/_control_8h.html">Control.h</a></li>
+    <li class="footer">Создано системой <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+  </ul>
+</div>
+</body>
+</html>

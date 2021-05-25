@@ -5,8 +5,8 @@
 \file
 \brief Заголовочный файл с описанием основного класса Control
 \author Марчевский Илья Константинович
-\version 0.4
-\date 14 апреля 2021 г.
+\version 0.5
+\date 25 мая 2021 г.
 */
 
 #pragma once
@@ -419,6 +419,11 @@ public:
 	/// \param[in] passProp_ константная ссылка на список параметров пассажира	
 	void AddPassengerToQueue(const PassengerProperties& passProp_);
 	
+	/// \brief Функция чтения расписания появления пассажиров на этажах
+	/// 
+	/// \param[in] fileName_ константная ссылка на имя файла с расписанием	
+	void ReadTimeTable(const std::string& fileName_);
+
 
 	/// \brief Функция печати в файл или на экран состояния лифта в текущий момент времени
 	///

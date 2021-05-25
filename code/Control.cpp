@@ -5,8 +5,8 @@
 \file
 \brief Файл кода с описанием класса Control
 \author Марчевский Илья Константинович
-\version 0.4
-\date 14 апреля 2021 г.
+\version 0.5
+\date 25 мая 2021 г.
 */
 
 #include <algorithm>
@@ -506,6 +506,41 @@ void Control::AddPassengerToQueue(const PassengerProperties& passProp_)
 	queue->addPassenger(passProp_);
 }//AddPassengerToQueue(...)
 
+void Control::ReadTimeTable(const std::string& fileName_)
+{
+	std::ifstream fi(fileName_);
+
+	char str[255];
+	fi.getline(str, 100, '\n');
+	
+	PassengerProperties passProp;
+	int N;	
+	
+	while (!fi.eof())
+	{
+		fi >> N;
+		fi.get();
+		fi >> passProp.timeInit;
+		fi.get();
+		fi >> passProp.floorDeparture;
+		fi.get();
+		fi >> passProp.floorDestination;
+		fi.get();
+		fi >> passProp.criticalWaitTime;
+		fi.get();
+		fi >> passProp.pInverseStartWaiting;
+		fi.get();
+		fi >> passProp.pInverseStopWaiting;
+		fi.get();
+		fi >> passProp.pStartGoing;
+
+		queue->addPassenger(passProp);
+	}
+
+	fi.close();
+	fi.clear();
+}
+
 
 void Control::PrintElevatorState(size_t i, const std::string& fname) const
 {
@@ -679,9 +714,17 @@ void Control::PrintStatistics(bool passengersDetails, const std::string& fname) 
 	size_t waitingTime = 0, goingTime = 0, totalTime = 0;
 	for (auto& p : queue->finished)
 	{
-		waitingTime += p.timeStart - p.getTimeInit();
-		goingTime += p.timeFinish - p.timeStart;
-		totalTime += p.timeFinish - p.getTimeInit();
+		if (p.status != PassengerStatus::leaved)
+		{
+			waitingTime += p.timeStart - p.getTimeInit();
+			goingTime += p.timeFinish - p.timeStart;
+			totalTime += p.timeFinish - p.getTimeInit();
+		}
+		else
+		{
+			waitingTime += p.properties.criticalWaitTime;
+			totalTime += p.properties.criticalWaitTime;
+		}
 	}//for p
 
 	str << "Number of passengers, that have finished the trip: " << queue->finished.size() << std::endl;

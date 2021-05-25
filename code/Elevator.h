@@ -5,8 +5,8 @@
 \file
 \brief Заголовочный файл с описанием класса Elevator и сопутствующих структур
 \author Марчевский Илья Константинович
-\version 0.4
-\date 14 апреля 2021 г.
+\version 0.5
+\date 25 мая 2021 г.
 */
 
 #pragma once
@@ -155,7 +155,7 @@ private:
 
 	bool isGoingDn() const
 	{
-		return (status == ElevatorStatus::movingUp);
+		return (status == ElevatorStatus::movingDn);
 	}
 
 	bool isGoingUniformly() const

@@ -1,0 +1,6 @@
+<map id="FloorButtons.h" name="FloorButtons.h">
+<area shape="rect" id="node1" title="Заголовочный файл с описанием класса FloorButtons." alt="" coords="48,5,155,32"/>
+<area shape="rect" id="node2" href="$dc/df5/_control_8h.html" title="Заголовочный файл с описанием основного класса Control." alt="" coords="64,80,139,107"/>
+<area shape="rect" id="node3" href="$d9/d8c/_control_8cpp.html" title="Файл кода с описанием класса Control." alt="" coords="5,155,93,181"/>
+<area shape="rect" id="node4" href="$df/d0a/main_8cpp.html" title="Основной файл программы elevator." alt="" coords="117,155,192,181"/>
+</map>

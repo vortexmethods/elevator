@@ -1,0 +1,13 @@
+<map id="CONTROLSYSTEM" name="CONTROLSYSTEM">
+<area shape="rect" id="node1" title="Основная функция системы управления" alt="" coords="5,233,143,260"/>
+<area shape="rect" id="node2" href="$d7/d49/class_control.html#ab446f2fd5dd6eb95053119e0629ec9f3" title="Функция запроса текущего времени" alt="" coords="213,5,371,32"/>
+<area shape="rect" id="node3" href="$d7/d49/class_control.html#af065af4a47846adad7a0bcc10bffff30" title="Функция запроса текущего назначения" alt="" coords="192,56,392,83"/>
+<area shape="rect" id="node4" href="$d7/d49/class_control.html#ab0228cfb751bdd51988c703ad89ce16d" title="Функция запроса текущего состояния индикатора" alt="" coords="200,107,384,133"/>
+<area shape="rect" id="node5" href="$d7/d49/class_control.html#a817312a31ff67d15fcd896e35c0101a6" title="Функция запроса текущего положения лифта" alt="" coords="201,157,383,184"/>
+<area shape="rect" id="node6" href="$d7/d49/class_control.html#ac7c416e2594c0c5a67a7416aed9bb136" title="Функция запроса состояний кнопок &quot;вниз&quot; на этажах" alt="" coords="203,208,381,235"/>
+<area shape="rect" id="node7" href="$d7/d49/class_control.html#a4b52df6bb9c810d8f861e0118115bc04" title="Функция запроса состояний кнопок &quot;вверх&quot; на этажах" alt="" coords="203,259,381,285"/>
+<area shape="rect" id="node8" href="$d7/d49/class_control.html#a663975be3c4ee628506092833442b1a3" title="Проверка того, что лифт завершил выполнение текущего назначения" alt="" coords="203,310,381,351"/>
+<area shape="rect" id="node9" href="$d7/d49/class_control.html#a33ac3c5967c5bb354ac6a82d9ba8c6ca" title="Проверка того, что кабина лифта движется равномерно" alt="" coords="211,375,373,417"/>
+<area shape="rect" id="node10" href="$d7/d49/class_control.html#a452bff3ad51327be43181710b7eee73d" title="Функция задания назначения лифту" alt="" coords="191,441,393,468"/>
+<area shape="rect" id="node11" href="$d7/d49/class_control.html#a96cd004fbddf03e59c9fef5aa1a0ac15" title="Функция задания состояния индикатора лифта (лампочка со стрелочкой, которую видят пассажиры)" alt="" coords="199,492,385,519"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="Control::getCurrentTime" name="Control::getCurrentTime">
+<area shape="rect" id="node1" title="Функция запроса текущего времени" alt="" coords="343,157,501,184"/>
+<area shape="rect" id="node2" href="$df/d0a/main_8cpp.html#aea9479afe83d190f4c92ca7c1688b32d" title="Основная функция системы управления" alt="" coords="131,5,268,32"/>
+<area shape="rect" id="node3" href="$df/d0a/main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,157,56,184"/>
+<area shape="rect" id="node4" href="$d7/d49/class_control.html#aa27494d5cb489fd00e10e14a93667a7e" title="Функция выполнения шага моделирования по времени" alt="" coords="134,107,265,133"/>
+<area shape="rect" id="node5" href="$d7/d49/class_control.html#a414c2700af846fb7bb4fe807f0036f20" title="Функция печати в файл или на экран состояния кнопок в кабинах и на этажах в текущий момент времени" alt="" coords="112,157,287,184"/>
+<area shape="rect" id="node6" href="$d7/d49/class_control.html#a43b2f70a0602f4973f47c070b4137d67" title="Функция печати в файл или на экран состояния лифта в текущий момент времени" alt="" coords="112,208,287,235"/>
+<area shape="rect" id="node7" href="$d7/d49/class_control.html#a4d278476925f1daabd6e700dd574d59c" title="Функция печати в файл или на экран событий, произошедших с пассажирами за последний шаг (последнюю се..." alt="" coords="104,259,295,285"/>
+<area shape="rect" id="node8" href="$d7/d49/class_control.html#a3710347c41a0e352d0bca6fd67c510b2" title="Функция печати в файл или на экран итоговой статистики, включая итоговый &quot;рейтинг&quot; (чем меньше &#45; тем ..." alt="" coords="123,309,276,336"/>
+</map>

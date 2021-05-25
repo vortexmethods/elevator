@@ -5,8 +5,8 @@
 \file
 \brief Основной файл программы elevator
 \author Марчевский Илья Константинович
-\version 0.4
-\date 14 апреля 2021 г.
+\version 0.5
+\date 25 мая 2021 г.
 */
 
 /*!
@@ -20,8 +20,8 @@
 Требуется разработать алгоритм, при котором суммарный "штраф" будет как можно меньше!
 
 \author Марчевский Илья Константинович
-\version 0.4
-\date 14 апреля 2021 г.
+\version 0.5
+\date 25 мая 2021 г.
 */
 
 
@@ -65,8 +65,8 @@ const size_t maxFloor = 11;
 const size_t numberOfFloors = maxFloor + 1;
 
 /// Время моделирования в секундах
-/// \warning Cейчас для тестирования задано 600 секунд, в реальной задаче буде 54000 секунд: от 7:00 утра до 22:00 вечера
-const size_t maxTime = 600; 
+/// \warning Cейчас для тестирования задано 6000 секунд, в реальной задаче буде 54000 секунд: от 7:00 утра до 22:00 вечера
+const size_t maxTime = 6000; 
                             
 
 /// \brief Основная функция системы управления
@@ -120,6 +120,9 @@ int main(int argc, char** argv)
     //Задание конфигурации лифтового хозяйства
     Control control(numberOfFloors, numberOfElevators, elevatorCapacity);
 
+    //Для загрузки расписания появления пассажиров из файла
+    control.ReadTimeTable("TimeTable/timetable125.csv");
+
     //Для тестирования вводим появляющихся пассажиров вручную
     //позже это будет сделано путем чтения файла
     //параметры в фиг. скобках
@@ -132,6 +135,7 @@ int main(int argc, char** argv)
     // 6) вероятность сесть в лифт, идущий в обратном направлении, в конце ожидания
     // 7) вероятеность того, что пассажир, войдя в лифт, нажмет "ход" и лифт не будет стоять
     // }    
+    /*
     control.AddPassengerToQueue({  5, 5,  3, 300, 0.01, 0.20, 0.50 });
     control.AddPassengerToQueue({  6, 5, 10, 300, 0.01, 0.20, 0.50 });    
     control.AddPassengerToQueue({  7, 5,  2, 300, 0.01, 0.20, 0.50 });
@@ -142,7 +146,8 @@ int main(int argc, char** argv)
     control.AddPassengerToQueue({ 12, 5,  8, 300, 0.01, 0.20, 0.50 });
     control.AddPassengerToQueue({ 13, 5, 11, 300, 0.01, 0.20, 0.50 });
     control.AddPassengerToQueue({ 14, 5, 10, 300, 0.01, 0.20, 0.50 });
-        
+    */
+
     myParams params;
 
     do
