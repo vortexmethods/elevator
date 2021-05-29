@@ -1,4 +1,0 @@
-<map id="Control::PrintPassengerState" name="Control::PrintPassengerState">
-<area shape="rect" id="node1" title="Функция печати в файл или на экран событий, произошедших с пассажирами за последний шаг (последнюю се..." alt="" coords="5,5,196,32"/>
-<area shape="rect" id="node2" href="$d7/d49/class_control.html#ab446f2fd5dd6eb95053119e0629ec9f3" title="Функция запроса текущего времени" alt="" coords="244,5,403,32"/>
-</map>

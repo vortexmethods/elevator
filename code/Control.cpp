@@ -5,8 +5,8 @@
 \file
 \brief Файл кода с описанием класса Control
 \author Марчевский Илья Константинович
-\version 0.5
-\date 25 мая 2021 г.
+\version 0.6
+\date 29 мая 2021 г.
 */
 
 #include <algorithm>
@@ -168,6 +168,14 @@ void Control::MakeStep()
 					if (passToDn == 0)
 						for (auto& e : elevOnFloor)
 							if (e->getIndicator() == ElevatorIndicator::down)
+							{
+								e->timeToSelfProgramme = waitingTime;
+								e->doorsStatus = ElevatorDoorsStatus::waiting;
+							};
+
+					if ((passToUp == 0) && (passToDn == 0))
+						for (auto& e : elevOnFloor)
+							if (e->getIndicator() == ElevatorIndicator::both)
 							{
 								e->timeToSelfProgramme = waitingTime;
 								e->doorsStatus = ElevatorDoorsStatus::waiting;
@@ -357,6 +365,33 @@ void Control::MakeStep()
 
 				case ElevatorDoorsStatus::closed:
 				{
+					//Если лифт стоит на этаже и появляется человек снаружи //29.05.2021
+					if ( ((e->position % 100) == 0 ) && (e->isEmpty()) )
+					{
+						if (queue->passOnFloor[e->position / 100].size() > 0)
+						{
+							bool isPassUp = false, isPassDn = false;
+							for (auto& p : queue->passOnFloor[e->position / 100])
+							{
+								if (p.getFloorDestination() > pos)
+									isPassUp = true;
+								if (p.getFloorDestination() < pos)
+									isPassDn = true;
+							}
+							
+							if ((e->indicator == ElevatorIndicator::both)
+								|| (e->indicator == ElevatorIndicator::up && isPassUp)
+								|| (e->indicator == ElevatorIndicator::down && isPassDn))
+							{
+								e->doorsStatus = ElevatorDoorsStatus::opening;
+								e->buttons[pos] = false;
+								e->timeToSelfProgramme = timeOpening - 1;
+								break;
+							}
+							
+						}
+					}
+					
 					//Если есть назначение для стоящего лифта с закрытыми дверьми - разгоняем
 
 					//вверх
@@ -382,7 +417,7 @@ void Control::MakeStep()
 						//но открываем двери только если либо он непустой, либо снаружи нажата кнопка:
 						if ((e->getNumberOfPassengers() > 0) ||
 							(floorButtons->getDnButton(e->destinationFloor)) ||
-							(floorButtons->getUpButton(e->destinationFloor)))
+							(floorButtons->getUpButton(e->destinationFloor))) 							
 						{
 							e->doorsStatus = ElevatorDoorsStatus::opening;
 							e->buttons[pos] = false;
@@ -396,14 +431,17 @@ void Control::MakeStep()
 								(e->indicator == ElevatorIndicator::up || e->indicator == ElevatorIndicator::both))
 								floorButtons->unsetUpButton(e->destinationFloor);
 						}//if ((e->getNumberOfPassengers() > 0) ||...
-					}//if (((e->position...
+					}//if (((e->position...										
 					break;
 				}//case ElevatorDoorsStatus::closed:
 
 				case ElevatorDoorsStatus::opening:
 				{
 					//Только что открывший двери лифт - делаем двери открытыми
-					e->doorsStatus = ElevatorDoorsStatus::openedUnloading;
+					if (e->isEmpty()) //29.05.2021
+						e->doorsStatus = ElevatorDoorsStatus::openedLoading;
+					else
+						e->doorsStatus = ElevatorDoorsStatus::openedUnloading;
 					break;
 				}
 
@@ -436,14 +474,26 @@ void Control::MakeStep()
 				case ElevatorAcceleration::uniform:
 				{
 					int sign = (e->status == ElevatorStatus::movingUp) ? 1 : -1;
-					if (abs((int)((e->position - 100 * e->destinationFloor))) != (int)(100 * veloUniform))
-						e->position += sign * (int)(100 * veloUniform);
+					
+					bool critDir = ((100 * (int)e->destinationFloor - (int)e->position) * sign) > 0;
+					if (critDir)
+					{
+						if (abs((int)((e->position - 100 * e->destinationFloor))) != (int)(100 * veloUniform))
+
+							e->position += sign * (int)(100 * veloUniform);
+						else
+						{
+							e->acceleration = ElevatorAcceleration::breaking;
+							e->position += sign * 12;
+							e->timeToSelfProgramme = timeBreaking - 1;
+						}//else
+					}
 					else
 					{
 						e->acceleration = ElevatorAcceleration::breaking;
 						e->position += sign * 12;
 						e->timeToSelfProgramme = timeBreaking - 1;
-					}//else
+					}
 				}//case ElevatorAcceleration::uniform:
 
 				}//switch (e->acceleration)
@@ -555,8 +605,134 @@ void Control::PrintElevatorState(size_t i, const std::string& fname) const
 	
 	std::ostream& str = (fname == "") ? std::cout : fout;
 
-	str << "time = " << getCurrentTime() << ", \telev[" << i << "]: " \
-		<< elevators[i]->getStateString() << std::endl;
+/*str << "time = " << getCurrentTime() << ", \telev[" << i << "]: " \
+		<< elevators[i]->getStateString() << std::endl;*/
+
+	printf("\033[01;37m");
+	str << "time = " << getCurrentTime() << ", \telev[";
+	switch (i) {
+	case 0: printf("\033[01;34m"); break;
+	case 1: printf("\033[01;32m"); break;
+	case 2: printf("\033[22;31m"); break;
+	case 3: printf("\033[01;35m"); break;
+	default: printf("\033[22;33m");
+	}
+	str << i;
+	printf("\033[01;37m");
+	str << "]: ";
+
+	//begin
+	//std::string strState;
+
+	//std::string strStatus;
+
+	str << "level = ";
+	str << std::to_string(elevators[i]->position / 100);
+	str << ".";
+	if ((elevators[i]->position % 100) < 10)
+		str << "0";
+	str << std::to_string(elevators[i]->position % 100);
+
+	str << ", dir. = ";
+
+	switch (elevators[i]->status)
+	{
+	case ElevatorStatus::movingUp:
+		printf("\033[01;32m");
+		str << "up,  ";
+		break;
+	case ElevatorStatus::movingDn:
+		printf("\033[01;34m");
+		str << "dn,  ";
+		break;
+	case ElevatorStatus::staying:
+		printf("\033[01;33m");
+		str << "stay,";
+		break;
+	}//switch (status)
+
+	printf("\033[01;37m");
+	str << " ind. = ";
+
+	//std::string strIndicator;
+	switch (elevators[i]->indicator)
+	{
+	case ElevatorIndicator::up:
+		printf("\033[01;32m");
+		str << "up,  ";
+		break;
+	case ElevatorIndicator::down:
+		printf("\033[01;34m");
+		str << "down,";
+		break;
+	case ElevatorIndicator::both:
+		printf("\033[01;33m");
+		str << "both,";
+		break;
+	}// switch (indicator)
+
+	printf("\033[01;37m");
+	str << " acceler. = ";
+
+	//std::string strAccel;
+	switch (elevators[i]->acceleration)
+	{
+	case ElevatorAcceleration::accelerating:
+		printf("\033[22;32m");
+		str << "acceler.,";
+		break;
+	case ElevatorAcceleration::breaking:
+		printf("\033[22;31m");
+		str << "breaking,";
+		break;
+	case  ElevatorAcceleration::uniform:
+		printf("\033[22;33m");
+		str << "uniform, ";
+		break;
+	}//switch (acceleration)
+
+	printf("\033[01;37m");
+	str << " doors = ";
+
+	//std::string strDoors;
+	switch (elevators[i]->doorsStatus)
+	{
+	case ElevatorDoorsStatus::openedUnloading:
+		printf("\033[01;31m");
+		str << "unloading...";
+		break;
+	case ElevatorDoorsStatus::openedLoading:
+		printf("\033[01;31m");
+		str << "loading...  ";
+		break;
+	case ElevatorDoorsStatus::opening:
+		printf("\033[01;33m");
+		str << "opening...  ";
+		break;
+	case ElevatorDoorsStatus::closing:
+		printf("\033[01;33m");
+		str << "closing...  ";
+		break;
+	case ElevatorDoorsStatus::closed:
+		printf("\033[22;36m");
+		str << "closed      ";
+		break;
+	case ElevatorDoorsStatus::waiting:
+		printf("\033[01;31m");
+		str << "waiting...  ";
+		break;
+	}//switch (doorsStatus)
+
+	printf("\033[01;37m");
+	str << " (pass.: ";
+	for (auto& p : elevators[i]->passengers)
+	{
+		str << std::to_string(p.id);
+		str << ", ";
+	}//for p
+	str << ")" << std::endl;
+	//end
+
 
 	if (fname != "")
 		fout.close();
@@ -583,7 +759,7 @@ void Control::PrintButtonsState(const std::string& fname) const
 		for (size_t i = 0; i < e->buttons.size(); ++i)
 			if (e->getButton(i))
 				str << i << " ";
-		str << std::endl;		
+		str << std::endl;
 	}//for e
 	str << " on floors: ";
 	for (size_t i = 0; i < floorButtons->upButtons.size(); ++i)
@@ -591,10 +767,15 @@ void Control::PrintButtonsState(const std::string& fname) const
 		if (floorButtons->getUpButton(i) || floorButtons->getDnButton(i))
 		{
 			str << "#" << i << "(";
-			if (floorButtons->getUpButton(i))
+			if (floorButtons->getUpButton(i)) {
+				printf("\033[01;32m");
 				str << "up ";
-			if (floorButtons->getDnButton(i))
+			}
+			if (floorButtons->getDnButton(i)) {
+				printf("\033[01;34m");
 				str << "dn";
+			}
+			printf("\033[01;37m");
 			str << ")  ";
 		}//if (floorButtons->...
 	}//for i
@@ -617,13 +798,14 @@ void Control::PrintPassengerState(const std::string& fname) const
 	}//if (fname != "")
 
 	std::ostream& str = (fname == "") ? std::cout : fout;
-
-	if (passStatBuffer.size() > 0)	
+	printf("\033[01;33m");
+	if (passStatBuffer.size() > 0)
 		for (auto& st : passStatBuffer)
-			str << st << std::endl;		
-	
+			str << st << std::endl;
+
 	if (fname != "")
 		fout.close();
+	printf("\033[01;37m");
 }//PrintPassengerState(...)
 
 
@@ -712,27 +894,33 @@ void Control::PrintStatistics(bool passengersDetails, const std::string& fname) 
 		str << std::endl;
 
 	size_t waitingTime = 0, goingTime = 0, totalTime = 0;
+	size_t num_finished_notLeaved = 0;
 	for (auto& p : queue->finished)
-	{
+	{		
 		if (p.status != PassengerStatus::leaved)
 		{
+			++num_finished_notLeaved;
 			waitingTime += p.timeStart - p.getTimeInit();
 			goingTime += p.timeFinish - p.timeStart;
 			totalTime += p.timeFinish - p.getTimeInit();
 		}
-		else
-		{
-			waitingTime += p.properties.criticalWaitTime;
-			totalTime += p.properties.criticalWaitTime;
-		}
+		//else
+		//{
+		//	waitingTime += p.properties.criticalWaitTime;
+		//	totalTime += p.properties.criticalWaitTime;
+		//}
 	}//for p
 
-	str << "Number of passengers, that have finished the trip: " << queue->finished.size() << std::endl;
-	str << " average waiting time = " << 1.0 * waitingTime / queue->finished.size() << std::endl;
-	str << " average going time =   " << 1.0 * goingTime / queue->finished.size() << std::endl;
-	str << " average total time =   " << 1.0 * totalTime / queue->finished.size() << std::endl;
-	str << "Penalty for them = " << penaltyFinished << std::endl;	
+	str << "Number of passengers, that have finished the trip: " << num_finished_notLeaved << std::endl;
+	if (num_finished_notLeaved > 0)
+	{
+		str << " average waiting time = " << 1.0 * waitingTime / num_finished_notLeaved << std::endl;
+		str << " average going time =   " << 1.0 * goingTime / num_finished_notLeaved << std::endl;
+		str << " average total time =   " << 1.0 * totalTime / num_finished_notLeaved << std::endl;
+	}
+	str << "Penalty for them = " << penaltyFinished << std::endl;
 	str << std::endl;
+	
 
 	str << "Still waiting on floors = " << numOnFloors << std::endl;
 	str << "Penalty for them = " << penaltyOnFloors << std::endl;

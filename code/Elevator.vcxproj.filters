@@ -1,45 +1,36 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Исходные файлы">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
-    <Filter Include="Файлы заголовков">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
-    <Filter Include="Файлы ресурсов">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
-    </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Control.cpp">
-      <Filter>Исходные файлы</Filter>
+    <ClCompile Include="C:\GitHub\elevator\code\main.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp">
-      <Filter>Исходные файлы</Filter>
+    <ClCompile Include="C:\GitHub\elevator\code\Control.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Elevator.cpp">
-      <Filter>Исходные файлы</Filter>
+    <ClCompile Include="C:\GitHub\elevator\code\Elevator.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Control.h">
-      <Filter>Файлы заголовков</Filter>
+    <ClInclude Include="C:\GitHub\elevator\code\Passenger.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Elevator.h">
-      <Filter>Файлы заголовков</Filter>
+    <ClInclude Include="C:\GitHub\elevator\code\Queue.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Passenger.h">
-      <Filter>Файлы заголовков</Filter>
+    <ClInclude Include="C:\GitHub\elevator\code\FloorButtons.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="FloorButtons.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
-    <ClInclude Include="Queue.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\GitHub\elevator\code\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{96679175-8ECE-369F-B787-3C2C3090A2CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A6632E49-7A31-318E-A68D-7D4A648869FA}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
 </Project>

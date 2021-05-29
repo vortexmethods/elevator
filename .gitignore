@@ -34,8 +34,19 @@
 # Project
 *.sln
 *.user
+*.vcxproj
+code/Elevator.vcxproj
+*.filters
+code/Elevator.vcxproj.filters
+*.cmake
+CMakeCache.txt
+
 
 # Folders
 code/.vs/
 code/Debug/
 code/Release/ 
+code/RelWithDebInfo/
+CMakeFiles/
+code/elevator.dir/
+code/x64/

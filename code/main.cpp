@@ -5,8 +5,8 @@
 \file
 \brief Основной файл программы elevator
 \author Марчевский Илья Константинович
-\version 0.5
-\date 25 мая 2021 г.
+\version 0.6
+\date 29 мая 2021 г.
 */
 
 /*!
@@ -20,12 +20,16 @@
 Требуется разработать алгоритм, при котором суммарный "штраф" будет как можно меньше!
 
 \author Марчевский Илья Константинович
-\version 0.5
-\date 25 мая 2021 г.
+\version 0.6
+\date 29 мая 2021 г.
 */
 
-
+#include <cmath>
 #include <iostream>
+#include <list>
+#include <map>
+#include <vector>
+
 
 #include "Control.h"
 
@@ -55,7 +59,7 @@ const size_t numberOfElevators = 2;
                                     
 /// Вместимость лифта
 /// \warning Тренироваться проще с меньшей вместимостью, в реальной задаче будет не менее 6 человек
-const size_t elevatorCapacity = 4;  
+const size_t elevatorCapacity = 8;  
 
 /// Максимальный номер этажа (не считая подвала, который имеет номер 0).
 /// Пассажиры иногда ездят в подвал и из подвала
@@ -66,7 +70,7 @@ const size_t numberOfFloors = maxFloor + 1;
 
 /// Время моделирования в секундах
 /// \warning Cейчас для тестирования задано 6000 секунд, в реальной задаче буде 54000 секунд: от 7:00 утра до 22:00 вечера
-const size_t maxTime = 6000; 
+const size_t maxTime = 26000; 
                             
 
 /// \brief Основная функция системы управления
@@ -121,7 +125,7 @@ int main(int argc, char** argv)
     Control control(numberOfFloors, numberOfElevators, elevatorCapacity);
 
     //Для загрузки расписания появления пассажиров из файла
-    control.ReadTimeTable("TimeTable/timetable125.csv");
+    control.ReadTimeTable("TimeTable/timetable500a.csv");
 
     //Для тестирования вводим появляющихся пассажиров вручную
     //позже это будет сделано путем чтения файла
@@ -219,11 +223,11 @@ void CONTROLSYSTEM(Control& control, myParams& params)
     //   control.setElevatorDestination(elev, newDestination);
     //   control.setElevatorIndicator(elev, newIndicator)
     // 
-    
+
 
     // Для получения текущего времени можно пользоваться командой
     //  control.getCurrentTime()
-      
+
 
     // Следующие команды носят характер опроса текущего состояния лифта    
     // 
@@ -356,25 +360,25 @@ void CONTROLSYSTEM(Control& control, myParams& params)
     {
         size_t nUp = std::count(control.getFloorUpButtons().begin(), control.getFloorUpButtons().end(), true);
         size_t nDn = std::count(control.getFloorDnButtons().begin(), control.getFloorDnButtons().end(), true);
-        
+
         //Если хоть одна кнопка вверх или вниз на этажах нажата - запускаем лифт!
         if (nUp + nDn > 0)
         {
-            params.started = true;            
+            params.started = true;
         }
     }
 
     for (size_t elv = 0; elv < 2; ++elv)
     {
-        // В данном примере новая команда (назначение) не отдается, 
+        // В данном примере новая команда (назначение) не отдается,
         // пока не выполнена предыдущая
         if ((params.started) && (control.isElevatorAchievedDestination(elv)))
         {
             // считываем этаж, на который лифт прибыл
             size_t curDest = control.getElevatorDestination(elv);
 
-            // прибывая на этаж назначения лифт открывает двери, если либо он непустой, 
-            // либо на этом этаже нажата кнопка вызова хотя бы в какую-то сторону, 
+            // прибывая на этаж назначения лифт открывает двери, если либо он непустой,
+            // либо на этом этаже нажата кнопка вызова хотя бы в какую-то сторону,
             // в противном случае прибывает на этаж и стоит, не открывая двери
 
             // считываем текущее положение лифта
@@ -395,7 +399,7 @@ void CONTROLSYSTEM(Control& control, myParams& params)
             control.SetElevatorDestination(elv, nextDest);
         }
 
-        //Теперь устанавливаем индикатор   
+        //Теперь устанавливаем индикатор
         if (control.isElevatorGoingUniformly(elv))
         {
             // считываем текущий индикатор движения (лифт изначально инициализирован в both)
@@ -420,4 +424,11 @@ void CONTROLSYSTEM(Control& control, myParams& params)
             control.SetElevatorIndicator(elv, nextInd);
         }//if (control.isElevatorGoingUniformly(elv))
     }
+ 
+   /*
+    if (control.getCurrentTime() < 5)
+        control.SetElevatorDestination(1, 2);
+    else
+        control.SetElevatorDestination(1, 0);
+   */
 }

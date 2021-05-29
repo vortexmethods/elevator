@@ -1,296 +1,1482 @@
-time = 900	Passenger #0	appeared on floor #1, goes to floor #5
-time = 918	Passenger #0	from floor #1 to floor #5	entered the elevator #0
-time = 1013	Passenger #0	from floor #1 to floor #5	got off the elevator #0 (appeared t = 900, in elevator t = 918)
-time = 1080	Passenger #1	appeared on floor #1, goes to floor #7
-time = 1200	Passenger #2	appeared on floor #1, goes to floor #4
-time = 1231	Passenger #1	from floor #1 to floor #7	entered the elevator #0
-time = 1233	Passenger #2	from floor #1 to floor #4	entered the elevator #0
-time = 1302	Passenger #2	from floor #1 to floor #4	got off the elevator #0 (appeared t = 1200, in elevator t = 1233)
-time = 1310	Passenger #3	appeared on floor #1, goes to floor #10
-time = 1377	Passenger #1	from floor #1 to floor #7	got off the elevator #0 (appeared t = 1080, in elevator t = 1231)
-time = 1400	Passenger #4	appeared on floor #1, goes to floor #11
-time = 1502	Passenger #3	from floor #1 to floor #10	entered the elevator #1
-time = 1504	Passenger #4	from floor #1 to floor #11	entered the elevator #1
-time = 1540	Passenger #5	appeared on floor #1, goes to floor #9
-time = 1558	Passenger #5	from floor #1 to floor #9	entered the elevator #0
-time = 1712	Passenger #3	from floor #1 to floor #10	got off the elevator #1 (appeared t = 1310, in elevator t = 1502)
-time = 1737	Passenger #4	from floor #1 to floor #11	got off the elevator #1 (appeared t = 1400, in elevator t = 1504)
-time = 1743	Passenger #5	from floor #1 to floor #9	got off the elevator #0 (appeared t = 1540, in elevator t = 1558)
-time = 1800	Passenger #6	appeared on floor #1, goes to floor #6
-time = 1835	Passenger #7	appeared on floor #10, goes to floor #1
-time = 1895	Passenger #6	from floor #1 to floor #6	entered the elevator #1
-time = 1900	Passenger #8	appeared on floor #1, goes to floor #3
-time = 1901	Passenger #9	appeared on floor #1, goes to floor #3
-time = 1921	Passenger #8	from floor #1 to floor #3	entered the elevator #0
-time = 1923	Passenger #9	from floor #1 to floor #3	entered the elevator #0
-time = 1950	Passenger #10	appeared on floor #1, goes to floor #10
-time = 1969	Passenger #8	from floor #1 to floor #3	got off the elevator #0 (appeared t = 1900, in elevator t = 1921)
-time = 1971	Passenger #9	from floor #1 to floor #3	got off the elevator #0 (appeared t = 1901, in elevator t = 1923)
-time = 1990	Passenger #11	appeared on floor #1, goes to floor #3
-time = 2010	Passenger #6	from floor #1 to floor #6	got off the elevator #1 (appeared t = 1800, in elevator t = 1895)
-time = 2099	Passenger #7	from floor #10 to floor #1	entered the elevator #0
-time = 2100	Passenger #12	appeared on floor #1, goes to floor #6
-time = 2230	Passenger #13	appeared on floor #1, goes to floor #8
-time = 2235	Passenger #10	from floor #1 to floor #10	entered the elevator #1
-time = 2237	Passenger #11	from floor #1 to floor #3	entered the elevator #1
-time = 2239	Passenger #12	from floor #1 to floor #6	entered the elevator #1
-time = 2241	Passenger #13	from floor #1 to floor #8	entered the elevator #1
-time = 2287	Passenger #11	from floor #1 to floor #3	got off the elevator #1 (appeared t = 1990, in elevator t = 2237)
-time = 2308	Passenger #7	from floor #10 to floor #1	got off the elevator #0 (appeared t = 1835, in elevator t = 2099)
-time = 2358	Passenger #12	from floor #1 to floor #6	got off the elevator #1 (appeared t = 2100, in elevator t = 2239)
-time = 2406	Passenger #13	from floor #1 to floor #8	got off the elevator #1 (appeared t = 2230, in elevator t = 2241)
-time = 2420	Passenger #14	appeared on floor #1, goes to floor #11
-time = 2423	Passenger #15	appeared on floor #1, goes to floor #11
-time = 2454	Passenger #10	from floor #1 to floor #10	got off the elevator #1 (appeared t = 1950, in elevator t = 2235)
-time = 2586	Passenger #14	from floor #1 to floor #11	entered the elevator #0
-time = 2588	Passenger #15	from floor #1 to floor #11	entered the elevator #0
-time = 2640	Passenger #16	appeared on floor #1, goes to floor #7
-time = 2730	Passenger #17	appeared on floor #11, goes to floor #3
-time = 2818	Passenger #14	from floor #1 to floor #11	got off the elevator #0 (appeared t = 2420, in elevator t = 2586)
-time = 2820	Passenger #15	from floor #1 to floor #11	got off the elevator #0 (appeared t = 2423, in elevator t = 2588)
-time = 2824	Passenger #17	from floor #11 to floor #3	entered the elevator #0
-time = 2860	Passenger #16	from floor #1 to floor #7	entered the elevator #1
-time = 2970	Passenger #18	appeared on floor #1, goes to floor #8
-time = 2998	Passenger #16	from floor #1 to floor #7	got off the elevator #1 (appeared t = 2640, in elevator t = 2860)
-time = 3008	Passenger #17	from floor #11 to floor #3	got off the elevator #0 (appeared t = 2730, in elevator t = 2824)
-time = 3020	Passenger #19	appeared on floor #1, goes to floor #9
-time = 3086	Passenger #18	from floor #1 to floor #8	entered the elevator #0
-time = 3088	Passenger #19	from floor #1 to floor #9	entered the elevator #0
-time = 3100	Passenger #20	appeared on floor #1, goes to floor #5
-time = 3170	Passenger #21	appeared on floor #3, goes to floor #1
-time = 3180	Passenger #22	appeared on floor #1, goes to floor #6
-time = 3196	Passenger #20	from floor #1 to floor #5	entered the elevator #1
-time = 3198	Passenger #22	from floor #1 to floor #6	entered the elevator #1
-time = 3249	Passenger #18	from floor #1 to floor #8	got off the elevator #0 (appeared t = 2970, in elevator t = 3086)
-time = 3260	Passenger #23	appeared on floor #1, goes to floor #4
-time = 3274	Passenger #19	from floor #1 to floor #9	got off the elevator #0 (appeared t = 3020, in elevator t = 3088)
-time = 3290	Passenger #20	from floor #1 to floor #5	got off the elevator #1 (appeared t = 3100, in elevator t = 3196)
-time = 3315	Passenger #22	from floor #1 to floor #6	got off the elevator #1 (appeared t = 3180, in elevator t = 3198)
-time = 3330	Passenger #24	appeared on floor #1, goes to floor #5
-time = 3370	Passenger #21	from floor #3 to floor #1	leaved the floor (waiting time = 200)
-time = 3410	Passenger #25	appeared on floor #1, goes to floor #11
-time = 3469	Passenger #23	from floor #1 to floor #4	entered the elevator #0
-time = 3471	Passenger #24	from floor #1 to floor #5	entered the elevator #0
-time = 3473	Passenger #25	from floor #1 to floor #11	entered the elevator #0
-time = 3500	Passenger #26	appeared on floor #1, goes to floor #9
-time = 3542	Passenger #23	from floor #1 to floor #4	got off the elevator #0 (appeared t = 3260, in elevator t = 3469)
-time = 3567	Passenger #24	from floor #1 to floor #5	got off the elevator #0 (appeared t = 3330, in elevator t = 3471)
-time = 3590	Passenger #27	appeared on floor #1, goes to floor #8
-time = 3660	Passenger #28	appeared on floor #1, goes to floor #8
-time = 3708	Passenger #25	from floor #1 to floor #11	got off the elevator #0 (appeared t = 3410, in elevator t = 3473)
-time = 3710	Passenger #29	appeared on floor #1, goes to floor #2
-time = 3743	Passenger #26	from floor #1 to floor #9	entered the elevator #1
-time = 3745	Passenger #27	from floor #1 to floor #8	entered the elevator #1
-time = 3747	Passenger #28	from floor #1 to floor #8	entered the elevator #1
-time = 3749	Passenger #29	from floor #1 to floor #2	entered the elevator #1
-time = 3772	Passenger #29	from floor #1 to floor #2	got off the elevator #1 (appeared t = 3710, in elevator t = 3749)
-time = 3800	Passenger #30	appeared on floor #1, goes to floor #5
-time = 3830	Passenger #31	appeared on floor #1, goes to floor #7
-time = 3866	Passenger #30	from floor #1 to floor #5	entered the elevator #0
-time = 3868	Passenger #31	from floor #1 to floor #7	entered the elevator #0
-time = 3870	Passenger #32	appeared on floor #1, goes to floor #8
-time = 3870	Passenger #32	from floor #1 to floor #8	entered the elevator #0
-time = 3910	Passenger #33	appeared on floor #1, goes to floor #10
-time = 3912	Passenger #27	from floor #1 to floor #8	got off the elevator #1 (appeared t = 3590, in elevator t = 3745)
-time = 3913	Passenger #34	appeared on floor #1, goes to floor #10
-time = 3914	Passenger #28	from floor #1 to floor #8	got off the elevator #1 (appeared t = 3660, in elevator t = 3747)
-time = 3939	Passenger #26	from floor #1 to floor #9	got off the elevator #1 (appeared t = 3500, in elevator t = 3743)
-time = 3962	Passenger #30	from floor #1 to floor #5	got off the elevator #0 (appeared t = 3800, in elevator t = 3866)
-time = 4010	Passenger #31	from floor #1 to floor #7	got off the elevator #0 (appeared t = 3830, in elevator t = 3868)
-time = 4020	Passenger #35	appeared on floor #1, goes to floor #6
-time = 4035	Passenger #32	from floor #1 to floor #8	got off the elevator #0 (appeared t = 3870, in elevator t = 3870)
-time = 4080	Passenger #36	appeared on floor #1, goes to floor #11
-time = 4117	Passenger #33	from floor #1 to floor #10	entered the elevator #1
-time = 4119	Passenger #34	from floor #1 to floor #10	entered the elevator #1
-time = 4120	Passenger #37	appeared on floor #1, goes to floor #4
-time = 4121	Passenger #35	from floor #1 to floor #6	entered the elevator #1
-time = 4123	Passenger #36	from floor #1 to floor #11	entered the elevator #1
-time = 4170	Passenger #38	appeared on floor #1, goes to floor #5
-time = 4200	Passenger #39	appeared on floor #1, goes to floor #6
-time = 4223	Passenger #37	from floor #1 to floor #4	entered the elevator #0
-time = 4225	Passenger #38	from floor #1 to floor #5	entered the elevator #0
-time = 4227	Passenger #39	from floor #1 to floor #6	entered the elevator #0
-time = 4238	Passenger #35	from floor #1 to floor #6	got off the elevator #1 (appeared t = 4020, in elevator t = 4121)
-time = 4240	Passenger #40	appeared on floor #1, goes to floor #4
-time = 4243	Passenger #41	appeared on floor #1, goes to floor #4
-time = 4246	Passenger #42	appeared on floor #1, goes to floor #4
-time = 4296	Passenger #37	from floor #1 to floor #4	got off the elevator #0 (appeared t = 4120, in elevator t = 4223)
-time = 4300	Passenger #43	appeared on floor #1, goes to floor #6
-time = 4310	Passenger #44	appeared on floor #8, goes to floor #3
-time = 4315	Passenger #45	appeared on floor #4, goes to floor #6
-time = 4321	Passenger #38	from floor #1 to floor #5	got off the elevator #0 (appeared t = 4170, in elevator t = 4225)
-time = 4332	Passenger #33	from floor #1 to floor #10	got off the elevator #1 (appeared t = 3910, in elevator t = 4117)
-time = 4334	Passenger #34	from floor #1 to floor #10	got off the elevator #1 (appeared t = 3913, in elevator t = 4119)
-time = 4347	Passenger #39	from floor #1 to floor #6	got off the elevator #0 (appeared t = 4200, in elevator t = 4227)
-time = 4359	Passenger #36	from floor #1 to floor #11	got off the elevator #1 (appeared t = 4080, in elevator t = 4123)
-time = 4400	Passenger #46	appeared on floor #1, goes to floor #8
-time = 4410	Passenger #44	from floor #8 to floor #3	entered the elevator #1
-time = 4420	Passenger #47	appeared on floor #1, goes to floor #9
-time = 4423	Passenger #48	appeared on floor #1, goes to floor #9
-time = 4510	Passenger #49	appeared on floor #1, goes to floor #10
-time = 4526	Passenger #44	from floor #8 to floor #3	got off the elevator #1 (appeared t = 4310, in elevator t = 4410)
-time = 4540	Passenger #50	appeared on floor #1, goes to floor #11
-time = 4580	Passenger #51	appeared on floor #1, goes to floor #7
-time = 4583	Passenger #52	appeared on floor #1, goes to floor #7
-time = 4589	Passenger #40	from floor #1 to floor #4	entered the elevator #0
-time = 4591	Passenger #41	from floor #1 to floor #4	entered the elevator #0
-time = 4593	Passenger #42	from floor #1 to floor #4	entered the elevator #0
-time = 4595	Passenger #43	from floor #1 to floor #6	entered the elevator #0
-time = 4610	Passenger #53	appeared on floor #1, goes to floor #5
-time = 4615	Passenger #45	from floor #4 to floor #6	leaved the floor (waiting time = 300)
-time = 4630	Passenger #54	appeared on floor #1, goes to floor #11
-time = 4664	Passenger #40	from floor #1 to floor #4	got off the elevator #0 (appeared t = 4240, in elevator t = 4589)
-time = 4666	Passenger #41	from floor #1 to floor #4	got off the elevator #0 (appeared t = 4243, in elevator t = 4591)
-time = 4668	Passenger #42	from floor #1 to floor #4	got off the elevator #0 (appeared t = 4246, in elevator t = 4593)
-time = 4670	Passenger #55	appeared on floor #1, goes to floor #6
-time = 4690	Passenger #56	appeared on floor #1, goes to floor #4
-time = 4700	Passenger #57	appeared on floor #1, goes to floor #6
-time = 4716	Passenger #43	from floor #1 to floor #6	got off the elevator #0 (appeared t = 4300, in elevator t = 4595)
-time = 4730	Passenger #58	appeared on floor #1, goes to floor #8
-time = 4750	Passenger #59	appeared on floor #1, goes to floor #5
-time = 4780	Passenger #60	appeared on floor #1, goes to floor #9
-time = 4790	Passenger #61	appeared on floor #2, goes to floor #8
-time = 4800	Passenger #62	appeared on floor #1, goes to floor #11
-time = 4875	Passenger #46	from floor #1 to floor #8	entered the elevator #1
-time = 4877	Passenger #47	from floor #1 to floor #9	entered the elevator #1
-time = 4879	Passenger #48	from floor #1 to floor #9	entered the elevator #1
-time = 4881	Passenger #49	from floor #1 to floor #10	entered the elevator #1
-time = 4900	Passenger #63	appeared on floor #1, goes to floor #11
-time = 4920	Passenger #64	appeared on floor #1, goes to floor #9
-time = 4923	Passenger #65	appeared on floor #1, goes to floor #9
-time = 4940	Passenger #66	appeared on floor #1, goes to floor #7
-time = 4941	Passenger #50	from floor #1 to floor #11	entered the elevator #0
-time = 4943	Passenger #51	from floor #1 to floor #7	entered the elevator #0
-time = 4945	Passenger #52	from floor #1 to floor #7	entered the elevator #0
-time = 4947	Passenger #53	from floor #1 to floor #5	entered the elevator #0
-time = 4960	Passenger #67	appeared on floor #1, goes to floor #6
-time = 4970	Passenger #68	appeared on floor #1, goes to floor #10
-time = 4975	Passenger #69	appeared on floor #1, goes to floor #10
-time = 4980	Passenger #70	appeared on floor #1, goes to floor #10
-time = 5000	Passenger #71	appeared on floor #1, goes to floor #3
-time = 5020	Passenger #72	appeared on floor #1, goes to floor #8
-time = 5025	Passenger #73	appeared on floor #10, goes to floor #5
-time = 5030	Passenger #74	appeared on floor #8, goes to floor #3
-time = 5039	Passenger #53	from floor #1 to floor #5	got off the elevator #0 (appeared t = 4610, in elevator t = 4947)
-time = 5040	Passenger #75	appeared on floor #1, goes to floor #6
-time = 5042	Passenger #46	from floor #1 to floor #8	got off the elevator #1 (appeared t = 4400, in elevator t = 4875)
-time = 5050	Passenger #76	appeared on floor #1, goes to floor #4
-time = 5053	Passenger #77	appeared on floor #1, goes to floor #4
-time = 5060	Passenger #78	appeared on floor #1, goes to floor #6
-time = 5067	Passenger #47	from floor #1 to floor #9	got off the elevator #1 (appeared t = 4420, in elevator t = 4877)
-time = 5069	Passenger #48	from floor #1 to floor #9	got off the elevator #1 (appeared t = 4423, in elevator t = 4879)
-time = 5080	Passenger #79	appeared on floor #1, goes to floor #8
-time = 5087	Passenger #51	from floor #1 to floor #7	got off the elevator #0 (appeared t = 4580, in elevator t = 4943)
-time = 5089	Passenger #52	from floor #1 to floor #7	got off the elevator #0 (appeared t = 4583, in elevator t = 4945)
-time = 5094	Passenger #49	from floor #1 to floor #10	got off the elevator #1 (appeared t = 4510, in elevator t = 4881)
-time = 5100	Passenger #80	appeared on floor #4, goes to floor #6
-time = 5110	Passenger #81	appeared on floor #9, goes to floor #2
-time = 5120	Passenger #82	appeared on floor #10, goes to floor #1
-time = 5130	Passenger #83	appeared on floor #4, goes to floor #11
-time = 5135	Passenger #73	from floor #10 to floor #5	entered the elevator #1
-time = 5137	Passenger #82	from floor #10 to floor #1	entered the elevator #1
-time = 5140	Passenger #84	appeared on floor #1, goes to floor #7
-time = 5150	Passenger #85	appeared on floor #1, goes to floor #8
-time = 5162	Passenger #81	from floor #9 to floor #2	entered the elevator #1
-time = 5170	Passenger #86	appeared on floor #1, goes to floor #9
-time = 5180	Passenger #88	appeared on floor #1, goes to floor #10
-time = 5180	Passenger #87	appeared on floor #1, goes to floor #8
-time = 5183	Passenger #50	from floor #1 to floor #11	got off the elevator #0 (appeared t = 4540, in elevator t = 4941)
-time = 5187	Passenger #74	from floor #8 to floor #3	entered the elevator #1
-time = 5190	Passenger #89	appeared on floor #1, goes to floor #4
-time = 5193	Passenger #90	appeared on floor #1, goes to floor #4
-time = 5200	Passenger #91	appeared on floor #1, goes to floor #7
-time = 5210	Passenger #92	appeared on floor #9, goes to floor #5
-time = 5215	Passenger #93	appeared on floor #8, goes to floor #2
-time = 5220	Passenger #94	appeared on floor #1, goes to floor #5
-time = 5224	Passenger #92	from floor #9 to floor #5	entered the elevator #0
-time = 5230	Passenger #95	appeared on floor #1, goes to floor #7
-time = 5240	Passenger #96	appeared on floor #1, goes to floor #8
-time = 5249	Passenger #93	from floor #8 to floor #2	entered the elevator #0
-time = 5250	Passenger #97	appeared on floor #1, goes to floor #11
-time = 5255	Passenger #98	appeared on floor #10, goes to floor #2
-time = 5256	Passenger #73	from floor #10 to floor #5	got off the elevator #1 (appeared t = 5025, in elevator t = 5135)
-time = 5260	Passenger #99	appeared on floor #1, goes to floor #10
-time = 5263	Passenger #100	appeared on floor #1, goes to floor #10
-time = 5270	Passenger #101	appeared on floor #4, goes to floor #8
-time = 5280	Passenger #102	appeared on floor #1, goes to floor #3
-time = 5285	Passenger #103	appeared on floor #4, goes to floor #6
-time = 5290	Passenger #104	appeared on floor #1, goes to floor #9
-time = 5300	Passenger #105	appeared on floor #1, goes to floor #8
-time = 5300	Passenger #71	from floor #1 to floor #3	leaved the floor (waiting time = 300)
-time = 5304	Passenger #74	from floor #8 to floor #3	got off the elevator #1 (appeared t = 5030, in elevator t = 5187)
-time = 5310	Passenger #106	appeared on floor #8, goes to floor #6
-time = 5318	Passenger #92	from floor #9 to floor #5	got off the elevator #0 (appeared t = 5210, in elevator t = 5224)
-time = 5320	Passenger #107	appeared on floor #1, goes to floor #4
-time = 5329	Passenger #81	from floor #9 to floor #2	got off the elevator #1 (appeared t = 5110, in elevator t = 5162)
-time = 5330	Passenger #108	appeared on floor #7, goes to floor #2
-time = 5340	Passenger #109	appeared on floor #9, goes to floor #5
-time = 5350	Passenger #110	appeared on floor #1, goes to floor #11
-time = 5354	Passenger #82	from floor #10 to floor #1	got off the elevator #1 (appeared t = 5120, in elevator t = 5137)
-time = 5360	Passenger #111	appeared on floor #1, goes to floor #10
-time = 5365	Passenger #112	appeared on floor #1, goes to floor #9
-time = 5370	Passenger #113	appeared on floor #1, goes to floor #8
-time = 5375	Passenger #114	appeared on floor #1, goes to floor #7
-time = 5380	Passenger #115	appeared on floor #1, goes to floor #6
-time = 5390	Passenger #116	appeared on floor #1, goes to floor #5
-time = 5391	Passenger #93	from floor #8 to floor #2	got off the elevator #0 (appeared t = 5215, in elevator t = 5249)
-time = 5395	Passenger #54	from floor #1 to floor #11	entered the elevator #1
-time = 5397	Passenger #55	from floor #1 to floor #6	entered the elevator #1
-time = 5399	Passenger #56	from floor #1 to floor #4	entered the elevator #1
-time = 5400	Passenger #117	appeared on floor #11, goes to floor #5
-time = 5400	Passenger #80	from floor #4 to floor #6	leaved the floor (waiting time = 300)
-time = 5401	Passenger #57	from floor #1 to floor #6	entered the elevator #1
-time = 5405	Passenger #118	appeared on floor #1, goes to floor #3
-time = 5410	Passenger #119	appeared on floor #10, goes to floor #6
-time = 5415	Passenger #120	appeared on floor #1, goes to floor #8
-time = 5420	Passenger #121	appeared on floor #9, goes to floor #2
-time = 5425	Passenger #122	appeared on floor #3, goes to floor #8
-time = 5430	Passenger #123	appeared on floor #1, goes to floor #7
-time = 5440	Passenger #124	appeared on floor #8, goes to floor #1
-time = 5450	Passenger #125	appeared on floor #1, goes to floor #11
-time = 5459	Passenger #58	from floor #1 to floor #8	entered the elevator #0
-time = 5461	Passenger #59	from floor #1 to floor #5	entered the elevator #0
-time = 5463	Passenger #60	from floor #1 to floor #9	entered the elevator #0
-time = 5465	Passenger #62	from floor #1 to floor #11	entered the elevator #0
-time = 5470	Passenger #56	from floor #1 to floor #4	got off the elevator #1 (appeared t = 4690, in elevator t = 5399)
-time = 5474	Passenger #83	from floor #4 to floor #11	entered the elevator #1
-time = 5490	Passenger #89	from floor #1 to floor #4	leaved the floor (waiting time = 300)
-time = 5493	Passenger #90	from floor #1 to floor #4	leaved the floor (waiting time = 300)
-time = 5520	Passenger #55	from floor #1 to floor #6	got off the elevator #1 (appeared t = 4670, in elevator t = 5397)
-time = 5522	Passenger #57	from floor #1 to floor #6	got off the elevator #1 (appeared t = 4700, in elevator t = 5401)
-time = 5557	Passenger #59	from floor #1 to floor #5	got off the elevator #0 (appeared t = 4750, in elevator t = 5461)
-time = 5570	Passenger #101	from floor #4 to floor #8	leaved the floor (waiting time = 300)
-time = 5580	Passenger #102	from floor #1 to floor #3	leaved the floor (waiting time = 300)
-time = 5585	Passenger #103	from floor #4 to floor #6	leaved the floor (waiting time = 300)
-time = 5610	Passenger #106	from floor #8 to floor #6	leaved the floor (waiting time = 300)
-time = 5628	Passenger #58	from floor #1 to floor #8	got off the elevator #0 (appeared t = 4730, in elevator t = 5459)
-time = 5639	Passenger #54	from floor #1 to floor #11	got off the elevator #1 (appeared t = 4630, in elevator t = 5395)
-time = 5640	Passenger #109	from floor #9 to floor #5	leaved the floor (waiting time = 300)
-time = 5641	Passenger #83	from floor #4 to floor #11	got off the elevator #1 (appeared t = 5130, in elevator t = 5474)
-time = 5645	Passenger #117	from floor #11 to floor #5	entered the elevator #1
-time = 5653	Passenger #60	from floor #1 to floor #9	got off the elevator #0 (appeared t = 4780, in elevator t = 5463)
-time = 5670	Passenger #98	from floor #10 to floor #2	entered the elevator #1
-time = 5672	Passenger #119	from floor #10 to floor #6	entered the elevator #1
-time = 5697	Passenger #121	from floor #9 to floor #2	entered the elevator #1
-time = 5701	Passenger #62	from floor #1 to floor #11	got off the elevator #0 (appeared t = 4800, in elevator t = 5465)
-time = 5715	Passenger #120	from floor #1 to floor #8	leaved the floor (waiting time = 300)
-time = 5730	Passenger #108	from floor #7 to floor #2	leaved the floor (waiting time = 400)
-time = 5752	Passenger #124	from floor #8 to floor #1	entered the elevator #0
-time = 5766	Passenger #119	from floor #10 to floor #6	got off the elevator #1 (appeared t = 5410, in elevator t = 5672)
-time = 5790	Passenger #61	from floor #2 to floor #8	leaved the floor (waiting time = 1000)
-time = 5791	Passenger #117	from floor #11 to floor #5	got off the elevator #1 (appeared t = 5400, in elevator t = 5645)
-time = 5800	Passenger #91	from floor #1 to floor #7	leaved the floor (waiting time = 600)
-time = 5820	Passenger #94	from floor #1 to floor #5	leaved the floor (waiting time = 600)
-time = 5830	Passenger #95	from floor #1 to floor #7	leaved the floor (waiting time = 600)
-time = 5862	Passenger #98	from floor #10 to floor #2	got off the elevator #1 (appeared t = 5255, in elevator t = 5670)
-time = 5864	Passenger #121	from floor #9 to floor #2	got off the elevator #1 (appeared t = 5420, in elevator t = 5697)
-time = 5900	Passenger #63	from floor #1 to floor #11	leaved the floor (waiting time = 1000)
-time = 5913	Passenger #124	from floor #8 to floor #1	got off the elevator #0 (appeared t = 5440, in elevator t = 5752)
-time = 5920	Passenger #64	from floor #1 to floor #9	leaved the floor (waiting time = 1000)
-time = 5923	Passenger #65	from floor #1 to floor #9	leaved the floor (waiting time = 1000)
-time = 5932	Passenger #66	from floor #1 to floor #7	entered the elevator #1
-time = 5934	Passenger #67	from floor #1 to floor #6	entered the elevator #1
-time = 5936	Passenger #68	from floor #1 to floor #10	entered the elevator #1
-time = 5938	Passenger #69	from floor #1 to floor #10	entered the elevator #1
-time = 5974	Passenger #122	from floor #3 to floor #8	entered the elevator #0
-time = 5980	Passenger #70	from floor #1 to floor #10	leaved the floor (waiting time = 1000)
+time = 946	Passenger #0	appeared on floor #1, goes to floor #4
+time = 962	Passenger #0	from floor #1 to floor #4	entered the elevator #0
+time = 1036	Passenger #0	from floor #1 to floor #4	got off the elevator #0 (appeared t = 946, in elevator t = 962)
+time = 1058	Passenger #1	appeared on floor #1, goes to floor #2
+time = 1087	Passenger #1	from floor #1 to floor #2	entered the elevator #1
+time = 1110	Passenger #1	from floor #1 to floor #2	got off the elevator #1 (appeared t = 1058, in elevator t = 1087)
+time = 1186	Passenger #2	appeared on floor #1, goes to floor #3
+time = 1260	Passenger #2	from floor #1 to floor #3	entered the elevator #0
+time = 1306	Passenger #2	from floor #1 to floor #3	got off the elevator #0 (appeared t = 1186, in elevator t = 1260)
+time = 1352	Passenger #3	appeared on floor #1, goes to floor #7
+time = 1354	Passenger #3	from floor #1 to floor #7	entered the elevator #1
+time = 1360	Passenger #4	appeared on floor #1, goes to floor #3
+time = 1505	Passenger #3	from floor #1 to floor #7	got off the elevator #1 (appeared t = 1352, in elevator t = 1354)
+time = 1528	Passenger #5	appeared on floor #1, goes to floor #11
+time = 1540	Passenger #4	from floor #1 to floor #3	entered the elevator #0
+time = 1542	Passenger #5	from floor #1 to floor #11	entered the elevator #0
+time = 1588	Passenger #4	from floor #1 to floor #3	got off the elevator #0 (appeared t = 1360, in elevator t = 1540)
+time = 1783	Passenger #5	from floor #1 to floor #11	got off the elevator #0 (appeared t = 1528, in elevator t = 1542)
+time = 1804	Passenger #6	appeared on floor #9, goes to floor #1
+time = 1806	Passenger #7	appeared on floor #1, goes to floor #11
+time = 1822	Passenger #6	from floor #9 to floor #1	entered the elevator #0
+time = 1910	Passenger #8	appeared on floor #1, goes to floor #9
+time = 1919	Passenger #9	appeared on floor #1, goes to floor #3
+time = 1942	Passenger #10	appeared on floor #1, goes to floor #8
+time = 1964	Passenger #7	from floor #1 to floor #11	entered the elevator #1
+time = 1966	Passenger #8	from floor #1 to floor #9	entered the elevator #1
+time = 1968	Passenger #9	from floor #1 to floor #3	entered the elevator #1
+time = 1970	Passenger #10	from floor #1 to floor #8	entered the elevator #1
+time = 1977	Passenger #11	appeared on floor #1, goes to floor #6
+time = 2006	Passenger #6	from floor #9 to floor #1	got off the elevator #0 (appeared t = 1804, in elevator t = 1822)
+time = 2016	Passenger #9	from floor #1 to floor #3	got off the elevator #1 (appeared t = 1919, in elevator t = 1968)
+time = 2045	Passenger #11	from floor #1 to floor #6	entered the elevator #0
+time = 2072	Passenger #12	appeared on floor #1, goes to floor #2
+time = 2133	Passenger #10	from floor #1 to floor #8	got off the elevator #1 (appeared t = 1942, in elevator t = 1970)
+time = 2158	Passenger #8	from floor #1 to floor #9	got off the elevator #1 (appeared t = 1910, in elevator t = 1966)
+time = 2160	Passenger #11	from floor #1 to floor #6	got off the elevator #0 (appeared t = 1977, in elevator t = 2045)
+time = 2187	Passenger #13	appeared on floor #1, goes to floor #5
+time = 2208	Passenger #7	from floor #1 to floor #11	got off the elevator #1 (appeared t = 1806, in elevator t = 1964)
+time = 2362	Passenger #12	from floor #1 to floor #2	entered the elevator #1
+time = 2364	Passenger #13	from floor #1 to floor #5	entered the elevator #0
+time = 2387	Passenger #12	from floor #1 to floor #2	got off the elevator #1 (appeared t = 2072, in elevator t = 2362)
+time = 2433	Passenger #14	appeared on floor #1, goes to floor #2
+time = 2448	Passenger #15	appeared on floor #1, goes to floor #4
+time = 2456	Passenger #13	from floor #1 to floor #5	got off the elevator #0 (appeared t = 2187, in elevator t = 2364)
+time = 2631	Passenger #14	from floor #1 to floor #2	entered the elevator #1
+time = 2633	Passenger #15	from floor #1 to floor #4	entered the elevator #1
+time = 2656	Passenger #14	from floor #1 to floor #2	got off the elevator #1 (appeared t = 2433, in elevator t = 2631)
+time = 2673	Passenger #16	appeared on floor #1, goes to floor #9
+time = 2685	Passenger #16	from floor #1 to floor #9	entered the elevator #0
+time = 2704	Passenger #15	from floor #1 to floor #4	got off the elevator #1 (appeared t = 2448, in elevator t = 2633)
+time = 2705	Passenger #17	appeared on floor #4, goes to floor #6
+time = 2708	Passenger #17	from floor #4 to floor #6	entered the elevator #1
+time = 2754	Passenger #17	from floor #4 to floor #6	got off the elevator #1 (appeared t = 2705, in elevator t = 2708)
+time = 2869	Passenger #16	from floor #1 to floor #9	got off the elevator #0 (appeared t = 2673, in elevator t = 2685)
+time = 2981	Passenger #18	appeared on floor #1, goes to floor #3
+time = 2984	Passenger #19	appeared on floor #1, goes to floor #2
+time = 3043	Passenger #18	from floor #1 to floor #3	entered the elevator #0
+time = 3045	Passenger #19	from floor #1 to floor #2	entered the elevator #0
+time = 3068	Passenger #19	from floor #1 to floor #2	got off the elevator #0 (appeared t = 2984, in elevator t = 3045)
+time = 3093	Passenger #18	from floor #1 to floor #3	got off the elevator #0 (appeared t = 2981, in elevator t = 3043)
+time = 3121	Passenger #20	appeared on floor #1, goes to floor #2
+time = 3139	Passenger #21	appeared on floor #1, goes to floor #3
+time = 3178	Passenger #20	from floor #1 to floor #2	entered the elevator #1
+time = 3180	Passenger #21	from floor #1 to floor #3	entered the elevator #1
+time = 3186	Passenger #22	appeared on floor #8, goes to floor #1
+time = 3203	Passenger #20	from floor #1 to floor #2	got off the elevator #1 (appeared t = 3121, in elevator t = 3178)
+time = 3222	Passenger #22	from floor #8 to floor #1	entered the elevator #0
+time = 3228	Passenger #21	from floor #1 to floor #3	got off the elevator #1 (appeared t = 3139, in elevator t = 3180)
+time = 3262	Passenger #23	appeared on floor #1, goes to floor #9
+time = 3379	Passenger #24	appeared on floor #1, goes to floor #8
+time = 3380	Passenger #25	appeared on floor #1, goes to floor #7
+time = 3383	Passenger #22	from floor #8 to floor #1	got off the elevator #0 (appeared t = 3186, in elevator t = 3222)
+time = 3422	Passenger #23	from floor #1 to floor #9	entered the elevator #0
+time = 3424	Passenger #24	from floor #1 to floor #8	entered the elevator #0
+time = 3426	Passenger #25	from floor #1 to floor #7	entered the elevator #0
+time = 3512	Passenger #26	appeared on floor #1, goes to floor #10
+time = 3554	Passenger #27	appeared on floor #1, goes to floor #5
+time = 3564	Passenger #25	from floor #1 to floor #7	got off the elevator #0 (appeared t = 3380, in elevator t = 3426)
+time = 3589	Passenger #24	from floor #1 to floor #8	got off the elevator #0 (appeared t = 3379, in elevator t = 3424)
+time = 3616	Passenger #23	from floor #1 to floor #9	got off the elevator #0 (appeared t = 3262, in elevator t = 3422)
+time = 3638	Passenger #28	appeared on floor #1, goes to floor #5
+time = 3726	Passenger #29	appeared on floor #1, goes to floor #6
+time = 3742	Passenger #26	from floor #1 to floor #10	entered the elevator #1
+time = 3744	Passenger #27	from floor #1 to floor #5	entered the elevator #1
+time = 3746	Passenger #28	from floor #1 to floor #5	entered the elevator #1
+time = 3748	Passenger #29	from floor #1 to floor #6	entered the elevator #1
+time = 3775	Passenger #30	appeared on floor #1, goes to floor #6
+time = 3790	Passenger #30	from floor #1 to floor #6	entered the elevator #0
+time = 3840	Passenger #27	from floor #1 to floor #5	got off the elevator #1 (appeared t = 3554, in elevator t = 3744)
+time = 3842	Passenger #28	from floor #1 to floor #5	got off the elevator #1 (appeared t = 3638, in elevator t = 3746)
+time = 3867	Passenger #29	from floor #1 to floor #6	got off the elevator #1 (appeared t = 3726, in elevator t = 3748)
+time = 3873	Passenger #32	appeared on floor #1, goes to floor #10
+time = 3873	Passenger #31	appeared on floor #1, goes to floor #7
+time = 3887	Passenger #33	appeared on floor #1, goes to floor #8
+time = 3899	Passenger #34	appeared on floor #1, goes to floor #7
+time = 3905	Passenger #30	from floor #1 to floor #6	got off the elevator #0 (appeared t = 3775, in elevator t = 3790)
+time = 3961	Passenger #26	from floor #1 to floor #10	got off the elevator #1 (appeared t = 3512, in elevator t = 3742)
+time = 4038	Passenger #35	appeared on floor #1, goes to floor #9
+time = 4092	Passenger #36	appeared on floor #1, goes to floor #3
+time = 4106	Passenger #37	appeared on floor #1, goes to floor #7
+time = 4109	Passenger #32	from floor #1 to floor #10	entered the elevator #0
+time = 4111	Passenger #31	from floor #1 to floor #7	entered the elevator #0
+time = 4113	Passenger #33	from floor #1 to floor #8	entered the elevator #0
+time = 4115	Passenger #34	from floor #1 to floor #7	entered the elevator #0
+time = 4117	Passenger #35	from floor #1 to floor #9	entered the elevator #0
+time = 4119	Passenger #36	from floor #1 to floor #3	entered the elevator #0
+time = 4121	Passenger #37	from floor #1 to floor #7	entered the elevator #0
+time = 4167	Passenger #36	from floor #1 to floor #3	got off the elevator #0 (appeared t = 4092, in elevator t = 4119)
+time = 4172	Passenger #38	appeared on floor #1, goes to floor #11
+time = 4192	Passenger #39	appeared on floor #1, goes to floor #2
+time = 4207	Passenger #40	appeared on floor #1, goes to floor #2
+time = 4217	Passenger #41	appeared on floor #1, goes to floor #3
+time = 4241	Passenger #42	appeared on floor #1, goes to floor #11
+time = 4261	Passenger #31	from floor #1 to floor #7	got off the elevator #0 (appeared t = 3873, in elevator t = 4111)
+time = 4263	Passenger #34	from floor #1 to floor #7	got off the elevator #0 (appeared t = 3899, in elevator t = 4115)
+time = 4265	Passenger #37	from floor #1 to floor #7	got off the elevator #0 (appeared t = 4106, in elevator t = 4121)
+time = 4290	Passenger #33	from floor #1 to floor #8	got off the elevator #0 (appeared t = 3887, in elevator t = 4113)
+time = 4302	Passenger #43	appeared on floor #8, goes to floor #7
+time = 4315	Passenger #35	from floor #1 to floor #9	got off the elevator #0 (appeared t = 4038, in elevator t = 4117)
+time = 4340	Passenger #32	from floor #1 to floor #10	got off the elevator #0 (appeared t = 3873, in elevator t = 4109)
+time = 4343	Passenger #44	appeared on floor #1, goes to floor #8
+time = 4360	Passenger #45	appeared on floor #6, goes to floor #5
+time = 4375	Passenger #38	from floor #1 to floor #11	entered the elevator #1
+time = 4377	Passenger #39	from floor #1 to floor #2	entered the elevator #1
+time = 4379	Passenger #40	from floor #1 to floor #2	entered the elevator #1
+time = 4381	Passenger #41	from floor #1 to floor #3	entered the elevator #1
+time = 4383	Passenger #42	from floor #1 to floor #11	entered the elevator #1
+time = 4385	Passenger #44	from floor #1 to floor #8	entered the elevator #1
+time = 4399	Passenger #43	from floor #8 to floor #7	entered the elevator #0
+time = 4403	Passenger #46	appeared on floor #1, goes to floor #2
+time = 4408	Passenger #39	from floor #1 to floor #2	got off the elevator #1 (appeared t = 4192, in elevator t = 4377)
+time = 4410	Passenger #40	from floor #1 to floor #2	got off the elevator #1 (appeared t = 4207, in elevator t = 4379)
+time = 4412	Passenger #47	appeared on floor #1, goes to floor #8
+time = 4416	Passenger #48	appeared on floor #1, goes to floor #6
+time = 4423	Passenger #43	from floor #8 to floor #7	got off the elevator #0 (appeared t = 4302, in elevator t = 4399)
+time = 4435	Passenger #41	from floor #1 to floor #3	got off the elevator #1 (appeared t = 4217, in elevator t = 4381)
+time = 4452	Passenger #45	from floor #6 to floor #5	entered the elevator #0
+time = 4476	Passenger #45	from floor #6 to floor #5	got off the elevator #0 (appeared t = 4360, in elevator t = 4452)
+time = 4477	Passenger #49	appeared on floor #1, goes to floor #11
+time = 4500	Passenger #50	appeared on floor #1, goes to floor #9
+time = 4552	Passenger #44	from floor #1 to floor #8	got off the elevator #1 (appeared t = 4343, in elevator t = 4385)
+time = 4570	Passenger #46	from floor #1 to floor #2	entered the elevator #0
+time = 4572	Passenger #47	from floor #1 to floor #8	entered the elevator #0
+time = 4574	Passenger #51	appeared on floor #1, goes to floor #11
+time = 4574	Passenger #48	from floor #1 to floor #6	entered the elevator #0
+time = 4576	Passenger #52	appeared on floor #1, goes to floor #7
+time = 4576	Passenger #49	from floor #1 to floor #11	entered the elevator #0
+time = 4578	Passenger #50	from floor #1 to floor #9	entered the elevator #0
+time = 4580	Passenger #51	from floor #1 to floor #11	entered the elevator #0
+time = 4582	Passenger #52	from floor #1 to floor #7	entered the elevator #0
+time = 4599	Passenger #54	appeared on floor #1, goes to floor #3
+time = 4599	Passenger #53	appeared on floor #1, goes to floor #3
+time = 4605	Passenger #46	from floor #1 to floor #2	got off the elevator #0 (appeared t = 4403, in elevator t = 4570)
+time = 4623	Passenger #38	from floor #1 to floor #11	got off the elevator #1 (appeared t = 4172, in elevator t = 4375)
+time = 4625	Passenger #42	from floor #1 to floor #11	got off the elevator #1 (appeared t = 4241, in elevator t = 4383)
+time = 4658	Passenger #55	appeared on floor #1, goes to floor #10
+time = 4699	Passenger #48	from floor #1 to floor #6	got off the elevator #0 (appeared t = 4416, in elevator t = 4574)
+time = 4705	Passenger #56	appeared on floor #1, goes to floor #4
+time = 4707	Passenger #57	appeared on floor #1, goes to floor #6
+time = 4724	Passenger #52	from floor #1 to floor #7	got off the elevator #0 (appeared t = 4576, in elevator t = 4582)
+time = 4735	Passenger #58	appeared on floor #1, goes to floor #9
+time = 4749	Passenger #47	from floor #1 to floor #8	got off the elevator #0 (appeared t = 4412, in elevator t = 4572)
+time = 4761	Passenger #59	appeared on floor #1, goes to floor #6
+time = 4762	Passenger #60	appeared on floor #1, goes to floor #6
+time = 4774	Passenger #50	from floor #1 to floor #9	got off the elevator #0 (appeared t = 4500, in elevator t = 4578)
+time = 4799	Passenger #61	appeared on floor #1, goes to floor #3
+time = 4803	Passenger #62	appeared on floor #7, goes to floor #5
+time = 4809	Passenger #54	from floor #1 to floor #3	entered the elevator #1
+time = 4811	Passenger #53	from floor #1 to floor #3	entered the elevator #1
+time = 4813	Passenger #55	from floor #1 to floor #10	entered the elevator #1
+time = 4815	Passenger #56	from floor #1 to floor #4	entered the elevator #1
+time = 4817	Passenger #57	from floor #1 to floor #6	entered the elevator #1
+time = 4819	Passenger #58	from floor #1 to floor #9	entered the elevator #1
+time = 4821	Passenger #59	from floor #1 to floor #6	entered the elevator #1
+time = 4822	Passenger #49	from floor #1 to floor #11	got off the elevator #0 (appeared t = 4477, in elevator t = 4576)
+time = 4823	Passenger #60	from floor #1 to floor #6	entered the elevator #1
+time = 4824	Passenger #51	from floor #1 to floor #11	got off the elevator #0 (appeared t = 4574, in elevator t = 4580)
+time = 4869	Passenger #54	from floor #1 to floor #3	got off the elevator #1 (appeared t = 4599, in elevator t = 4809)
+time = 4871	Passenger #53	from floor #1 to floor #3	got off the elevator #1 (appeared t = 4599, in elevator t = 4811)
+time = 4883	Passenger #62	from floor #7 to floor #5	entered the elevator #0
+time = 4896	Passenger #56	from floor #1 to floor #4	got off the elevator #1 (appeared t = 4705, in elevator t = 4815)
+time = 4898	Passenger #63	appeared on floor #1, goes to floor #5
+time = 4914	Passenger #64	appeared on floor #1, goes to floor #4
+time = 4930	Passenger #62	from floor #7 to floor #5	got off the elevator #0 (appeared t = 4803, in elevator t = 4883)
+time = 4933	Passenger #65	appeared on floor #1, goes to floor #9
+time = 4944	Passenger #57	from floor #1 to floor #6	got off the elevator #1 (appeared t = 4707, in elevator t = 4817)
+time = 4946	Passenger #59	from floor #1 to floor #6	got off the elevator #1 (appeared t = 4761, in elevator t = 4821)
+time = 4947	Passenger #66	appeared on floor #1, goes to floor #9
+time = 4948	Passenger #60	from floor #1 to floor #6	got off the elevator #1 (appeared t = 4762, in elevator t = 4823)
+time = 4957	Passenger #67	appeared on floor #1, goes to floor #4
+time = 4960	Passenger #68	appeared on floor #1, goes to floor #4
+time = 4985	Passenger #69	appeared on floor #1, goes to floor #3
+time = 4993	Passenger #70	appeared on floor #2, goes to floor #8
+time = 4996	Passenger #71	appeared on floor #1, goes to floor #2
+time = 4998	Passenger #72	appeared on floor #1, goes to floor #6
+time = 5001	Passenger #73	appeared on floor #1, goes to floor #4
+time = 5004	Passenger #74	appeared on floor #1, goes to floor #2
+time = 5006	Passenger #75	appeared on floor #1, goes to floor #3
+time = 5019	Passenger #58	from floor #1 to floor #9	got off the elevator #1 (appeared t = 4735, in elevator t = 4819)
+time = 5024	Passenger #61	from floor #1 to floor #3	entered the elevator #0
+time = 5026	Passenger #63	from floor #1 to floor #5	entered the elevator #0
+time = 5028	Passenger #64	from floor #1 to floor #4	entered the elevator #0
+time = 5030	Passenger #65	from floor #1 to floor #9	entered the elevator #0
+time = 5032	Passenger #66	from floor #1 to floor #9	entered the elevator #0
+time = 5034	Passenger #67	from floor #1 to floor #4	entered the elevator #0
+time = 5036	Passenger #68	from floor #1 to floor #4	entered the elevator #0
+time = 5038	Passenger #69	from floor #1 to floor #3	entered the elevator #0
+time = 5044	Passenger #55	from floor #1 to floor #10	got off the elevator #1 (appeared t = 4658, in elevator t = 4813)
+time = 5049	Passenger #76	appeared on floor #4, goes to floor #2
+time = 5075	Passenger #77	appeared on floor #1, goes to floor #5
+time = 5080	Passenger #78	appeared on floor #10, goes to floor #9
+time = 5084	Passenger #61	from floor #1 to floor #3	got off the elevator #0 (appeared t = 4799, in elevator t = 5024)
+time = 5086	Passenger #69	from floor #1 to floor #3	got off the elevator #0 (appeared t = 4985, in elevator t = 5038)
+time = 5087	Passenger #79	appeared on floor #11, goes to floor #4
+time = 5093	Passenger #80	appeared on floor #1, goes to floor #9
+time = 5094	Passenger #81	appeared on floor #1, goes to floor #7
+time = 5110	Passenger #82	appeared on floor #8, goes to floor #1
+time = 5111	Passenger #64	from floor #1 to floor #4	got off the elevator #0 (appeared t = 4914, in elevator t = 5028)
+time = 5113	Passenger #67	from floor #1 to floor #4	got off the elevator #0 (appeared t = 4957, in elevator t = 5034)
+time = 5115	Passenger #68	from floor #1 to floor #4	got off the elevator #0 (appeared t = 4960, in elevator t = 5036)
+time = 5135	Passenger #83	appeared on floor #5, goes to floor #3
+time = 5140	Passenger #63	from floor #1 to floor #5	got off the elevator #0 (appeared t = 4898, in elevator t = 5026)
+time = 5141	Passenger #84	appeared on floor #1, goes to floor #10
+time = 5148	Passenger #83	from floor #5 to floor #3	entered the elevator #1
+time = 5156	Passenger #85	appeared on floor #1, goes to floor #4
+time = 5162	Passenger #86	appeared on floor #1, goes to floor #6
+time = 5173	Passenger #76	from floor #4 to floor #2	entered the elevator #1
+time = 5196	Passenger #87	appeared on floor #1, goes to floor #10
+time = 5196	Passenger #83	from floor #5 to floor #3	got off the elevator #1 (appeared t = 5135, in elevator t = 5148)
+time = 5197	Passenger #88	appeared on floor #11, goes to floor #10
+time = 5202	Passenger #89	appeared on floor #1, goes to floor #4
+time = 5204	Passenger #90	appeared on floor #1, goes to floor #4
+time = 5208	Passenger #91	appeared on floor #8, goes to floor #3
+time = 5210	Passenger #92	appeared on floor #1, goes to floor #11
+time = 5212	Passenger #93	appeared on floor #1, goes to floor #7
+time = 5216	Passenger #94	appeared on floor #5, goes to floor #7
+time = 5220	Passenger #96	appeared on floor #1, goes to floor #11
+time = 5220	Passenger #95	appeared on floor #1, goes to floor #6
+time = 5221	Passenger #76	from floor #4 to floor #2	got off the elevator #1 (appeared t = 5049, in elevator t = 5173)
+time = 5232	Passenger #97	appeared on floor #1, goes to floor #9
+time = 5234	Passenger #65	from floor #1 to floor #9	got off the elevator #0 (appeared t = 4933, in elevator t = 5030)
+time = 5236	Passenger #66	from floor #1 to floor #9	got off the elevator #0 (appeared t = 4947, in elevator t = 5032)
+time = 5248	Passenger #98	appeared on floor #1, goes to floor #10
+time = 5251	Passenger #99	appeared on floor #1, goes to floor #3
+time = 5269	Passenger #100	appeared on floor #1, goes to floor #4
+time = 5275	Passenger #101	appeared on floor #1, goes to floor #4
+time = 5285	Passenger #71	from floor #1 to floor #2	entered the elevator #1
+time = 5287	Passenger #102	appeared on floor #8, goes to floor #2
+time = 5287	Passenger #72	from floor #1 to floor #6	entered the elevator #1
+time = 5288	Passenger #103	appeared on floor #1, goes to floor #6
+time = 5289	Passenger #73	from floor #1 to floor #4	entered the elevator #1
+time = 5290	Passenger #104	appeared on floor #9, goes to floor #2
+time = 5290	Passenger #79	from floor #11 to floor #4	entered the elevator #0
+time = 5291	Passenger #74	from floor #1 to floor #2	entered the elevator #1
+time = 5292	Passenger #88	from floor #11 to floor #10	entered the elevator #0
+time = 5293	Passenger #75	from floor #1 to floor #3	entered the elevator #1
+time = 5295	Passenger #77	from floor #1 to floor #5	entered the elevator #1
+time = 5297	Passenger #80	from floor #1 to floor #9	entered the elevator #1
+time = 5299	Passenger #81	from floor #1 to floor #7	entered the elevator #1
+time = 5313	Passenger #105	appeared on floor #1, goes to floor #4
+time = 5315	Passenger #88	from floor #11 to floor #10	got off the elevator #0 (appeared t = 5197, in elevator t = 5292)
+time = 5319	Passenger #78	from floor #10 to floor #9	entered the elevator #0
+time = 5322	Passenger #71	from floor #1 to floor #2	got off the elevator #1 (appeared t = 4996, in elevator t = 5285)
+time = 5323	Passenger #106	appeared on floor #3, goes to floor #2
+time = 5324	Passenger #74	from floor #1 to floor #2	got off the elevator #1 (appeared t = 5004, in elevator t = 5291)
+time = 5325	Passenger #107	appeared on floor #1, goes to floor #9
+time = 5328	Passenger #70	from floor #2 to floor #8	entered the elevator #1
+time = 5342	Passenger #78	from floor #10 to floor #9	got off the elevator #0 (appeared t = 5080, in elevator t = 5319)
+time = 5343	Passenger #108	appeared on floor #1, goes to floor #3
+time = 5345	Passenger #110	appeared on floor #1, goes to floor #4
+time = 5345	Passenger #109	appeared on floor #2, goes to floor #3
+time = 5346	Passenger #104	from floor #9 to floor #2	entered the elevator #0
+time = 5351	Passenger #75	from floor #1 to floor #3	got off the elevator #1 (appeared t = 5006, in elevator t = 5293)
+time = 5354	Passenger #112	appeared on floor #1, goes to floor #10
+time = 5354	Passenger #111	appeared on floor #1, goes to floor #9
+time = 5371	Passenger #82	from floor #8 to floor #1	entered the elevator #0
+time = 5373	Passenger #91	from floor #8 to floor #3	entered the elevator #0
+time = 5375	Passenger #102	from floor #8 to floor #2	entered the elevator #0
+time = 5376	Passenger #73	from floor #1 to floor #4	got off the elevator #1 (appeared t = 5001, in elevator t = 5289)
+time = 5378	Passenger #113	appeared on floor #6, goes to floor #9
+time = 5381	Passenger #114	appeared on floor #1, goes to floor #5
+time = 5395	Passenger #115	appeared on floor #1, goes to floor #8
+time = 5398	Passenger #116	appeared on floor #1, goes to floor #9
+time = 5401	Passenger #77	from floor #1 to floor #5	got off the elevator #1 (appeared t = 5075, in elevator t = 5295)
+time = 5403	Passenger #117	appeared on floor #1, goes to floor #10
+time = 5405	Passenger #94	from floor #5 to floor #7	entered the elevator #1
+time = 5410	Passenger #118	appeared on floor #3, goes to floor #5
+time = 5428	Passenger #72	from floor #1 to floor #6	got off the elevator #1 (appeared t = 4998, in elevator t = 5287)
+time = 5429	Passenger #119	appeared on floor #6, goes to floor #4
+time = 5432	Passenger #120	appeared on floor #4, goes to floor #6
+time = 5432	Passenger #113	from floor #6 to floor #9	entered the elevator #1
+time = 5438	Passenger #121	appeared on floor #7, goes to floor #8
+time = 5443	Passenger #122	appeared on floor #1, goes to floor #3
+time = 5455	Passenger #81	from floor #1 to floor #7	got off the elevator #1 (appeared t = 5094, in elevator t = 5299)
+time = 5457	Passenger #94	from floor #5 to floor #7	got off the elevator #1 (appeared t = 5216, in elevator t = 5405)
+time = 5461	Passenger #121	from floor #7 to floor #8	entered the elevator #1
+time = 5463	Passenger #123	appeared on floor #1, goes to floor #11
+time = 5465	Passenger #124	appeared on floor #1, goes to floor #11
+time = 5467	Passenger #79	from floor #11 to floor #4	got off the elevator #0 (appeared t = 5087, in elevator t = 5290)
+time = 5484	Passenger #70	from floor #2 to floor #8	got off the elevator #1 (appeared t = 4993, in elevator t = 5328)
+time = 5486	Passenger #121	from floor #7 to floor #8	got off the elevator #1 (appeared t = 5438, in elevator t = 5461)
+time = 5487	Passenger #125	appeared on floor #8, goes to floor #1
+time = 5489	Passenger #86	from floor #1 to floor #6	leaved the floor (waiting time = 327)
+time = 5490	Passenger #89	from floor #1 to floor #4	leaved the floor (waiting time = 288)
+time = 5492	Passenger #91	from floor #8 to floor #3	got off the elevator #0 (appeared t = 5208, in elevator t = 5373)
+time = 5496	Passenger #106	from floor #3 to floor #2	entered the elevator #0
+time = 5508	Passenger #126	appeared on floor #1, goes to floor #4
+time = 5511	Passenger #80	from floor #1 to floor #9	got off the elevator #1 (appeared t = 5093, in elevator t = 5297)
+time = 5513	Passenger #113	from floor #6 to floor #9	got off the elevator #1 (appeared t = 5378, in elevator t = 5432)
+time = 5519	Passenger #104	from floor #9 to floor #2	got off the elevator #0 (appeared t = 5290, in elevator t = 5346)
+time = 5521	Passenger #102	from floor #8 to floor #2	got off the elevator #0 (appeared t = 5287, in elevator t = 5375)
+time = 5523	Passenger #106	from floor #3 to floor #2	got off the elevator #0 (appeared t = 5323, in elevator t = 5496)
+time = 5525	Passenger #127	appeared on floor #6, goes to floor #10
+time = 5527	Passenger #128	appeared on floor #1, goes to floor #8
+time = 5549	Passenger #82	from floor #8 to floor #1	got off the elevator #0 (appeared t = 5110, in elevator t = 5371)
+time = 5562	Passenger #101	from floor #1 to floor #4	leaved the floor (waiting time = 287)
+time = 5588	Passenger #84	from floor #1 to floor #10	entered the elevator #0
+time = 5590	Passenger #85	from floor #1 to floor #4	entered the elevator #0
+time = 5592	Passenger #109	from floor #2 to floor #3	leaved the floor (waiting time = 247)
+time = 5592	Passenger #87	from floor #1 to floor #10	entered the elevator #0
+time = 5594	Passenger #90	from floor #1 to floor #4	entered the elevator #0
+time = 5596	Passenger #92	from floor #1 to floor #11	entered the elevator #0
+time = 5597	Passenger #125	from floor #8 to floor #1	entered the elevator #1
+time = 5598	Passenger #93	from floor #1 to floor #7	entered the elevator #0
+time = 5600	Passenger #96	from floor #1 to floor #11	entered the elevator #0
+time = 5602	Passenger #95	from floor #1 to floor #6	entered the elevator #0
+time = 5603	Passenger #129	appeared on floor #9, goes to floor #3
+time = 5633	Passenger #130	appeared on floor #11, goes to floor #10
+time = 5645	Passenger #119	from floor #6 to floor #4	entered the elevator #1
+time = 5671	Passenger #85	from floor #1 to floor #4	got off the elevator #0 (appeared t = 5156, in elevator t = 5590)
+time = 5673	Passenger #90	from floor #1 to floor #4	got off the elevator #0 (appeared t = 5204, in elevator t = 5594)
+time = 5677	Passenger #120	from floor #4 to floor #6	entered the elevator #0
+time = 5691	Passenger #119	from floor #6 to floor #4	got off the elevator #1 (appeared t = 5429, in elevator t = 5645)
+time = 5723	Passenger #95	from floor #1 to floor #6	got off the elevator #0 (appeared t = 5220, in elevator t = 5602)
+time = 5725	Passenger #120	from floor #4 to floor #6	got off the elevator #0 (appeared t = 5432, in elevator t = 5677)
+time = 5726	Passenger #118	from floor #3 to floor #5	leaved the floor (waiting time = 316)
+time = 5729	Passenger #127	from floor #6 to floor #10	entered the elevator #0
+time = 5750	Passenger #131	appeared on floor #1, goes to floor #7
+time = 5752	Passenger #93	from floor #1 to floor #7	got off the elevator #0 (appeared t = 5212, in elevator t = 5598)
+time = 5762	Passenger #125	from floor #8 to floor #1	got off the elevator #1 (appeared t = 5487, in elevator t = 5597)
+time = 5774	Passenger #128	from floor #1 to floor #8	leaved the floor (waiting time = 247)
+time = 5780	Passenger #124	from floor #1 to floor #11	leaved the floor (waiting time = 315)
+time = 5801	Passenger #97	from floor #1 to floor #9	entered the elevator #1
+time = 5803	Passenger #98	from floor #1 to floor #10	entered the elevator #1
+time = 5805	Passenger #99	from floor #1 to floor #3	entered the elevator #1
+time = 5807	Passenger #100	from floor #1 to floor #4	entered the elevator #1
+time = 5809	Passenger #103	from floor #1 to floor #6	entered the elevator #1
+time = 5811	Passenger #105	from floor #1 to floor #4	entered the elevator #1
+time = 5813	Passenger #107	from floor #1 to floor #9	entered the elevator #1
+time = 5814	Passenger #132	appeared on floor #1, goes to floor #10
+time = 5815	Passenger #108	from floor #1 to floor #3	entered the elevator #1
+time = 5823	Passenger #84	from floor #1 to floor #10	got off the elevator #0 (appeared t = 5141, in elevator t = 5588)
+time = 5825	Passenger #87	from floor #1 to floor #10	got off the elevator #0 (appeared t = 5196, in elevator t = 5592)
+time = 5826	Passenger #126	from floor #1 to floor #4	leaved the floor (waiting time = 318)
+time = 5827	Passenger #127	from floor #6 to floor #10	got off the elevator #0 (appeared t = 5525, in elevator t = 5729)
+time = 5852	Passenger #92	from floor #1 to floor #11	got off the elevator #0 (appeared t = 5210, in elevator t = 5596)
+time = 5854	Passenger #96	from floor #1 to floor #11	got off the elevator #0 (appeared t = 5220, in elevator t = 5600)
+time = 5858	Passenger #130	from floor #11 to floor #10	entered the elevator #0
+time = 5861	Passenger #99	from floor #1 to floor #3	got off the elevator #1 (appeared t = 5251, in elevator t = 5805)
+time = 5863	Passenger #108	from floor #1 to floor #3	got off the elevator #1 (appeared t = 5343, in elevator t = 5815)
+time = 5881	Passenger #130	from floor #11 to floor #10	got off the elevator #0 (appeared t = 5633, in elevator t = 5858)
+time = 5888	Passenger #100	from floor #1 to floor #4	got off the elevator #1 (appeared t = 5269, in elevator t = 5807)
+time = 5890	Passenger #105	from floor #1 to floor #4	got off the elevator #1 (appeared t = 5313, in elevator t = 5811)
+time = 5910	Passenger #129	from floor #9 to floor #3	entered the elevator #0
+time = 5918	Passenger #133	appeared on floor #1, goes to floor #8
+time = 5938	Passenger #103	from floor #1 to floor #6	got off the elevator #1 (appeared t = 5288, in elevator t = 5809)
+time = 6009	Passenger #97	from floor #1 to floor #9	got off the elevator #1 (appeared t = 5232, in elevator t = 5801)
+time = 6011	Passenger #107	from floor #1 to floor #9	got off the elevator #1 (appeared t = 5325, in elevator t = 5813)
+time = 6036	Passenger #98	from floor #1 to floor #10	got off the elevator #1 (appeared t = 5248, in elevator t = 5803)
+time = 6040	Passenger #134	appeared on floor #1, goes to floor #2
+time = 6053	Passenger #129	from floor #9 to floor #3	got off the elevator #0 (appeared t = 5603, in elevator t = 5910)
+time = 6101	Passenger #135	appeared on floor #10, goes to floor #8
+time = 6119	Passenger #117	from floor #1 to floor #10	leaved the floor (waiting time = 716)
+time = 6127	Passenger #110	from floor #1 to floor #4	entered the elevator #0
+time = 6129	Passenger #112	from floor #1 to floor #10	entered the elevator #0
+time = 6131	Passenger #111	from floor #1 to floor #9	entered the elevator #0
+time = 6133	Passenger #114	from floor #1 to floor #5	entered the elevator #0
+time = 6135	Passenger #115	from floor #1 to floor #8	entered the elevator #0
+time = 6137	Passenger #116	from floor #1 to floor #9	entered the elevator #0
+time = 6139	Passenger #122	from floor #1 to floor #3	entered the elevator #0
+time = 6141	Passenger #123	from floor #1 to floor #11	entered the elevator #0
+time = 6187	Passenger #122	from floor #1 to floor #3	got off the elevator #0 (appeared t = 5443, in elevator t = 6139)
+time = 6212	Passenger #110	from floor #1 to floor #4	got off the elevator #0 (appeared t = 5345, in elevator t = 6127)
+time = 6215	Passenger #131	from floor #1 to floor #7	entered the elevator #1
+time = 6217	Passenger #132	from floor #1 to floor #10	entered the elevator #1
+time = 6219	Passenger #133	from floor #1 to floor #8	entered the elevator #1
+time = 6221	Passenger #136	appeared on floor #1, goes to floor #3
+time = 6221	Passenger #134	from floor #1 to floor #2	entered the elevator #1
+time = 6223	Passenger #136	from floor #1 to floor #3	entered the elevator #1
+time = 6237	Passenger #114	from floor #1 to floor #5	got off the elevator #0 (appeared t = 5381, in elevator t = 6133)
+time = 6246	Passenger #134	from floor #1 to floor #2	got off the elevator #1 (appeared t = 6040, in elevator t = 6221)
+time = 6271	Passenger #136	from floor #1 to floor #3	got off the elevator #1 (appeared t = 6221, in elevator t = 6223)
+time = 6308	Passenger #115	from floor #1 to floor #8	got off the elevator #0 (appeared t = 5395, in elevator t = 6135)
+time = 6320	Passenger #137	appeared on floor #1, goes to floor #4
+time = 6333	Passenger #111	from floor #1 to floor #9	got off the elevator #0 (appeared t = 5354, in elevator t = 6131)
+time = 6335	Passenger #116	from floor #1 to floor #9	got off the elevator #0 (appeared t = 5398, in elevator t = 6137)
+time = 6360	Passenger #112	from floor #1 to floor #10	got off the elevator #0 (appeared t = 5354, in elevator t = 6129)
+time = 6365	Passenger #131	from floor #1 to floor #7	got off the elevator #1 (appeared t = 5750, in elevator t = 6215)
+time = 6385	Passenger #123	from floor #1 to floor #11	got off the elevator #0 (appeared t = 5463, in elevator t = 6141)
+time = 6387	Passenger #138	appeared on floor #2, goes to floor #11
+time = 6390	Passenger #133	from floor #1 to floor #8	got off the elevator #1 (appeared t = 5918, in elevator t = 6219)
+time = 6414	Passenger #135	from floor #10 to floor #8	entered the elevator #0
+time = 6438	Passenger #132	from floor #1 to floor #10	got off the elevator #1 (appeared t = 5814, in elevator t = 6217)
+time = 6460	Passenger #135	from floor #10 to floor #8	got off the elevator #0 (appeared t = 6101, in elevator t = 6414)
+time = 6599	Passenger #137	from floor #1 to floor #4	entered the elevator #0
+time = 6628	Passenger #138	from floor #2 to floor #11	entered the elevator #0
+time = 6675	Passenger #139	appeared on floor #1, goes to floor #3
+time = 6677	Passenger #137	from floor #1 to floor #4	got off the elevator #0 (appeared t = 6320, in elevator t = 6599)
+time = 6765	Passenger #140	appeared on floor #11, goes to floor #10
+time = 6858	Passenger #138	from floor #2 to floor #11	got off the elevator #0 (appeared t = 6387, in elevator t = 6628)
+time = 6862	Passenger #140	from floor #11 to floor #10	entered the elevator #0
+time = 6882	Passenger #139	from floor #1 to floor #3	entered the elevator #1
+time = 6885	Passenger #140	from floor #11 to floor #10	got off the elevator #0 (appeared t = 6765, in elevator t = 6862)
+time = 6899	Passenger #141	appeared on floor #1, goes to floor #6
+time = 6933	Passenger #139	from floor #1 to floor #3	got off the elevator #1 (appeared t = 6675, in elevator t = 6882)
+time = 7016	Passenger #142	appeared on floor #1, goes to floor #2
+time = 7029	Passenger #141	from floor #1 to floor #6	entered the elevator #0
+time = 7031	Passenger #142	from floor #1 to floor #2	entered the elevator #0
+time = 7054	Passenger #142	from floor #1 to floor #2	got off the elevator #0 (appeared t = 7016, in elevator t = 7031)
+time = 7075	Passenger #143	appeared on floor #1, goes to floor #10
+time = 7148	Passenger #141	from floor #1 to floor #6	got off the elevator #0 (appeared t = 6899, in elevator t = 7029)
+time = 7167	Passenger #143	from floor #1 to floor #10	entered the elevator #1
+time = 7213	Passenger #144	appeared on floor #9, goes to floor #5
+time = 7237	Passenger #144	from floor #9 to floor #5	entered the elevator #0
+time = 7285	Passenger #145	appeared on floor #7, goes to floor #3
+time = 7285	Passenger #145	from floor #7 to floor #3	entered the elevator #0
+time = 7331	Passenger #144	from floor #9 to floor #5	got off the elevator #0 (appeared t = 7213, in elevator t = 7237)
+time = 7374	Passenger #143	from floor #1 to floor #10	got off the elevator #1 (appeared t = 7075, in elevator t = 7167)
+time = 7384	Passenger #145	from floor #7 to floor #3	got off the elevator #0 (appeared t = 7285, in elevator t = 7285)
+time = 7386	Passenger #146	appeared on floor #1, goes to floor #7
+time = 7458	Passenger #146	from floor #1 to floor #7	entered the elevator #0
+time = 7505	Passenger #147	appeared on floor #1, goes to floor #5
+time = 7553	Passenger #147	from floor #1 to floor #5	entered the elevator #1
+time = 7596	Passenger #146	from floor #1 to floor #7	got off the elevator #0 (appeared t = 7386, in elevator t = 7458)
+time = 7623	Passenger #148	appeared on floor #1, goes to floor #8
+time = 7645	Passenger #147	from floor #1 to floor #5	got off the elevator #1 (appeared t = 7505, in elevator t = 7553)
+time = 7738	Passenger #149	appeared on floor #1, goes to floor #5
+time = 7759	Passenger #150	appeared on floor #2, goes to floor #3
+time = 7790	Passenger #148	from floor #1 to floor #8	entered the elevator #0
+time = 7792	Passenger #149	from floor #1 to floor #5	entered the elevator #0
+time = 7817	Passenger #150	from floor #2 to floor #3	entered the elevator #0
+time = 7840	Passenger #150	from floor #2 to floor #3	got off the elevator #0 (appeared t = 7759, in elevator t = 7817)
+time = 7888	Passenger #149	from floor #1 to floor #5	got off the elevator #0 (appeared t = 7738, in elevator t = 7792)
+time = 7924	Passenger #151	appeared on floor #1, goes to floor #6
+time = 7959	Passenger #148	from floor #1 to floor #8	got off the elevator #0 (appeared t = 7623, in elevator t = 7790)
+time = 7979	Passenger #152	appeared on floor #1, goes to floor #6
+time = 8124	Passenger #151	from floor #1 to floor #6	entered the elevator #1
+time = 8126	Passenger #152	from floor #1 to floor #6	entered the elevator #1
+time = 8139	Passenger #153	appeared on floor #3, goes to floor #9
+time = 8174	Passenger #153	from floor #3 to floor #9	entered the elevator #1
+time = 8181	Passenger #154	appeared on floor #1, goes to floor #2
+time = 8243	Passenger #151	from floor #1 to floor #6	got off the elevator #1 (appeared t = 7924, in elevator t = 8124)
+time = 8245	Passenger #152	from floor #1 to floor #6	got off the elevator #1 (appeared t = 7979, in elevator t = 8126)
+time = 8273	Passenger #155	appeared on floor #4, goes to floor #10
+time = 8316	Passenger #153	from floor #3 to floor #9	got off the elevator #1 (appeared t = 8139, in elevator t = 8174)
+time = 8392	Passenger #156	appeared on floor #1, goes to floor #2
+time = 8423	Passenger #154	from floor #1 to floor #2	entered the elevator #0
+time = 8425	Passenger #156	from floor #1 to floor #2	entered the elevator #0
+time = 8450	Passenger #154	from floor #1 to floor #2	got off the elevator #0 (appeared t = 8181, in elevator t = 8423)
+time = 8452	Passenger #156	from floor #1 to floor #2	got off the elevator #0 (appeared t = 8392, in elevator t = 8425)
+time = 8491	Passenger #155	from floor #4 to floor #10	entered the elevator #0
+time = 8549	Passenger #157	appeared on floor #1, goes to floor #9
+time = 8625	Passenger #158	appeared on floor #1, goes to floor #6
+time = 8629	Passenger #155	from floor #4 to floor #10	got off the elevator #0 (appeared t = 8273, in elevator t = 8491)
+time = 8743	Passenger #159	appeared on floor #9, goes to floor #4
+time = 8770	Passenger #157	from floor #1 to floor #9	entered the elevator #1
+time = 8772	Passenger #158	from floor #1 to floor #6	entered the elevator #1
+time = 8788	Passenger #160	appeared on floor #5, goes to floor #6
+time = 8848	Passenger #160	from floor #5 to floor #6	entered the elevator #0
+time = 8871	Passenger #160	from floor #5 to floor #6	got off the elevator #0 (appeared t = 8788, in elevator t = 8848)
+time = 8877	Passenger #161	appeared on floor #1, goes to floor #6
+time = 8887	Passenger #158	from floor #1 to floor #6	got off the elevator #1 (appeared t = 8625, in elevator t = 8772)
+time = 8958	Passenger #157	from floor #1 to floor #9	got off the elevator #1 (appeared t = 8549, in elevator t = 8770)
+time = 8975	Passenger #159	from floor #9 to floor #4	entered the elevator #0
+time = 8989	Passenger #162	appeared on floor #1, goes to floor #5
+time = 9091	Passenger #159	from floor #9 to floor #4	got off the elevator #0 (appeared t = 8743, in elevator t = 8975)
+time = 9118	Passenger #163	appeared on floor #1, goes to floor #3
+time = 9147	Passenger #161	from floor #1 to floor #6	entered the elevator #1
+time = 9149	Passenger #162	from floor #1 to floor #5	entered the elevator #1
+time = 9151	Passenger #163	from floor #1 to floor #3	entered the elevator #1
+time = 9192	Passenger #164	appeared on floor #1, goes to floor #2
+time = 9197	Passenger #163	from floor #1 to floor #3	got off the elevator #1 (appeared t = 9118, in elevator t = 9151)
+time = 9245	Passenger #162	from floor #1 to floor #5	got off the elevator #1 (appeared t = 8989, in elevator t = 9149)
+time = 9270	Passenger #161	from floor #1 to floor #6	got off the elevator #1 (appeared t = 8877, in elevator t = 9147)
+time = 9291	Passenger #165	appeared on floor #10, goes to floor #6
+time = 9300	Passenger #165	from floor #10 to floor #6	entered the elevator #0
+time = 9354	Passenger #166	appeared on floor #1, goes to floor #6
+time = 9392	Passenger #165	from floor #10 to floor #6	got off the elevator #0 (appeared t = 9291, in elevator t = 9300)
+time = 9492	Passenger #167	appeared on floor #1, goes to floor #9
+time = 9496	Passenger #164	from floor #1 to floor #2	entered the elevator #0
+time = 9498	Passenger #166	from floor #1 to floor #6	entered the elevator #0
+time = 9500	Passenger #167	from floor #1 to floor #9	entered the elevator #0
+time = 9523	Passenger #164	from floor #1 to floor #2	got off the elevator #0 (appeared t = 9192, in elevator t = 9496)
+time = 9572	Passenger #168	appeared on floor #11, goes to floor #2
+time = 9617	Passenger #166	from floor #1 to floor #6	got off the elevator #0 (appeared t = 9354, in elevator t = 9498)
+time = 9619	Passenger #168	from floor #11 to floor #2	entered the elevator #1
+time = 9690	Passenger #167	from floor #1 to floor #9	got off the elevator #0 (appeared t = 9492, in elevator t = 9500)
+time = 9721	Passenger #169	appeared on floor #1, goes to floor #11
+time = 9785	Passenger #170	appeared on floor #11, goes to floor #3
+time = 9850	Passenger #168	from floor #11 to floor #2	got off the elevator #1 (appeared t = 9572, in elevator t = 9619)
+time = 9879	Passenger #169	from floor #1 to floor #11	entered the elevator #0
+time = 9945	Passenger #171	appeared on floor #1, goes to floor #9
+time = 10020	Passenger #172	appeared on floor #1, goes to floor #9
+time = 10029	Passenger #170	from floor #11 to floor #3	entered the elevator #1
+time = 10126	Passenger #169	from floor #1 to floor #11	got off the elevator #0 (appeared t = 9721, in elevator t = 9879)
+time = 10148	Passenger #173	appeared on floor #1, goes to floor #5
+time = 10201	Passenger #174	appeared on floor #2, goes to floor #10
+time = 10214	Passenger #170	from floor #11 to floor #3	got off the elevator #1 (appeared t = 9785, in elevator t = 10029)
+time = 10277	Passenger #175	appeared on floor #8, goes to floor #4
+time = 10293	Passenger #172	from floor #1 to floor #9	leaved the floor (waiting time = 273)
+time = 10295	Passenger #171	from floor #1 to floor #9	entered the elevator #0
+time = 10297	Passenger #173	from floor #1 to floor #5	entered the elevator #0
+time = 10322	Passenger #174	from floor #2 to floor #10	entered the elevator #0
+time = 10366	Passenger #176	appeared on floor #1, goes to floor #3
+time = 10391	Passenger #173	from floor #1 to floor #5	got off the elevator #0 (appeared t = 10148, in elevator t = 10297)
+time = 10464	Passenger #175	from floor #8 to floor #4	entered the elevator #1
+time = 10485	Passenger #171	from floor #1 to floor #9	got off the elevator #0 (appeared t = 9945, in elevator t = 10295)
+time = 10502	Passenger #177	appeared on floor #1, goes to floor #11
+time = 10510	Passenger #174	from floor #2 to floor #10	got off the elevator #0 (appeared t = 10201, in elevator t = 10322)
+time = 10558	Passenger #175	from floor #8 to floor #4	got off the elevator #1 (appeared t = 10277, in elevator t = 10464)
+time = 10621	Passenger #178	appeared on floor #1, goes to floor #6
+time = 10642	Passenger #176	from floor #1 to floor #3	entered the elevator #1
+time = 10644	Passenger #177	from floor #1 to floor #11	entered the elevator #1
+time = 10646	Passenger #178	from floor #1 to floor #6	entered the elevator #1
+time = 10669	Passenger #179	appeared on floor #1, goes to floor #9
+time = 10689	Passenger #179	from floor #1 to floor #9	entered the elevator #0
+time = 10694	Passenger #176	from floor #1 to floor #3	got off the elevator #1 (appeared t = 10366, in elevator t = 10642)
+time = 10769	Passenger #178	from floor #1 to floor #6	got off the elevator #1 (appeared t = 10621, in elevator t = 10646)
+time = 10803	Passenger #180	appeared on floor #8, goes to floor #3
+time = 10875	Passenger #179	from floor #1 to floor #9	got off the elevator #0 (appeared t = 10669, in elevator t = 10689)
+time = 10895	Passenger #177	from floor #1 to floor #11	got off the elevator #1 (appeared t = 10502, in elevator t = 10644)
+time = 10926	Passenger #181	appeared on floor #1, goes to floor #5
+time = 10944	Passenger #180	from floor #8 to floor #3	entered the elevator #0
+time = 11015	Passenger #182	appeared on floor #1, goes to floor #11
+time = 11036	Passenger #183	appeared on floor #1, goes to floor #2
+time = 11038	Passenger #184	appeared on floor #1, goes to floor #4
+time = 11045	Passenger #185	appeared on floor #11, goes to floor #10
+time = 11058	Passenger #186	appeared on floor #6, goes to floor #4
+time = 11059	Passenger #180	from floor #8 to floor #3	got off the elevator #0 (appeared t = 10803, in elevator t = 10944)
+time = 11060	Passenger #187	appeared on floor #11, goes to floor #7
+time = 11066	Passenger #188	appeared on floor #8, goes to floor #1
+time = 11066	Passenger #181	from floor #1 to floor #5	entered the elevator #1
+time = 11068	Passenger #182	from floor #1 to floor #11	entered the elevator #1
+time = 11070	Passenger #183	from floor #1 to floor #2	entered the elevator #1
+time = 11072	Passenger #184	from floor #1 to floor #4	entered the elevator #1
+time = 11074	Passenger #189	appeared on floor #10, goes to floor #11
+time = 11079	Passenger #190	appeared on floor #10, goes to floor #8
+time = 11081	Passenger #191	appeared on floor #3, goes to floor #7
+time = 11091	Passenger #192	appeared on floor #10, goes to floor #8
+time = 11095	Passenger #183	from floor #1 to floor #2	got off the elevator #1 (appeared t = 11036, in elevator t = 11070)
+time = 11108	Passenger #193	appeared on floor #5, goes to floor #4
+time = 11121	Passenger #194	appeared on floor #11, goes to floor #8
+time = 11122	Passenger #191	from floor #3 to floor #7	entered the elevator #1
+time = 11128	Passenger #195	appeared on floor #2, goes to floor #1
+time = 11134	Passenger #196	appeared on floor #10, goes to floor #8
+time = 11136	Passenger #197	appeared on floor #1, goes to floor #5
+time = 11145	Passenger #184	from floor #1 to floor #4	got off the elevator #1 (appeared t = 11038, in elevator t = 11072)
+time = 11148	Passenger #198	appeared on floor #1, goes to floor #3
+time = 11148	Passenger #197	from floor #1 to floor #5	entered the elevator #0
+time = 11150	Passenger #198	from floor #1 to floor #3	entered the elevator #0
+time = 11158	Passenger #199	appeared on floor #11, goes to floor #10
+time = 11170	Passenger #181	from floor #1 to floor #5	got off the elevator #1 (appeared t = 10926, in elevator t = 11066)
+time = 11171	Passenger #200	appeared on floor #6, goes to floor #5
+time = 11194	Passenger #201	appeared on floor #3, goes to floor #10
+time = 11196	Passenger #202	appeared on floor #1, goes to floor #11
+time = 11196	Passenger #198	from floor #1 to floor #3	got off the elevator #0 (appeared t = 11148, in elevator t = 11150)
+time = 11199	Passenger #203	appeared on floor #1, goes to floor #5
+time = 11200	Passenger #201	from floor #3 to floor #10	entered the elevator #0
+time = 11202	Passenger #204	appeared on floor #3, goes to floor #11
+time = 11202	Passenger #204	from floor #3 to floor #11	entered the elevator #0
+time = 11214	Passenger #205	appeared on floor #1, goes to floor #6
+time = 11218	Passenger #191	from floor #3 to floor #7	got off the elevator #1 (appeared t = 11081, in elevator t = 11122)
+time = 11222	Passenger #206	appeared on floor #7, goes to floor #2
+time = 11226	Passenger #208	appeared on floor #1, goes to floor #4
+time = 11226	Passenger #207	appeared on floor #1, goes to floor #5
+time = 11245	Passenger #209	appeared on floor #11, goes to floor #2
+time = 11248	Passenger #197	from floor #1 to floor #5	got off the elevator #0 (appeared t = 11136, in elevator t = 11148)
+time = 11268	Passenger #210	appeared on floor #4, goes to floor #3
+time = 11269	Passenger #211	appeared on floor #2, goes to floor #9
+time = 11270	Passenger #212	appeared on floor #1, goes to floor #8
+time = 11275	Passenger #213	appeared on floor #1, goes to floor #6
+time = 11293	Passenger #189	from floor #10 to floor #11	entered the elevator #1
+time = 11301	Passenger #215	appeared on floor #11, goes to floor #8
+time = 11301	Passenger #214	appeared on floor #1, goes to floor #3
+time = 11306	Passenger #216	appeared on floor #1, goes to floor #3
+time = 11316	Passenger #182	from floor #1 to floor #11	got off the elevator #1 (appeared t = 11015, in elevator t = 11068)
+time = 11318	Passenger #189	from floor #10 to floor #11	got off the elevator #1 (appeared t = 11074, in elevator t = 11293)
+time = 11322	Passenger #185	from floor #11 to floor #10	entered the elevator #1
+time = 11324	Passenger #187	from floor #11 to floor #7	entered the elevator #1
+time = 11326	Passenger #194	from floor #11 to floor #8	entered the elevator #1
+time = 11328	Passenger #217	appeared on floor #1, goes to floor #2
+time = 11328	Passenger #199	from floor #11 to floor #10	entered the elevator #1
+time = 11330	Passenger #209	from floor #11 to floor #2	entered the elevator #1
+time = 11332	Passenger #215	from floor #11 to floor #8	entered the elevator #1
+time = 11348	Passenger #218	appeared on floor #9, goes to floor #5
+time = 11355	Passenger #219	appeared on floor #5, goes to floor #11
+time = 11355	Passenger #185	from floor #11 to floor #10	got off the elevator #1 (appeared t = 11045, in elevator t = 11322)
+time = 11357	Passenger #199	from floor #11 to floor #10	got off the elevator #1 (appeared t = 11158, in elevator t = 11328)
+time = 11358	Passenger #220	appeared on floor #3, goes to floor #1
+time = 11361	Passenger #190	from floor #10 to floor #8	entered the elevator #1
+time = 11362	Passenger #221	appeared on floor #3, goes to floor #9
+time = 11363	Passenger #192	from floor #10 to floor #8	entered the elevator #1
+time = 11365	Passenger #196	from floor #10 to floor #8	entered the elevator #1
+time = 11365	Passenger #201	from floor #3 to floor #10	got off the elevator #0 (appeared t = 11194, in elevator t = 11200)
+time = 11379	Passenger #222	appeared on floor #7, goes to floor #2
+time = 11386	Passenger #223	appeared on floor #1, goes to floor #8
+time = 11390	Passenger #218	from floor #9 to floor #5	entered the elevator #1
+time = 11390	Passenger #204	from floor #3 to floor #11	got off the elevator #0 (appeared t = 11202, in elevator t = 11202)
+time = 11395	Passenger #225	appeared on floor #6, goes to floor #5
+time = 11395	Passenger #224	appeared on floor #1, goes to floor #6
+time = 11403	Passenger #226	appeared on floor #9, goes to floor #11
+time = 11413	Passenger #194	from floor #11 to floor #8	got off the elevator #1 (appeared t = 11121, in elevator t = 11326)
+time = 11415	Passenger #215	from floor #11 to floor #8	got off the elevator #1 (appeared t = 11301, in elevator t = 11332)
+time = 11417	Passenger #190	from floor #10 to floor #8	got off the elevator #1 (appeared t = 11079, in elevator t = 11361)
+time = 11419	Passenger #192	from floor #10 to floor #8	got off the elevator #1 (appeared t = 11091, in elevator t = 11363)
+time = 11421	Passenger #196	from floor #10 to floor #8	got off the elevator #1 (appeared t = 11134, in elevator t = 11365)
+time = 11425	Passenger #188	from floor #8 to floor #1	entered the elevator #1
+time = 11426	Passenger #227	appeared on floor #5, goes to floor #1
+time = 11433	Passenger #228	appeared on floor #4, goes to floor #3
+time = 11436	Passenger #229	appeared on floor #3, goes to floor #6
+time = 11443	Passenger #230	appeared on floor #5, goes to floor #2
+time = 11444	Passenger #231	appeared on floor #11, goes to floor #7
+time = 11448	Passenger #187	from floor #11 to floor #7	got off the elevator #1 (appeared t = 11060, in elevator t = 11324)
+time = 11452	Passenger #206	from floor #7 to floor #2	entered the elevator #1
+time = 11454	Passenger #222	from floor #7 to floor #2	entered the elevator #1
+time = 11474	Passenger #186	from floor #6 to floor #4	entered the elevator #0
+time = 11476	Passenger #200	from floor #6 to floor #5	entered the elevator #0
+time = 11478	Passenger #225	from floor #6 to floor #5	entered the elevator #0
+time = 11484	Passenger #232	appeared on floor #2, goes to floor #6
+time = 11501	Passenger #200	from floor #6 to floor #5	got off the elevator #0 (appeared t = 11171, in elevator t = 11476)
+time = 11501	Passenger #218	from floor #9 to floor #5	got off the elevator #1 (appeared t = 11348, in elevator t = 11390)
+time = 11503	Passenger #225	from floor #6 to floor #5	got off the elevator #0 (appeared t = 11395, in elevator t = 11478)
+time = 11505	Passenger #193	from floor #5 to floor #4	entered the elevator #1
+time = 11507	Passenger #227	from floor #5 to floor #1	entered the elevator #0
+time = 11507	Passenger #230	from floor #5 to floor #2	entered the elevator #1
+time = 11515	Passenger #233	appeared on floor #1, goes to floor #8
+time = 11520	Passenger #234	appeared on floor #1, goes to floor #5
+time = 11522	Passenger #235	appeared on floor #1, goes to floor #2
+time = 11529	Passenger #236	appeared on floor #9, goes to floor #10
+time = 11530	Passenger #186	from floor #6 to floor #4	got off the elevator #0 (appeared t = 11058, in elevator t = 11474)
+time = 11530	Passenger #193	from floor #5 to floor #4	got off the elevator #1 (appeared t = 11108, in elevator t = 11505)
+time = 11533	Passenger #237	appeared on floor #2, goes to floor #1
+time = 11534	Passenger #210	from floor #4 to floor #3	entered the elevator #0
+time = 11534	Passenger #228	from floor #4 to floor #3	entered the elevator #1
+time = 11538	Passenger #238	appeared on floor #8, goes to floor #1
+time = 11554	Passenger #239	appeared on floor #2, goes to floor #1
+time = 11557	Passenger #210	from floor #4 to floor #3	got off the elevator #0 (appeared t = 11268, in elevator t = 11534)
+time = 11557	Passenger #228	from floor #4 to floor #3	got off the elevator #1 (appeared t = 11433, in elevator t = 11534)
+time = 11558	Passenger #240	appeared on floor #1, goes to floor #6
+time = 11560	Passenger #241	appeared on floor #2, goes to floor #4
+time = 11561	Passenger #220	from floor #3 to floor #1	entered the elevator #0
+time = 11561	Passenger #229	from floor #3 to floor #6*	entered the elevator #1
+time = 11578	Passenger #242	appeared on floor #1, goes to floor #7
+time = 11584	Passenger #209	from floor #11 to floor #2	got off the elevator #1 (appeared t = 11245, in elevator t = 11330)
+time = 11586	Passenger #206	from floor #7 to floor #2	got off the elevator #1 (appeared t = 11222, in elevator t = 11452)
+time = 11587	Passenger #195	from floor #2 to floor #1	entered the elevator #0
+time = 11588	Passenger #222	from floor #7 to floor #2	got off the elevator #1 (appeared t = 11379, in elevator t = 11454)
+time = 11589	Passenger #237	from floor #2 to floor #1	entered the elevator #0
+time = 11590	Passenger #230	from floor #5 to floor #2	got off the elevator #1 (appeared t = 11443, in elevator t = 11507)
+time = 11591	Passenger #239	from floor #2 to floor #1	entered the elevator #0
+time = 11597	Passenger #243	appeared on floor #3, goes to floor #7
+time = 11614	Passenger #227	from floor #5 to floor #1	got off the elevator #0 (appeared t = 11426, in elevator t = 11507)
+time = 11614	Passenger #188	from floor #8 to floor #1	got off the elevator #1 (appeared t = 11066, in elevator t = 11425)
+time = 11615	Passenger #244	appeared on floor #6, goes to floor #7
+time = 11616	Passenger #220	from floor #3 to floor #1	got off the elevator #0 (appeared t = 11358, in elevator t = 11561)
+time = 11618	Passenger #195	from floor #2 to floor #1	got off the elevator #0 (appeared t = 11128, in elevator t = 11587)
+time = 11619	Passenger #245	appeared on floor #5, goes to floor #1
+time = 11620	Passenger #237	from floor #2 to floor #1	got off the elevator #0 (appeared t = 11533, in elevator t = 11589)
+time = 11622	Passenger #239	from floor #2 to floor #1	got off the elevator #0 (appeared t = 11554, in elevator t = 11591)
+time = 11644	Passenger #246	appeared on floor #1, goes to floor #2
+time = 11649	Passenger #247	appeared on floor #1, goes to floor #10
+time = 11659	Passenger #248	appeared on floor #1, goes to floor #10
+time = 11661	Passenger #202	from floor #1 to floor #11	entered the elevator #0
+time = 11663	Passenger #203	from floor #1 to floor #5	entered the elevator #0
+time = 11665	Passenger #205	from floor #1 to floor #6	entered the elevator #1
+time = 11665	Passenger #208	from floor #1 to floor #4	entered the elevator #0
+time = 11666	Passenger #249	appeared on floor #6, goes to floor #1
+time = 11667	Passenger #207	from floor #1 to floor #5	entered the elevator #1
+time = 11667	Passenger #212	from floor #1 to floor #8	entered the elevator #0
+time = 11669	Passenger #213	from floor #1 to floor #6	entered the elevator #1
+time = 11669	Passenger #214	from floor #1 to floor #3	entered the elevator #0
+time = 11671	Passenger #216	from floor #1 to floor #3	entered the elevator #1
+time = 11671	Passenger #217	from floor #1 to floor #2	entered the elevator #0
+time = 11672	Passenger #250	appeared on floor #8, goes to floor #1
+time = 11673	Passenger #223	from floor #1 to floor #8	entered the elevator #1
+time = 11673	Passenger #224	from floor #1 to floor #6	entered the elevator #0
+time = 11675	Passenger #233	from floor #1 to floor #8	entered the elevator #1
+time = 11675	Passenger #234	from floor #1 to floor #5	entered the elevator #0
+time = 11677	Passenger #235	from floor #1 to floor #2	entered the elevator #1
+time = 11681	Passenger #251	appeared on floor #3, goes to floor #1
+time = 11698	Passenger #217	from floor #1 to floor #2	got off the elevator #0 (appeared t = 11328, in elevator t = 11671)
+time = 11700	Passenger #235	from floor #1 to floor #2	got off the elevator #1 (appeared t = 11522, in elevator t = 11677)
+time = 11702	Passenger #211	from floor #2 to floor #9	entered the elevator #0
+time = 11703	Passenger #252	appeared on floor #6, goes to floor #1
+time = 11704	Passenger #232	from floor #2 to floor #6	entered the elevator #1
+time = 11711	Passenger #253	appeared on floor #1, goes to floor #3
+time = 11719	Passenger #254	appeared on floor #1, goes to floor #7
+time = 11725	Passenger #214	from floor #1 to floor #3	got off the elevator #0 (appeared t = 11301, in elevator t = 11669)
+time = 11727	Passenger #216	from floor #1 to floor #3	got off the elevator #1 (appeared t = 11306, in elevator t = 11671)
+time = 11729	Passenger #221	from floor #3 to floor #9	entered the elevator #0
+time = 11731	Passenger #243	from floor #3 to floor #7	entered the elevator #1
+time = 11750	Passenger #255	appeared on floor #9, goes to floor #1
+time = 11752	Passenger #208	from floor #1 to floor #4	got off the elevator #0 (appeared t = 11226, in elevator t = 11665)
+time = 11771	Passenger #256	appeared on floor #4, goes to floor #1
+time = 11776	Passenger #257	appeared on floor #3, goes to floor #1
+time = 11777	Passenger #203	from floor #1 to floor #5	got off the elevator #0 (appeared t = 11199, in elevator t = 11663)
+time = 11777	Passenger #207	from floor #1 to floor #5	got off the elevator #1 (appeared t = 11226, in elevator t = 11667)
+time = 11779	Passenger #234	from floor #1 to floor #5	got off the elevator #0 (appeared t = 11520, in elevator t = 11675)
+time = 11780	Passenger #258	appeared on floor #10, goes to floor #1
+time = 11781	Passenger #219	from floor #5 to floor #11	entered the elevator #1
+time = 11793	Passenger #259	appeared on floor #9, goes to floor #1
+time = 11799	Passenger #260	appeared on floor #10, goes to floor #1
+time = 11804	Passenger #224	from floor #1 to floor #6	got off the elevator #0 (appeared t = 11395, in elevator t = 11673)
+time = 11804	Passenger #229	from floor #3 to floor #6	got off the elevator #1 (appeared t = 11436, in elevator t = 11561)
+time = 11806	Passenger #205	from floor #1 to floor #6	got off the elevator #1 (appeared t = 11214, in elevator t = 11665)
+time = 11808	Passenger #244	from floor #6 to floor #7	entered the elevator #0
+time = 11808	Passenger #213	from floor #1 to floor #6	got off the elevator #1 (appeared t = 11275, in elevator t = 11669)
+time = 11810	Passenger #232	from floor #2 to floor #6	got off the elevator #1 (appeared t = 11484, in elevator t = 11704)
+time = 11831	Passenger #244	from floor #6 to floor #7	got off the elevator #0 (appeared t = 11615, in elevator t = 11808)
+time = 11835	Passenger #261	appeared on floor #3, goes to floor #1
+time = 11835	Passenger #243	from floor #3 to floor #7	got off the elevator #1 (appeared t = 11597, in elevator t = 11731)
+time = 11838	Passenger #262	appeared on floor #4, goes to floor #1
+time = 11856	Passenger #212	from floor #1 to floor #8	got off the elevator #0 (appeared t = 11270, in elevator t = 11667)
+time = 11860	Passenger #223	from floor #1 to floor #8	got off the elevator #1 (appeared t = 11386, in elevator t = 11673)
+time = 11862	Passenger #233	from floor #1 to floor #8	got off the elevator #1 (appeared t = 11515, in elevator t = 11675)
+time = 11881	Passenger #211	from floor #2 to floor #9	got off the elevator #0 (appeared t = 11269, in elevator t = 11702)
+time = 11883	Passenger #221	from floor #3 to floor #9	got off the elevator #0 (appeared t = 11362, in elevator t = 11729)
+time = 11887	Passenger #226	from floor #9 to floor #11	entered the elevator #0
+time = 11889	Passenger #236	from floor #9 to floor #10	entered the elevator #1
+time = 11891	Passenger #263	appeared on floor #3, goes to floor #1
+time = 11911	Passenger #264	appeared on floor #10, goes to floor #1
+time = 11911	Passenger #236	from floor #9 to floor #10	got off the elevator #1 (appeared t = 11529, in elevator t = 11889)
+time = 11930	Passenger #265	appeared on floor #5, goes to floor #1
+time = 11934	Passenger #202	from floor #1 to floor #11	got off the elevator #0 (appeared t = 11196, in elevator t = 11661)
+time = 11936	Passenger #226	from floor #9 to floor #11	got off the elevator #0 (appeared t = 11403, in elevator t = 11887)
+time = 11936	Passenger #219	from floor #5 to floor #11	got off the elevator #1 (appeared t = 11355, in elevator t = 11781)
+time = 11940	Passenger #231	from floor #11 to floor #7	entered the elevator #0
+time = 11953	Passenger #266	appeared on floor #7, goes to floor #1
+time = 11965	Passenger #258	from floor #10 to floor #1	entered the elevator #0
+time = 11967	Passenger #260	from floor #10 to floor #1	entered the elevator #1
+time = 11967	Passenger #264	from floor #10 to floor #1	entered the elevator #0
+time = 11975	Passenger #267	appeared on floor #9, goes to floor #1
+time = 11985	Passenger #268	appeared on floor #5, goes to floor #1
+time = 11992	Passenger #269	appeared on floor #3, goes to floor #8
+time = 11992	Passenger #255	from floor #9 to floor #1	entered the elevator #0
+time = 11994	Passenger #259	from floor #9 to floor #1	entered the elevator #1
+time = 11994	Passenger #267	from floor #9 to floor #1	entered the elevator #0
+time = 12019	Passenger #238	from floor #8 to floor #1	leaved the floor (waiting time = 481)
+time = 12019	Passenger #250	from floor #8 to floor #1	entered the elevator #1
+time = 12041	Passenger #231	from floor #11 to floor #7	got off the elevator #0 (appeared t = 11444, in elevator t = 11940)
+time = 12043	Passenger #266	from floor #7 to floor #1	entered the elevator #1
+time = 12044	Passenger #270	appeared on floor #11, goes to floor #9
+time = 12065	Passenger #271	appeared on floor #10, goes to floor #8
+time = 12068	Passenger #249	from floor #6 to floor #1	entered the elevator #0
+time = 12068	Passenger #252	from floor #6 to floor #1	entered the elevator #1
+time = 12087	Passenger #272	appeared on floor #11, goes to floor #5
+time = 12093	Passenger #245	from floor #5 to floor #1	entered the elevator #0
+time = 12093	Passenger #265	from floor #5 to floor #1	entered the elevator #1
+time = 12095	Passenger #268	from floor #5 to floor #1	entered the elevator #0
+time = 12120	Passenger #256	from floor #4 to floor #1	entered the elevator #1
+time = 12120	Passenger #262	from floor #4 to floor #1	entered the elevator #0
+time = 12123	Passenger #273	appeared on floor #1, goes to floor #4
+time = 12141	Passenger #274	appeared on floor #10, goes to floor #2
+time = 12143	Passenger #275	appeared on floor #10, goes to floor #5
+time = 12145	Passenger #251	from floor #3 to floor #1	entered the elevator #1
+time = 12149	Passenger #241	from floor #2 to floor #4	leaved the floor (waiting time = 589)
+time = 12151	Passenger #242	from floor #1 to floor #7	leaved the floor (waiting time = 573)
+time = 12182	Passenger #276	appeared on floor #9, goes to floor #4
+time = 12189	Passenger #258	from floor #10 to floor #1	got off the elevator #0 (appeared t = 11780, in elevator t = 11965)
+time = 12191	Passenger #264	from floor #10 to floor #1	got off the elevator #0 (appeared t = 11911, in elevator t = 11967)
+time = 12191	Passenger #260	from floor #10 to floor #1	got off the elevator #1 (appeared t = 11799, in elevator t = 11967)
+time = 12193	Passenger #255	from floor #9 to floor #1	got off the elevator #0 (appeared t = 11750, in elevator t = 11992)
+time = 12193	Passenger #259	from floor #9 to floor #1	got off the elevator #1 (appeared t = 11793, in elevator t = 11994)
+time = 12195	Passenger #267	from floor #9 to floor #1	got off the elevator #0 (appeared t = 11975, in elevator t = 11994)
+time = 12195	Passenger #250	from floor #8 to floor #1	got off the elevator #1 (appeared t = 11672, in elevator t = 12019)
+time = 12197	Passenger #277	appeared on floor #2, goes to floor #10
+time = 12197	Passenger #249	from floor #6 to floor #1	got off the elevator #0 (appeared t = 11666, in elevator t = 12068)
+time = 12197	Passenger #266	from floor #7 to floor #1	got off the elevator #1 (appeared t = 11953, in elevator t = 12043)
+time = 12199	Passenger #245	from floor #5 to floor #1	got off the elevator #0 (appeared t = 11619, in elevator t = 12093)
+time = 12199	Passenger #252	from floor #6 to floor #1	got off the elevator #1 (appeared t = 11703, in elevator t = 12068)
+time = 12201	Passenger #268	from floor #5 to floor #1	got off the elevator #0 (appeared t = 11985, in elevator t = 12095)
+time = 12201	Passenger #265	from floor #5 to floor #1	got off the elevator #1 (appeared t = 11930, in elevator t = 12093)
+time = 12203	Passenger #262	from floor #4 to floor #1	got off the elevator #0 (appeared t = 11838, in elevator t = 12120)
+time = 12203	Passenger #256	from floor #4 to floor #1	got off the elevator #1 (appeared t = 11771, in elevator t = 12120)
+time = 12205	Passenger #251	from floor #3 to floor #1	got off the elevator #1 (appeared t = 11681, in elevator t = 12145)
+time = 12211	Passenger #253	from floor #1 to floor #3	leaved the floor (waiting time = 500)
+time = 12222	Passenger #254	from floor #1 to floor #7	leaved the floor (waiting time = 503)
+time = 12228	Passenger #247	from floor #1 to floor #10	leaved the floor (waiting time = 579)
+time = 12242	Passenger #240	from floor #1 to floor #6	entered the elevator #0
+time = 12244	Passenger #246	from floor #1 to floor #2	entered the elevator #1
+time = 12244	Passenger #248	from floor #1 to floor #10	entered the elevator #0
+time = 12246	Passenger #273	from floor #1 to floor #4	entered the elevator #1
+time = 12268	Passenger #246	from floor #1 to floor #2	got off the elevator #1 (appeared t = 11644, in elevator t = 12244)
+time = 12270	Passenger #277	from floor #2 to floor #10	entered the elevator #0
+time = 12274	Passenger #278	appeared on floor #6, goes to floor #1
+time = 12295	Passenger #257	from floor #3 to floor #1*	entered the elevator #1
+time = 12295	Passenger #269	from floor #3 to floor #8	entered the elevator #0
+time = 12318	Passenger #273	from floor #1 to floor #4	got off the elevator #1 (appeared t = 12123, in elevator t = 12246)
+time = 12326	Passenger #279	appeared on floor #10, goes to floor #1
+time = 12361	Passenger #280	appeared on floor #1, goes to floor #11
+time = 12364	Passenger #240	from floor #1 to floor #6	got off the elevator #0 (appeared t = 11558, in elevator t = 12242)
+time = 12382	Passenger #281	appeared on floor #1, goes to floor #7
+time = 12406	Passenger #282	appeared on floor #5, goes to floor #1
+time = 12412	Passenger #269	from floor #3 to floor #8	got off the elevator #0 (appeared t = 11992, in elevator t = 12295)
+time = 12424	Passenger #263	from floor #3 to floor #1	leaved the floor (waiting time = 533)
+time = 12460	Passenger #248	from floor #1 to floor #10	got off the elevator #0 (appeared t = 11659, in elevator t = 12244)
+time = 12462	Passenger #277	from floor #2 to floor #10	got off the elevator #0 (appeared t = 12197, in elevator t = 12270)
+time = 12480	Passenger #261	from floor #3 to floor #1	leaved the floor (waiting time = 645)
+time = 12484	Passenger #270	from floor #11 to floor #9	entered the elevator #1
+time = 12486	Passenger #272	from floor #11 to floor #5	entered the elevator #1
+time = 12493	Passenger #283	appeared on floor #5, goes to floor #1
+time = 12501	Passenger #271	from floor #10 to floor #8	entered the elevator #0
+time = 12503	Passenger #274	from floor #10 to floor #2	entered the elevator #0
+time = 12505	Passenger #275	from floor #10 to floor #5	entered the elevator #0
+time = 12507	Passenger #279	from floor #10 to floor #1	entered the elevator #0
+time = 12530	Passenger #284	appeared on floor #9, goes to floor #1
+time = 12532	Passenger #276	from floor #9 to floor #4	entered the elevator #0
+time = 12532	Passenger #270	from floor #11 to floor #9	got off the elevator #1 (appeared t = 12044, in elevator t = 12484)
+time = 12534	Passenger #284	from floor #9 to floor #1	entered the elevator #0
+time = 12557	Passenger #271	from floor #10 to floor #8	got off the elevator #0 (appeared t = 12065, in elevator t = 12501)
+time = 12589	Passenger #285	appeared on floor #8, goes to floor #7
+time = 12605	Passenger #278	from floor #6 to floor #1	entered the elevator #1
+time = 12628	Passenger #275	from floor #10 to floor #5	got off the elevator #0 (appeared t = 12143, in elevator t = 12505)
+time = 12628	Passenger #272	from floor #11 to floor #5	got off the elevator #1 (appeared t = 12087, in elevator t = 12486)
+time = 12632	Passenger #286	appeared on floor #9, goes to floor #3
+time = 12632	Passenger #282	from floor #5 to floor #1	entered the elevator #1
+time = 12632	Passenger #283	from floor #5 to floor #1	entered the elevator #0
+time = 12635	Passenger #287	appeared on floor #4, goes to floor #2
+time = 12655	Passenger #276	from floor #9 to floor #4	got off the elevator #0 (appeared t = 12182, in elevator t = 12532)
+time = 12657	Passenger #287	from floor #4 to floor #2	entered the elevator #1
+time = 12664	Passenger #288	appeared on floor #7, goes to floor #9
+time = 12703	Passenger #274	from floor #10 to floor #2	got off the elevator #0 (appeared t = 12141, in elevator t = 12503)
+time = 12703	Passenger #287	from floor #4 to floor #2	got off the elevator #1 (appeared t = 12635, in elevator t = 12657)
+time = 12722	Passenger #289	appeared on floor #1, goes to floor #10
+time = 12728	Passenger #279	from floor #10 to floor #1	got off the elevator #0 (appeared t = 12326, in elevator t = 12507)
+time = 12728	Passenger #257	from floor #3 to floor #1	got off the elevator #1 (appeared t = 11776, in elevator t = 12295)
+time = 12730	Passenger #284	from floor #9 to floor #1	got off the elevator #0 (appeared t = 12530, in elevator t = 12534)
+time = 12730	Passenger #278	from floor #6 to floor #1	got off the elevator #1 (appeared t = 12274, in elevator t = 12605)
+time = 12732	Passenger #283	from floor #5 to floor #1	got off the elevator #0 (appeared t = 12493, in elevator t = 12632)
+time = 12732	Passenger #282	from floor #5 to floor #1	got off the elevator #1 (appeared t = 12406, in elevator t = 12632)
+time = 12771	Passenger #290	appeared on floor #1, goes to floor #3
+time = 12771	Passenger #280	from floor #1 to floor #11	entered the elevator #0
+time = 12771	Passenger #281	from floor #1 to floor #7	entered the elevator #1
+time = 12773	Passenger #289	from floor #1 to floor #10	entered the elevator #0
+time = 12773	Passenger #290	from floor #1 to floor #3	entered the elevator #1
+time = 12779	Passenger #291	appeared on floor #1, goes to floor #9
+time = 12819	Passenger #290	from floor #1 to floor #3	got off the elevator #1 (appeared t = 12771, in elevator t = 12773)
+time = 12839	Passenger #292	appeared on floor #1, goes to floor #9
+time = 12901	Passenger #293	appeared on floor #1, goes to floor #6
+time = 12913	Passenger #288	from floor #7 to floor #9	entered the elevator #0
+time = 12913	Passenger #281	from floor #1 to floor #7	got off the elevator #1 (appeared t = 12382, in elevator t = 12771)
+time = 12934	Passenger #294	appeared on floor #1, goes to floor #6
+time = 12940	Passenger #285	from floor #8 to floor #7	leaved the floor (waiting time = 351)
+time = 12959	Passenger #288	from floor #7 to floor #9	got off the elevator #0 (appeared t = 12664, in elevator t = 12913)
+time = 12984	Passenger #289	from floor #1 to floor #10	got off the elevator #0 (appeared t = 12722, in elevator t = 12773)
+time = 13009	Passenger #280	from floor #1 to floor #11	got off the elevator #0 (appeared t = 12361, in elevator t = 12771)
+time = 13011	Passenger #295	appeared on floor #1, goes to floor #11
+time = 13022	Passenger #286	from floor #9 to floor #3	entered the elevator #1
+time = 13031	Passenger #296	appeared on floor #1, goes to floor #8
+time = 13053	Passenger #297	appeared on floor #9, goes to floor #11
+time = 13068	Passenger #298	appeared on floor #10, goes to floor #7
+time = 13160	Passenger #286	from floor #9 to floor #3	got off the elevator #1 (appeared t = 12632, in elevator t = 13022)
+time = 13178	Passenger #291	from floor #1 to floor #9	entered the elevator #0
+time = 13180	Passenger #292	from floor #1 to floor #9	entered the elevator #0
+time = 13182	Passenger #293	from floor #1 to floor #6	entered the elevator #0
+time = 13184	Passenger #294	from floor #1 to floor #6	entered the elevator #0
+time = 13186	Passenger #295	from floor #1 to floor #11	entered the elevator #0
+time = 13188	Passenger #296	from floor #1 to floor #8	entered the elevator #0
+time = 13225	Passenger #299	appeared on floor #1, goes to floor #4
+time = 13234	Passenger #299	from floor #1 to floor #4	entered the elevator #1
+time = 13244	Passenger #300	appeared on floor #1, goes to floor #8
+time = 13268	Passenger #301	appeared on floor #1, goes to floor #9
+time = 13303	Passenger #293	from floor #1 to floor #6	got off the elevator #0 (appeared t = 12901, in elevator t = 13182)
+time = 13303	Passenger #299	from floor #1 to floor #4	got off the elevator #1 (appeared t = 13225, in elevator t = 13234)
+time = 13305	Passenger #294	from floor #1 to floor #6	got off the elevator #0 (appeared t = 12934, in elevator t = 13184)
+time = 13308	Passenger #302	appeared on floor #1, goes to floor #3
+time = 13353	Passenger #296	from floor #1 to floor #8	got off the elevator #0 (appeared t = 13031, in elevator t = 13188)
+time = 13372	Passenger #297	from floor #9 to floor #11	entered the elevator #1
+time = 13378	Passenger #291	from floor #1 to floor #9	got off the elevator #0 (appeared t = 12779, in elevator t = 13178)
+time = 13380	Passenger #292	from floor #1 to floor #9	got off the elevator #0 (appeared t = 12839, in elevator t = 13180)
+time = 13419	Passenger #297	from floor #9 to floor #11	got off the elevator #1 (appeared t = 13053, in elevator t = 13372)
+time = 13425	Passenger #303	appeared on floor #4, goes to floor #3
+time = 13429	Passenger #295	from floor #1 to floor #11	got off the elevator #0 (appeared t = 13011, in elevator t = 13186)
+time = 13440	Passenger #304	appeared on floor #7, goes to floor #2
+time = 13448	Passenger #298	from floor #10 to floor #7	entered the elevator #1
+time = 13503	Passenger #304	from floor #7 to floor #2	entered the elevator #0
+time = 13517	Passenger #298	from floor #10 to floor #7	got off the elevator #1 (appeared t = 13068, in elevator t = 13448)
+time = 13566	Passenger #303	from floor #4 to floor #3	entered the elevator #1
+time = 13589	Passenger #303	from floor #4 to floor #3	got off the elevator #1 (appeared t = 13425, in elevator t = 13566)
+time = 13618	Passenger #304	from floor #7 to floor #2	got off the elevator #0 (appeared t = 13440, in elevator t = 13503)
+time = 13663	Passenger #300	from floor #1 to floor #8	entered the elevator #1
+time = 13665	Passenger #301	from floor #1 to floor #9	entered the elevator #1
+time = 13667	Passenger #302	from floor #1 to floor #3	entered the elevator #1
+time = 13669	Passenger #305	appeared on floor #1, goes to floor #7
+time = 13669	Passenger #305	from floor #1 to floor #7	entered the elevator #1
+time = 13715	Passenger #302	from floor #1 to floor #3	got off the elevator #1 (appeared t = 13308, in elevator t = 13667)
+time = 13716	Passenger #306	appeared on floor #1, goes to floor #9
+time = 13765	Passenger #307	appeared on floor #6, goes to floor #10
+time = 13788	Passenger #307	from floor #6 to floor #10	entered the elevator #1
+time = 13791	Passenger #308	appeared on floor #7, goes to floor #2
+time = 13811	Passenger #305	from floor #1 to floor #7	got off the elevator #1 (appeared t = 13669, in elevator t = 13669)
+time = 13836	Passenger #300	from floor #1 to floor #8	got off the elevator #1 (appeared t = 13244, in elevator t = 13663)
+time = 13837	Passenger #308	from floor #7 to floor #2	entered the elevator #0
+time = 13860	Passenger #309	appeared on floor #1, goes to floor #5
+time = 13861	Passenger #301	from floor #1 to floor #9	got off the elevator #1 (appeared t = 13268, in elevator t = 13665)
+time = 13886	Passenger #307	from floor #6 to floor #10	got off the elevator #1 (appeared t = 13765, in elevator t = 13788)
+time = 13917	Passenger #310	appeared on floor #1, goes to floor #3
+time = 13968	Passenger #308	from floor #7 to floor #2	got off the elevator #0 (appeared t = 13791, in elevator t = 13837)
+time = 14030	Passenger #311	appeared on floor #1, goes to floor #11
+time = 14032	Passenger #306	from floor #1 to floor #9	entered the elevator #0
+time = 14034	Passenger #309	from floor #1 to floor #5	entered the elevator #0
+time = 14036	Passenger #310	from floor #1 to floor #3	entered the elevator #0
+time = 14038	Passenger #311	from floor #1 to floor #11	entered the elevator #0
+time = 14040	Passenger #312	appeared on floor #1, goes to floor #9
+time = 14040	Passenger #312	from floor #1 to floor #9	entered the elevator #0
+time = 14086	Passenger #310	from floor #1 to floor #3	got off the elevator #0 (appeared t = 13917, in elevator t = 14036)
+time = 14105	Passenger #313	appeared on floor #1, goes to floor #9
+time = 14107	Passenger #314	appeared on floor #1, goes to floor #9
+time = 14134	Passenger #309	from floor #1 to floor #5	got off the elevator #0 (appeared t = 13860, in elevator t = 14034)
+time = 14175	Passenger #315	appeared on floor #7, goes to floor #10
+time = 14184	Passenger #315	from floor #7 to floor #10	entered the elevator #0
+time = 14224	Passenger #316	appeared on floor #6, goes to floor #7
+time = 14230	Passenger #306	from floor #1 to floor #9	got off the elevator #0 (appeared t = 13716, in elevator t = 14032)
+time = 14232	Passenger #312	from floor #1 to floor #9	got off the elevator #0 (appeared t = 14040, in elevator t = 14040)
+time = 14254	Passenger #317	appeared on floor #8, goes to floor #10
+time = 14257	Passenger #315	from floor #7 to floor #10	got off the elevator #0 (appeared t = 14175, in elevator t = 14184)
+time = 14282	Passenger #311	from floor #1 to floor #11	got off the elevator #0 (appeared t = 14030, in elevator t = 14038)
+time = 14297	Passenger #318	appeared on floor #3, goes to floor #4
+time = 14315	Passenger #313	from floor #1 to floor #9	entered the elevator #1
+time = 14317	Passenger #314	from floor #1 to floor #9	entered the elevator #1
+time = 14355	Passenger #319	appeared on floor #1, goes to floor #6
+time = 14365	Passenger #318	from floor #3 to floor #4	entered the elevator #1
+time = 14370	Passenger #320	appeared on floor #1, goes to floor #6
+time = 14388	Passenger #318	from floor #3 to floor #4	got off the elevator #1 (appeared t = 14297, in elevator t = 14365)
+time = 14438	Passenger #316	from floor #6 to floor #7	entered the elevator #1
+time = 14458	Passenger #321	appeared on floor #1, goes to floor #8
+time = 14461	Passenger #316	from floor #6 to floor #7	got off the elevator #1 (appeared t = 14224, in elevator t = 14438)
+time = 14466	Passenger #319	from floor #1 to floor #6	entered the elevator #0
+time = 14468	Passenger #320	from floor #1 to floor #6	entered the elevator #0
+time = 14470	Passenger #321	from floor #1 to floor #8	entered the elevator #0
+time = 14477	Passenger #322	appeared on floor #1, goes to floor #10
+time = 14488	Passenger #317	from floor #8 to floor #10	entered the elevator #1
+time = 14511	Passenger #313	from floor #1 to floor #9	got off the elevator #1 (appeared t = 14105, in elevator t = 14315)
+time = 14513	Passenger #314	from floor #1 to floor #9	got off the elevator #1 (appeared t = 14107, in elevator t = 14317)
+time = 14538	Passenger #317	from floor #8 to floor #10	got off the elevator #1 (appeared t = 14254, in elevator t = 14488)
+time = 14563	Passenger #323	appeared on floor #1, goes to floor #6
+time = 14585	Passenger #319	from floor #1 to floor #6	got off the elevator #0 (appeared t = 14355, in elevator t = 14466)
+time = 14587	Passenger #320	from floor #1 to floor #6	got off the elevator #0 (appeared t = 14370, in elevator t = 14468)
+time = 14637	Passenger #324	appeared on floor #1, goes to floor #2
+time = 14637	Passenger #321	from floor #1 to floor #8	got off the elevator #0 (appeared t = 14458, in elevator t = 14470)
+time = 14689	Passenger #325	appeared on floor #1, goes to floor #6
+time = 14702	Passenger #322	from floor #1 to floor #10	entered the elevator #1
+time = 14704	Passenger #323	from floor #1 to floor #6	entered the elevator #1
+time = 14706	Passenger #324	from floor #1 to floor #2	entered the elevator #1
+time = 14708	Passenger #325	from floor #1 to floor #6	entered the elevator #1
+time = 14729	Passenger #326	appeared on floor #1, goes to floor #8
+time = 14731	Passenger #324	from floor #1 to floor #2	got off the elevator #1 (appeared t = 14637, in elevator t = 14706)
+time = 14792	Passenger #327	appeared on floor #10, goes to floor #5
+time = 14821	Passenger #326	from floor #1 to floor #8	entered the elevator #0
+time = 14825	Passenger #323	from floor #1 to floor #6	got off the elevator #1 (appeared t = 14563, in elevator t = 14704)
+time = 14827	Passenger #325	from floor #1 to floor #6	got off the elevator #1 (appeared t = 14689, in elevator t = 14708)
+time = 14850	Passenger #328	appeared on floor #3, goes to floor #5
+time = 14869	Passenger #328	from floor #3 to floor #5	entered the elevator #0
+time = 14915	Passenger #328	from floor #3 to floor #5	got off the elevator #0 (appeared t = 14850, in elevator t = 14869)
+time = 14921	Passenger #322	from floor #1 to floor #10	got off the elevator #1 (appeared t = 14477, in elevator t = 14702)
+time = 14933	Passenger #329	appeared on floor #1, goes to floor #9
+time = 14944	Passenger #330	appeared on floor #1, goes to floor #9
+time = 14960	Passenger #327	from floor #10 to floor #5	entered the elevator #1
+time = 14969	Passenger #331	appeared on floor #1, goes to floor #2
+time = 14986	Passenger #326	from floor #1 to floor #8	got off the elevator #0 (appeared t = 14729, in elevator t = 14821)
+time = 15040	Passenger #332	appeared on floor #1, goes to floor #4
+time = 15057	Passenger #333	appeared on floor #4, goes to floor #2
+time = 15075	Passenger #327	from floor #10 to floor #5	got off the elevator #1 (appeared t = 14792, in elevator t = 14960)
+time = 15088	Passenger #334	appeared on floor #3, goes to floor #4
+time = 15104	Passenger #333	from floor #4 to floor #2	entered the elevator #1
+time = 15150	Passenger #333	from floor #4 to floor #2	got off the elevator #1 (appeared t = 15057, in elevator t = 15104)
+time = 15204	Passenger #335	appeared on floor #1, goes to floor #3
+time = 15214	Passenger #329	from floor #1 to floor #9	entered the elevator #1
+time = 15216	Passenger #330	from floor #1 to floor #9	entered the elevator #1
+time = 15218	Passenger #331	from floor #1 to floor #2	entered the elevator #1
+time = 15220	Passenger #332	from floor #1 to floor #4	entered the elevator #1
+time = 15222	Passenger #335	from floor #1 to floor #3	entered the elevator #1
+time = 15241	Passenger #336	appeared on floor #1, goes to floor #6
+time = 15245	Passenger #331	from floor #1 to floor #2	got off the elevator #1 (appeared t = 14969, in elevator t = 15218)
+time = 15265	Passenger #334	from floor #3 to floor #4	entered the elevator #0
+time = 15270	Passenger #335	from floor #1 to floor #3	got off the elevator #1 (appeared t = 15204, in elevator t = 15222)
+time = 15291	Passenger #334	from floor #3 to floor #4	got off the elevator #0 (appeared t = 15088, in elevator t = 15265)
+time = 15295	Passenger #332	from floor #1 to floor #4	got off the elevator #1 (appeared t = 15040, in elevator t = 15220)
+time = 15303	Passenger #337	appeared on floor #8, goes to floor #7
+time = 15312	Passenger #338	appeared on floor #3, goes to floor #6
+time = 15413	Passenger #329	from floor #1 to floor #9	got off the elevator #1 (appeared t = 14933, in elevator t = 15214)
+time = 15415	Passenger #330	from floor #1 to floor #9	got off the elevator #1 (appeared t = 14944, in elevator t = 15216)
+time = 15425	Passenger #337	from floor #8 to floor #7	entered the elevator #0
+time = 15435	Passenger #339	appeared on floor #1, goes to floor #5
+time = 15439	Passenger #340	appeared on floor #1, goes to floor #11
+time = 15448	Passenger #337	from floor #8 to floor #7	got off the elevator #0 (appeared t = 15303, in elevator t = 15425)
+time = 15501	Passenger #341	appeared on floor #1, goes to floor #2
+time = 15512	Passenger #342	appeared on floor #1, goes to floor #11
+time = 15543	Passenger #336	from floor #1 to floor #6	leaved the floor (waiting time = 302)
+time = 15577	Passenger #339	from floor #1 to floor #5	entered the elevator #0
+time = 15579	Passenger #340	from floor #1 to floor #11	entered the elevator #0
+time = 15581	Passenger #341	from floor #1 to floor #2	entered the elevator #0
+time = 15583	Passenger #342	from floor #1 to floor #11	entered the elevator #0
+time = 15586	Passenger #338	from floor #3 to floor #6	leaved the floor (waiting time = 274)
+time = 15606	Passenger #341	from floor #1 to floor #2	got off the elevator #0 (appeared t = 15501, in elevator t = 15581)
+time = 15629	Passenger #343	appeared on floor #1, goes to floor #9
+time = 15635	Passenger #344	appeared on floor #1, goes to floor #9
+time = 15635	Passenger #343	from floor #1 to floor #9	entered the elevator #1
+time = 15637	Passenger #344	from floor #1 to floor #9	entered the elevator #1
+time = 15677	Passenger #339	from floor #1 to floor #5	got off the elevator #0 (appeared t = 15435, in elevator t = 15577)
+time = 15692	Passenger #345	appeared on floor #9, goes to floor #10
+time = 15719	Passenger #346	appeared on floor #6, goes to floor #9
+time = 15754	Passenger #346	from floor #6 to floor #9	entered the elevator #1
+time = 15773	Passenger #345	from floor #9 to floor #10	entered the elevator #0
+time = 15776	Passenger #347	appeared on floor #5, goes to floor #11
+time = 15796	Passenger #345	from floor #9 to floor #10	got off the elevator #0 (appeared t = 15692, in elevator t = 15773)
+time = 15821	Passenger #340	from floor #1 to floor #11	got off the elevator #0 (appeared t = 15439, in elevator t = 15579)
+time = 15823	Passenger #342	from floor #1 to floor #11	got off the elevator #0 (appeared t = 15512, in elevator t = 15583)
+time = 15823	Passenger #343	from floor #1 to floor #9	got off the elevator #1 (appeared t = 15629, in elevator t = 15635)
+time = 15825	Passenger #344	from floor #1 to floor #9	got off the elevator #1 (appeared t = 15635, in elevator t = 15637)
+time = 15827	Passenger #346	from floor #6 to floor #9	got off the elevator #1 (appeared t = 15719, in elevator t = 15754)
+time = 15839	Passenger #348	appeared on floor #5, goes to floor #6
+time = 15936	Passenger #349	appeared on floor #1, goes to floor #3
+time = 15949	Passenger #350	appeared on floor #1, goes to floor #5
+time = 15967	Passenger #351	appeared on floor #1, goes to floor #4
+time = 15992	Passenger #349	from floor #1 to floor #3	entered the elevator #0
+time = 15994	Passenger #350	from floor #1 to floor #5	entered the elevator #0
+time = 15996	Passenger #351	from floor #1 to floor #4	entered the elevator #0
+time = 16017	Passenger #352	appeared on floor #1, goes to floor #5
+time = 16031	Passenger #352	from floor #1 to floor #5	entered the elevator #1
+time = 16042	Passenger #349	from floor #1 to floor #3	got off the elevator #0 (appeared t = 15936, in elevator t = 15992)
+time = 16067	Passenger #351	from floor #1 to floor #4	got off the elevator #0 (appeared t = 15967, in elevator t = 15996)
+time = 16096	Passenger #350	from floor #1 to floor #5	got off the elevator #0 (appeared t = 15949, in elevator t = 15994)
+time = 16100	Passenger #347	from floor #5 to floor #11	entered the elevator #0
+time = 16102	Passenger #348	from floor #5 to floor #6	entered the elevator #0
+time = 16123	Passenger #352	from floor #1 to floor #5	got off the elevator #1 (appeared t = 16017, in elevator t = 16031)
+time = 16125	Passenger #348	from floor #5 to floor #6	got off the elevator #0 (appeared t = 15839, in elevator t = 16102)
+time = 16134	Passenger #353	appeared on floor #1, goes to floor #9
+time = 16144	Passenger #354	appeared on floor #1, goes to floor #3
+time = 16176	Passenger #355	appeared on floor #1, goes to floor #6
+time = 16197	Passenger #356	appeared on floor #1, goes to floor #5
+time = 16242	Passenger #347	from floor #5 to floor #11	got off the elevator #0 (appeared t = 15776, in elevator t = 16100)
+time = 16278	Passenger #357	appeared on floor #2, goes to floor #8
+time = 16344	Passenger #358	appeared on floor #5, goes to floor #6
+time = 16352	Passenger #353	from floor #1 to floor #9	entered the elevator #1
+time = 16354	Passenger #354	from floor #1 to floor #3	entered the elevator #1
+time = 16356	Passenger #355	from floor #1 to floor #6	entered the elevator #1
+time = 16358	Passenger #356	from floor #1 to floor #5	entered the elevator #1
+time = 16380	Passenger #359	appeared on floor #1, goes to floor #8
+time = 16381	Passenger #360	appeared on floor #1, goes to floor #5
+time = 16383	Passenger #357	from floor #2 to floor #8	entered the elevator #1
+time = 16406	Passenger #354	from floor #1 to floor #3	got off the elevator #1 (appeared t = 16144, in elevator t = 16354)
+time = 16411	Passenger #359	from floor #1 to floor #8	entered the elevator #0
+time = 16413	Passenger #360	from floor #1 to floor #5	entered the elevator #0
+time = 16454	Passenger #356	from floor #1 to floor #5	got off the elevator #1 (appeared t = 16197, in elevator t = 16358)
+time = 16457	Passenger #361	appeared on floor #1, goes to floor #3
+time = 16458	Passenger #358	from floor #5 to floor #6	entered the elevator #1
+time = 16481	Passenger #355	from floor #1 to floor #6	got off the elevator #1 (appeared t = 16176, in elevator t = 16356)
+time = 16483	Passenger #358	from floor #5 to floor #6	got off the elevator #1 (appeared t = 16344, in elevator t = 16458)
+time = 16493	Passenger #362	appeared on floor #1, goes to floor #6
+time = 16506	Passenger #360	from floor #1 to floor #5	got off the elevator #0 (appeared t = 16381, in elevator t = 16413)
+time = 16531	Passenger #357	from floor #2 to floor #8	got off the elevator #1 (appeared t = 16278, in elevator t = 16383)
+time = 16556	Passenger #353	from floor #1 to floor #9	got off the elevator #1 (appeared t = 16134, in elevator t = 16352)
+time = 16584	Passenger #359	from floor #1 to floor #8	got off the elevator #0 (appeared t = 16380, in elevator t = 16411)
+time = 16612	Passenger #363	appeared on floor #8, goes to floor #11
+time = 16636	Passenger #364	appeared on floor #7, goes to floor #6
+time = 16650	Passenger #364	from floor #7 to floor #6	entered the elevator #1
+time = 16669	Passenger #365	appeared on floor #1, goes to floor #8
+time = 16674	Passenger #364	from floor #7 to floor #6	got off the elevator #1 (appeared t = 16636, in elevator t = 16650)
+time = 16712	Passenger #366	appeared on floor #1, goes to floor #3
+time = 16754	Passenger #367	appeared on floor #5, goes to floor #8
+time = 16778	Passenger #361	from floor #1 to floor #3	entered the elevator #1
+time = 16780	Passenger #362	from floor #1 to floor #6	entered the elevator #1
+time = 16782	Passenger #365	from floor #1 to floor #8	entered the elevator #1
+time = 16784	Passenger #366	from floor #1 to floor #3	entered the elevator #1
+time = 16830	Passenger #361	from floor #1 to floor #3	got off the elevator #1 (appeared t = 16457, in elevator t = 16778)
+time = 16831	Passenger #368	appeared on floor #11, goes to floor #10
+time = 16832	Passenger #366	from floor #1 to floor #3	got off the elevator #1 (appeared t = 16712, in elevator t = 16784)
+time = 16853	Passenger #367	from floor #5 to floor #8	entered the elevator #0
+time = 16872	Passenger #369	appeared on floor #1, goes to floor #6
+time = 16903	Passenger #362	from floor #1 to floor #6	got off the elevator #1 (appeared t = 16493, in elevator t = 16780)
+time = 16910	Passenger #363	from floor #8 to floor #11	leaved the floor (waiting time = 298)
+time = 16922	Passenger #367	from floor #5 to floor #8	got off the elevator #0 (appeared t = 16754, in elevator t = 16853)
+time = 16929	Passenger #370	appeared on floor #1, goes to floor #4
+time = 16951	Passenger #365	from floor #1 to floor #8	got off the elevator #1 (appeared t = 16669, in elevator t = 16782)
+time = 16971	Passenger #368	from floor #11 to floor #10	entered the elevator #0
+time = 16978	Passenger #371	appeared on floor #1, goes to floor #5
+time = 16987	Passenger #372	appeared on floor #8, goes to floor #2
+time = 16995	Passenger #368	from floor #11 to floor #10	got off the elevator #0 (appeared t = 16831, in elevator t = 16971)
+time = 17001	Passenger #373	appeared on floor #1, goes to floor #10
+time = 17034	Passenger #372	from floor #8 to floor #2	entered the elevator #0
+time = 17057	Passenger #374	appeared on floor #9, goes to floor #8
+time = 17065	Passenger #375	appeared on floor #1, goes to floor #3
+time = 17097	Passenger #376	appeared on floor #5, goes to floor #11
+time = 17102	Passenger #377	appeared on floor #2, goes to floor #6
+time = 17127	Passenger #378	appeared on floor #2, goes to floor #7
+time = 17128	Passenger #379	appeared on floor #9, goes to floor #8
+time = 17139	Passenger #380	appeared on floor #3, goes to floor #1
+time = 17148	Passenger #381	appeared on floor #1, goes to floor #7
+time = 17151	Passenger #380	from floor #3 to floor #1	entered the elevator #0
+time = 17153	Passenger #382	appeared on floor #1, goes to floor #10
+time = 17174	Passenger #372	from floor #8 to floor #2	got off the elevator #0 (appeared t = 16987, in elevator t = 17034)
+time = 17180	Passenger #369	from floor #1 to floor #6	entered the elevator #1
+time = 17182	Passenger #370	from floor #1 to floor #4	entered the elevator #1
+time = 17184	Passenger #371	from floor #1 to floor #5	entered the elevator #1
+time = 17186	Passenger #373	from floor #1 to floor #10	entered the elevator #1
+time = 17188	Passenger #375	from floor #1 to floor #3	entered the elevator #1
+time = 17190	Passenger #381	from floor #1 to floor #7	entered the elevator #1
+time = 17192	Passenger #382	from floor #1 to floor #10	entered the elevator #1
+time = 17199	Passenger #380	from floor #3 to floor #1	got off the elevator #0 (appeared t = 17139, in elevator t = 17151)
+time = 17217	Passenger #377	from floor #2 to floor #6	entered the elevator #1
+time = 17223	Passenger #383	appeared on floor #1, goes to floor #6
+time = 17232	Passenger #384	appeared on floor #3, goes to floor #11
+time = 17236	Passenger #385	appeared on floor #10, goes to floor #6
+time = 17238	Passenger #383	from floor #1 to floor #6	entered the elevator #0
+time = 17240	Passenger #375	from floor #1 to floor #3	got off the elevator #1 (appeared t = 17065, in elevator t = 17188)
+time = 17244	Passenger #384	from floor #3 to floor #11	entered the elevator #1
+time = 17263	Passenger #378	from floor #2 to floor #7	entered the elevator #0
+time = 17265	Passenger #386	appeared on floor #4, goes to floor #6
+time = 17267	Passenger #370	from floor #1 to floor #4	got off the elevator #1 (appeared t = 16929, in elevator t = 17182)
+time = 17271	Passenger #386	from floor #4 to floor #6	entered the elevator #1
+time = 17273	Passenger #387	appeared on floor #1, goes to floor #6
+time = 17294	Passenger #371	from floor #1 to floor #5	got off the elevator #1 (appeared t = 16978, in elevator t = 17184)
+time = 17295	Passenger #388	appeared on floor #1, goes to floor #8
+time = 17298	Passenger #376	from floor #5 to floor #11	entered the elevator #1
+time = 17301	Passenger #389	appeared on floor #10, goes to floor #2
+time = 17307	Passenger #390	appeared on floor #1, goes to floor #7
+time = 17321	Passenger #369	from floor #1 to floor #6	got off the elevator #1 (appeared t = 16872, in elevator t = 17180)
+time = 17323	Passenger #377	from floor #2 to floor #6	got off the elevator #1 (appeared t = 17102, in elevator t = 17217)
+time = 17325	Passenger #386	from floor #4 to floor #6	got off the elevator #1 (appeared t = 17265, in elevator t = 17271)
+time = 17338	Passenger #391	appeared on floor #7, goes to floor #1
+time = 17350	Passenger #381	from floor #1 to floor #7	got off the elevator #1 (appeared t = 17148, in elevator t = 17190)
+time = 17355	Passenger #383	from floor #1 to floor #6	got off the elevator #0 (appeared t = 17223, in elevator t = 17238)
+time = 17372	Passenger #392	appeared on floor #6, goes to floor #3
+time = 17380	Passenger #378	from floor #2 to floor #7	got off the elevator #0 (appeared t = 17127, in elevator t = 17263)
+time = 17393	Passenger #393	appeared on floor #8, goes to floor #5
+time = 17412	Passenger #394	appeared on floor #8, goes to floor #11
+time = 17421	Passenger #373	from floor #1 to floor #10	got off the elevator #1 (appeared t = 17001, in elevator t = 17186)
+time = 17423	Passenger #382	from floor #1 to floor #10	got off the elevator #1 (appeared t = 17153, in elevator t = 17192)
+time = 17424	Passenger #394	from floor #8 to floor #11	entered the elevator #0
+time = 17433	Passenger #395	appeared on floor #1, goes to floor #9
+time = 17448	Passenger #384	from floor #3 to floor #11	got off the elevator #1 (appeared t = 17232, in elevator t = 17244)
+time = 17450	Passenger #376	from floor #5 to floor #11	got off the elevator #1 (appeared t = 17097, in elevator t = 17298)
+time = 17475	Passenger #396	appeared on floor #9, goes to floor #3
+time = 17476	Passenger #397	appeared on floor #1, goes to floor #4
+time = 17479	Passenger #385	from floor #10 to floor #6	entered the elevator #1
+time = 17481	Passenger #389	from floor #10 to floor #2	entered the elevator #1
+time = 17493	Passenger #394	from floor #8 to floor #11	got off the elevator #0 (appeared t = 17412, in elevator t = 17424)
+time = 17501	Passenger #398	appeared on floor #3, goes to floor #8
+time = 17506	Passenger #399	appeared on floor #11, goes to floor #6
+time = 17506	Passenger #374	from floor #9 to floor #8	entered the elevator #1
+time = 17508	Passenger #379	from floor #9 to floor #8	entered the elevator #1
+time = 17510	Passenger #396	from floor #9 to floor #3	entered the elevator #1
+time = 17512	Passenger #399	from floor #11 to floor #6	entered the elevator #0
+time = 17533	Passenger #374	from floor #9 to floor #8	got off the elevator #1 (appeared t = 17057, in elevator t = 17506)
+time = 17535	Passenger #379	from floor #9 to floor #8	got off the elevator #1 (appeared t = 17128, in elevator t = 17508)
+time = 17539	Passenger #393	from floor #8 to floor #5	entered the elevator #1
+time = 17540	Passenger #400	appeared on floor #8, goes to floor #1
+time = 17541	Passenger #400	from floor #8 to floor #1	entered the elevator #1
+time = 17565	Passenger #401	appeared on floor #1, goes to floor #8
+time = 17566	Passenger #391	from floor #7 to floor #1	entered the elevator #1
+time = 17585	Passenger #402	appeared on floor #1, goes to floor #6
+time = 17589	Passenger #385	from floor #10 to floor #6	got off the elevator #1 (appeared t = 17236, in elevator t = 17479)
+time = 17593	Passenger #392	from floor #6 to floor #3	entered the elevator #1
+time = 17616	Passenger #403	appeared on floor #8, goes to floor #1
+time = 17616	Passenger #393	from floor #8 to floor #5	got off the elevator #1 (appeared t = 17393, in elevator t = 17539)
+time = 17627	Passenger #399	from floor #11 to floor #6	got off the elevator #0 (appeared t = 17506, in elevator t = 17512)
+time = 17628	Passenger #404	appeared on floor #10, goes to floor #1
+time = 17657	Passenger #405	appeared on floor #3, goes to floor #8
+time = 17664	Passenger #396	from floor #9 to floor #3	got off the elevator #1 (appeared t = 17475, in elevator t = 17510)
+time = 17666	Passenger #392	from floor #6 to floor #3	got off the elevator #1 (appeared t = 17372, in elevator t = 17593)
+time = 17687	Passenger #406	appeared on floor #1, goes to floor #9
+time = 17691	Passenger #389	from floor #10 to floor #2	got off the elevator #1 (appeared t = 17301, in elevator t = 17481)
+time = 17715	Passenger #407	appeared on floor #2, goes to floor #1
+time = 17716	Passenger #400	from floor #8 to floor #1	got off the elevator #1 (appeared t = 17540, in elevator t = 17541)
+time = 17718	Passenger #391	from floor #7 to floor #1	got off the elevator #1 (appeared t = 17338, in elevator t = 17566)
+time = 17719	Passenger #408	appeared on floor #1, goes to floor #3
+time = 17720	Passenger #409	appeared on floor #9, goes to floor #1
+time = 17746	Passenger #387	from floor #1 to floor #6	entered the elevator #0
+time = 17748	Passenger #388	from floor #1 to floor #8	entered the elevator #0
+time = 17750	Passenger #390	from floor #1 to floor #7	entered the elevator #0
+time = 17752	Passenger #395	from floor #1 to floor #9	entered the elevator #0
+time = 17754	Passenger #397	from floor #1 to floor #4	entered the elevator #0
+time = 17756	Passenger #401	from floor #1 to floor #8	entered the elevator #0
+time = 17758	Passenger #402	from floor #1 to floor #6	entered the elevator #1
+time = 17758	Passenger #406	from floor #1 to floor #9	entered the elevator #0
+time = 17760	Passenger #410	appeared on floor #9, goes to floor #1
+time = 17760	Passenger #408	from floor #1 to floor #3	entered the elevator #1
+time = 17781	Passenger #411	appeared on floor #3, goes to floor #1
+time = 17805	Passenger #408	from floor #1 to floor #3	got off the elevator #1 (appeared t = 17719, in elevator t = 17760)
+time = 17807	Passenger #398	from floor #3 to floor #8	entered the elevator #0
+time = 17809	Passenger #405	from floor #3 to floor #8	entered the elevator #1
+time = 17830	Passenger #397	from floor #1 to floor #4	got off the elevator #0 (appeared t = 17476, in elevator t = 17754)
+time = 17878	Passenger #387	from floor #1 to floor #6	got off the elevator #0 (appeared t = 17273, in elevator t = 17746)
+time = 17878	Passenger #402	from floor #1 to floor #6	got off the elevator #1 (appeared t = 17585, in elevator t = 17758)
+time = 17881	Passenger #412	appeared on floor #3, goes to floor #1
+time = 17892	Passenger #414	appeared on floor #2, goes to floor #1
+time = 17892	Passenger #413	appeared on floor #9, goes to floor #1
+time = 17903	Passenger #390	from floor #1 to floor #7	got off the elevator #0 (appeared t = 17307, in elevator t = 17750)
+time = 17928	Passenger #388	from floor #1 to floor #8	got off the elevator #0 (appeared t = 17295, in elevator t = 17748)
+time = 17930	Passenger #401	from floor #1 to floor #8	got off the elevator #0 (appeared t = 17565, in elevator t = 17756)
+time = 17932	Passenger #398	from floor #3 to floor #8	got off the elevator #0 (appeared t = 17501, in elevator t = 17807)
+time = 17934	Passenger #405	from floor #3 to floor #8	got off the elevator #1 (appeared t = 17657, in elevator t = 17809)
+time = 17957	Passenger #395	from floor #1 to floor #9	got off the elevator #0 (appeared t = 17433, in elevator t = 17752)
+time = 17959	Passenger #406	from floor #1 to floor #9	got off the elevator #0 (appeared t = 17687, in elevator t = 17758)
+time = 17977	Passenger #415	appeared on floor #5, goes to floor #1
+time = 18023	Passenger #404	from floor #10 to floor #1	entered the elevator #0
+time = 18031	Passenger #416	appeared on floor #9, goes to floor #5
+time = 18044	Passenger #417	appeared on floor #5, goes to floor #10
+time = 18048	Passenger #409	from floor #9 to floor #1	entered the elevator #0
+time = 18050	Passenger #410	from floor #9 to floor #1	entered the elevator #1
+time = 18050	Passenger #413	from floor #9 to floor #1	entered the elevator #0
+time = 18052	Passenger #416	from floor #9 to floor #5	entered the elevator #1
+time = 18076	Passenger #403	from floor #8 to floor #1	entered the elevator #1
+time = 18109	Passenger #418	appeared on floor #8, goes to floor #11
+time = 18134	Passenger #419	appeared on floor #1, goes to floor #10
+time = 18144	Passenger #416	from floor #9 to floor #5	got off the elevator #1 (appeared t = 18031, in elevator t = 18052)
+time = 18146	Passenger #415	from floor #5 to floor #1	entered the elevator #0
+time = 18192	Passenger #420	appeared on floor #3, goes to floor #4
+time = 18194	Passenger #411	from floor #3 to floor #1	entered the elevator #1
+time = 18194	Passenger #412	from floor #3 to floor #1	entered the elevator #0
+time = 18219	Passenger #407	from floor #2 to floor #1	entered the elevator #1
+time = 18219	Passenger #414	from floor #2 to floor #1	entered the elevator #0
+time = 18224	Passenger #421	appeared on floor #2, goes to floor #11
+time = 18242	Passenger #404	from floor #10 to floor #1	got off the elevator #0 (appeared t = 17628, in elevator t = 18023)
+time = 18242	Passenger #410	from floor #9 to floor #1	got off the elevator #1 (appeared t = 17760, in elevator t = 18050)
+time = 18244	Passenger #409	from floor #9 to floor #1	got off the elevator #0 (appeared t = 17720, in elevator t = 18048)
+time = 18244	Passenger #403	from floor #8 to floor #1	got off the elevator #1 (appeared t = 17616, in elevator t = 18076)
+time = 18246	Passenger #413	from floor #9 to floor #1	got off the elevator #0 (appeared t = 17892, in elevator t = 18050)
+time = 18246	Passenger #411	from floor #3 to floor #1	got off the elevator #1 (appeared t = 17781, in elevator t = 18194)
+time = 18248	Passenger #415	from floor #5 to floor #1	got off the elevator #0 (appeared t = 17977, in elevator t = 18146)
+time = 18248	Passenger #407	from floor #2 to floor #1	got off the elevator #1 (appeared t = 17715, in elevator t = 18219)
+time = 18250	Passenger #412	from floor #3 to floor #1	got off the elevator #0 (appeared t = 17881, in elevator t = 18194)
+time = 18252	Passenger #414	from floor #2 to floor #1	got off the elevator #0 (appeared t = 17892, in elevator t = 18219)
+time = 18270	Passenger #422	appeared on floor #7, goes to floor #1
+time = 18287	Passenger #419	from floor #1 to floor #10	entered the elevator #1
+time = 18296	Passenger #423	appeared on floor #8, goes to floor #1
+time = 18312	Passenger #421	from floor #2 to floor #11	entered the elevator #1
+time = 18337	Passenger #420	from floor #3 to floor #4	entered the elevator #1
+time = 18343	Passenger #424	appeared on floor #1, goes to floor #3
+time = 18360	Passenger #420	from floor #3 to floor #4	got off the elevator #1 (appeared t = 18192, in elevator t = 18337)
+time = 18376	Passenger #417	from floor #5 to floor #10	entered the elevator #0
+time = 18394	Passenger #425	appeared on floor #10, goes to floor #1
+time = 18422	Passenger #426	appeared on floor #1, goes to floor #5
+time = 18447	Passenger #418	from floor #8 to floor #11	entered the elevator #0
+time = 18493	Passenger #417	from floor #5 to floor #10	got off the elevator #0 (appeared t = 18044, in elevator t = 18376)
+time = 18498	Passenger #427	appeared on floor #3, goes to floor #1
+time = 18500	Passenger #419	from floor #1 to floor #10	got off the elevator #1 (appeared t = 18134, in elevator t = 18287)
+time = 18518	Passenger #418	from floor #8 to floor #11	got off the elevator #0 (appeared t = 18109, in elevator t = 18447)
+time = 18520	Passenger #428	appeared on floor #11, goes to floor #1
+time = 18522	Passenger #428	from floor #11 to floor #1	entered the elevator #0
+time = 18525	Passenger #421	from floor #2 to floor #11	got off the elevator #1 (appeared t = 18224, in elevator t = 18312)
+time = 18548	Passenger #425	from floor #10 to floor #1	entered the elevator #0
+time = 18574	Passenger #423	from floor #8 to floor #1	entered the elevator #1
+time = 18599	Passenger #422	from floor #7 to floor #1	entered the elevator #1
+time = 18635	Passenger #429	appeared on floor #8, goes to floor #5
+time = 18644	Passenger #430	appeared on floor #2, goes to floor #5
+time = 18693	Passenger #427	from floor #3 to floor #1	entered the elevator #1
+time = 18739	Passenger #423	from floor #8 to floor #1	got off the elevator #1 (appeared t = 18296, in elevator t = 18574)
+time = 18741	Passenger #422	from floor #7 to floor #1	got off the elevator #1 (appeared t = 18270, in elevator t = 18599)
+time = 18743	Passenger #427	from floor #3 to floor #1	got off the elevator #1 (appeared t = 18498, in elevator t = 18693)
+time = 18755	Passenger #428	from floor #11 to floor #1	got off the elevator #0 (appeared t = 18520, in elevator t = 18522)
+time = 18757	Passenger #425	from floor #10 to floor #1	got off the elevator #0 (appeared t = 18394, in elevator t = 18548)
+time = 18767	Passenger #431	appeared on floor #1, goes to floor #9
+time = 18782	Passenger #424	from floor #1 to floor #3	entered the elevator #1
+time = 18784	Passenger #426	from floor #1 to floor #5	entered the elevator #1
+time = 18786	Passenger #431	from floor #1 to floor #9	entered the elevator #1
+time = 18797	Passenger #432	appeared on floor #1, goes to floor #9
+time = 18811	Passenger #432	from floor #1 to floor #9	entered the elevator #0
+time = 18811	Passenger #430	from floor #2 to floor #5	entered the elevator #1
+time = 18834	Passenger #424	from floor #1 to floor #3	got off the elevator #1 (appeared t = 18343, in elevator t = 18782)
+time = 18868	Passenger #433	appeared on floor #1, goes to floor #5
+time = 18882	Passenger #426	from floor #1 to floor #5	got off the elevator #1 (appeared t = 18422, in elevator t = 18784)
+time = 18884	Passenger #430	from floor #2 to floor #5	got off the elevator #1 (appeared t = 18644, in elevator t = 18811)
+time = 18978	Passenger #431	from floor #1 to floor #9	got off the elevator #1 (appeared t = 18767, in elevator t = 18786)
+time = 18989	Passenger #429	from floor #8 to floor #5	leaved the floor (waiting time = 354)
+time = 18996	Passenger #434	appeared on floor #1, goes to floor #7
+time = 19005	Passenger #432	from floor #1 to floor #9	got off the elevator #0 (appeared t = 18797, in elevator t = 18811)
+time = 19101	Passenger #435	appeared on floor #4, goes to floor #8
+time = 19167	Passenger #433	from floor #1 to floor #5	entered the elevator #1
+time = 19169	Passenger #434	from floor #1 to floor #7	entered the elevator #1
+time = 19170	Passenger #436	appeared on floor #1, goes to floor #11
+time = 19171	Passenger #436	from floor #1 to floor #11	entered the elevator #1
+time = 19239	Passenger #435	from floor #4 to floor #8	entered the elevator #0
+time = 19262	Passenger #433	from floor #1 to floor #5	got off the elevator #1 (appeared t = 18868, in elevator t = 19167)
+time = 19264	Passenger #437	appeared on floor #1, goes to floor #4
+time = 19309	Passenger #434	from floor #1 to floor #7	got off the elevator #1 (appeared t = 18996, in elevator t = 19169)
+time = 19332	Passenger #435	from floor #4 to floor #8	got off the elevator #0 (appeared t = 19101, in elevator t = 19239)
+time = 19403	Passenger #436	from floor #1 to floor #11	got off the elevator #1 (appeared t = 19170, in elevator t = 19171)
+time = 19447	Passenger #438	appeared on floor #4, goes to floor #11
+time = 19516	Passenger #437	from floor #1 to floor #4	entered the elevator #0
+time = 19585	Passenger #437	from floor #1 to floor #4	got off the elevator #0 (appeared t = 19264, in elevator t = 19516)
+time = 19589	Passenger #438	from floor #4 to floor #11	entered the elevator #0
+time = 19716	Passenger #439	appeared on floor #1, goes to floor #6
+time = 19751	Passenger #440	appeared on floor #9, goes to floor #10
+time = 19752	Passenger #438	from floor #4 to floor #11	got off the elevator #0 (appeared t = 19447, in elevator t = 19589)
+time = 19822	Passenger #439	from floor #1 to floor #6	entered the elevator #1
+time = 19907	Passenger #441	appeared on floor #1, goes to floor #6
+time = 19921	Passenger #441	from floor #1 to floor #6	entered the elevator #0
+time = 19937	Passenger #439	from floor #1 to floor #6	got off the elevator #1 (appeared t = 19716, in elevator t = 19822)
+time = 19963	Passenger #442	appeared on floor #1, goes to floor #5
+time = 19986	Passenger #440	from floor #9 to floor #10	entered the elevator #1
+time = 20010	Passenger #440	from floor #9 to floor #10	got off the elevator #1 (appeared t = 19751, in elevator t = 19986)
+time = 20036	Passenger #441	from floor #1 to floor #6	got off the elevator #0 (appeared t = 19907, in elevator t = 19921)
+time = 20102	Passenger #443	appeared on floor #1, goes to floor #5
+time = 20169	Passenger #444	appeared on floor #5, goes to floor #7
+time = 20189	Passenger #442	from floor #1 to floor #5	entered the elevator #1
+time = 20191	Passenger #443	from floor #1 to floor #5	entered the elevator #1
+time = 20283	Passenger #442	from floor #1 to floor #5	got off the elevator #1 (appeared t = 19963, in elevator t = 20189)
+time = 20285	Passenger #443	from floor #1 to floor #5	got off the elevator #1 (appeared t = 20102, in elevator t = 20191)
+time = 20289	Passenger #444	from floor #5 to floor #7	entered the elevator #1
+time = 20299	Passenger #445	appeared on floor #3, goes to floor #4
+time = 20305	Passenger #445	from floor #3 to floor #4	entered the elevator #0
+time = 20328	Passenger #445	from floor #3 to floor #4	got off the elevator #0 (appeared t = 20299, in elevator t = 20305)
+time = 20335	Passenger #444	from floor #5 to floor #7	got off the elevator #1 (appeared t = 20169, in elevator t = 20289)
+time = 20395	Passenger #446	appeared on floor #1, goes to floor #8
+time = 20529	Passenger #446	from floor #1 to floor #8	entered the elevator #1
+time = 20550	Passenger #447	appeared on floor #1, goes to floor #4
+time = 20552	Passenger #447	from floor #1 to floor #4	entered the elevator #0
+time = 20577	Passenger #448	appeared on floor #1, goes to floor #6
+time = 20628	Passenger #447	from floor #1 to floor #4	got off the elevator #0 (appeared t = 20550, in elevator t = 20552)
+time = 20660	Passenger #449	appeared on floor #1, goes to floor #8
+time = 20690	Passenger #446	from floor #1 to floor #8	got off the elevator #1 (appeared t = 20395, in elevator t = 20529)
+time = 20760	Passenger #450	appeared on floor #6, goes to floor #7
+time = 20867	Passenger #448	from floor #1 to floor #6	entered the elevator #0
+time = 20869	Passenger #449	from floor #1 to floor #8	entered the elevator #0
+time = 20923	Passenger #451	appeared on floor #1, goes to floor #3
+time = 20954	Passenger #450	from floor #6 to floor #7	entered the elevator #1
+time = 20977	Passenger #450	from floor #6 to floor #7	got off the elevator #1 (appeared t = 20760, in elevator t = 20954)
+time = 20984	Passenger #448	from floor #1 to floor #6	got off the elevator #0 (appeared t = 20577, in elevator t = 20867)
+time = 21036	Passenger #449	from floor #1 to floor #8	got off the elevator #0 (appeared t = 20660, in elevator t = 20869)
+time = 21039	Passenger #452	appeared on floor #1, goes to floor #6
+time = 21123	Passenger #453	appeared on floor #2, goes to floor #8
+time = 21171	Passenger #451	from floor #1 to floor #3	entered the elevator #1
+time = 21173	Passenger #452	from floor #1 to floor #6	entered the elevator #1
+time = 21199	Passenger #453	from floor #2 to floor #8	entered the elevator #1
+time = 21222	Passenger #451	from floor #1 to floor #3	got off the elevator #1 (appeared t = 20923, in elevator t = 21171)
+time = 21223	Passenger #454	appeared on floor #1, goes to floor #5
+time = 21235	Passenger #454	from floor #1 to floor #5	entered the elevator #0
+time = 21293	Passenger #452	from floor #1 to floor #6	got off the elevator #1 (appeared t = 21039, in elevator t = 21173)
+time = 21318	Passenger #455	appeared on floor #11, goes to floor #10
+time = 21327	Passenger #454	from floor #1 to floor #5	got off the elevator #0 (appeared t = 21223, in elevator t = 21235)
+time = 21341	Passenger #453	from floor #2 to floor #8	got off the elevator #1 (appeared t = 21123, in elevator t = 21199)
+time = 21390	Passenger #455	from floor #11 to floor #10	entered the elevator #1
+time = 21413	Passenger #455	from floor #11 to floor #10	got off the elevator #1 (appeared t = 21318, in elevator t = 21390)
+time = 21439	Passenger #456	appeared on floor #1, goes to floor #8
+time = 21482	Passenger #457	appeared on floor #1, goes to floor #4
+time = 21550	Passenger #458	appeared on floor #1, goes to floor #5
+time = 21556	Passenger #456	from floor #1 to floor #8	entered the elevator #0
+time = 21558	Passenger #457	from floor #1 to floor #4	entered the elevator #1
+time = 21558	Passenger #458	from floor #1 to floor #5	entered the elevator #0
+time = 21627	Passenger #457	from floor #1 to floor #4	got off the elevator #1 (appeared t = 21482, in elevator t = 21558)
+time = 21650	Passenger #458	from floor #1 to floor #5	got off the elevator #0 (appeared t = 21550, in elevator t = 21558)
+time = 21699	Passenger #459	appeared on floor #6, goes to floor #8
+time = 21721	Passenger #456	from floor #1 to floor #8	got off the elevator #0 (appeared t = 21439, in elevator t = 21556)
+time = 21802	Passenger #460	appeared on floor #6, goes to floor #10
+time = 21891	Passenger #461	appeared on floor #1, goes to floor #2
+time = 21905	Passenger #461	from floor #1 to floor #2	entered the elevator #0
+time = 21929	Passenger #461	from floor #1 to floor #2	got off the elevator #0 (appeared t = 21891, in elevator t = 21905)
+time = 21931	Passenger #459	from floor #6 to floor #8	entered the elevator #1
+time = 21933	Passenger #460	from floor #6 to floor #10	entered the elevator #1
+time = 21978	Passenger #462	appeared on floor #5, goes to floor #10
+time = 21979	Passenger #459	from floor #6 to floor #8	got off the elevator #1 (appeared t = 21699, in elevator t = 21931)
+time = 21998	Passenger #463	appeared on floor #1, goes to floor #9
+time = 22007	Passenger #464	appeared on floor #1, goes to floor #8
+time = 22027	Passenger #460	from floor #6 to floor #10	got off the elevator #1 (appeared t = 21802, in elevator t = 21933)
+time = 22030	Passenger #465	appeared on floor #1, goes to floor #3
+time = 22045	Passenger #466	appeared on floor #5, goes to floor #3
+time = 22049	Passenger #467	appeared on floor #9, goes to floor #1
+time = 22073	Passenger #467	from floor #9 to floor #1	entered the elevator #0
+time = 22081	Passenger #468	appeared on floor #4, goes to floor #6
+time = 22111	Passenger #469	appeared on floor #5, goes to floor #8
+time = 22123	Passenger #470	appeared on floor #7, goes to floor #2
+time = 22131	Passenger #462	from floor #5 to floor #10*	entered the elevator #1
+time = 22133	Passenger #471	appeared on floor #1, goes to floor #9
+time = 22133	Passenger #466	from floor #5 to floor #3	entered the elevator #1
+time = 22134	Passenger #472	appeared on floor #1, goes to floor #11
+time = 22136	Passenger #473	appeared on floor #6, goes to floor #8
+time = 22151	Passenger #474	appeared on floor #1, goes to floor #7
+time = 22170	Passenger #475	appeared on floor #1, goes to floor #9
+time = 22180	Passenger #476	appeared on floor #1, goes to floor #7
+time = 22182	Passenger #466	from floor #5 to floor #3	got off the elevator #1 (appeared t = 22045, in elevator t = 22133)
+time = 22214	Passenger #477	appeared on floor #4, goes to floor #9
+time = 22252	Passenger #478	appeared on floor #9, goes to floor #5
+time = 22254	Passenger #479	appeared on floor #4, goes to floor #7
+time = 22257	Passenger #467	from floor #9 to floor #1	got off the elevator #0 (appeared t = 22049, in elevator t = 22073)
+time = 22264	Passenger #480	appeared on floor #1, goes to floor #8
+time = 22281	Passenger #463	from floor #1 to floor #9	entered the elevator #1
+time = 22283	Passenger #464	from floor #1 to floor #8	entered the elevator #1
+time = 22285	Passenger #465	from floor #1 to floor #3	entered the elevator #1
+time = 22287	Passenger #471	from floor #1 to floor #9	entered the elevator #1
+time = 22289	Passenger #472	from floor #1 to floor #11	entered the elevator #1
+time = 22291	Passenger #474	from floor #1 to floor #7	entered the elevator #1
+time = 22293	Passenger #481	appeared on floor #4, goes to floor #7
+time = 22293	Passenger #475	from floor #1 to floor #9	entered the elevator #1
+time = 22296	Passenger #476	from floor #1 to floor #7	entered the elevator #0
+time = 22298	Passenger #480	from floor #1 to floor #8	entered the elevator #0
+time = 22313	Passenger #482	appeared on floor #10, goes to floor #8
+time = 22321	Passenger #483	appeared on floor #1, goes to floor #2
+time = 22327	Passenger #484	appeared on floor #7, goes to floor #9
+time = 22339	Passenger #465	from floor #1 to floor #3	got off the elevator #1 (appeared t = 22030, in elevator t = 22285)
+time = 22341	Passenger #485	appeared on floor #1, goes to floor #4
+time = 22360	Passenger #486	appeared on floor #1, goes to floor #8
+time = 22366	Passenger #468	from floor #4 to floor #6	entered the elevator #1
+time = 22369	Passenger #477	from floor #4 to floor #9	entered the elevator #0
+time = 22371	Passenger #479	from floor #4 to floor #7	entered the elevator #0
+time = 22373	Passenger #481	from floor #4 to floor #7	entered the elevator #0
+time = 22398	Passenger #469	from floor #5 to floor #8	entered the elevator #0
+time = 22408	Passenger #487	appeared on floor #5, goes to floor #1
+time = 22412	Passenger #468	from floor #4 to floor #6	got off the elevator #1 (appeared t = 22081, in elevator t = 22366)
+time = 22416	Passenger #473	from floor #6 to floor #8	entered the elevator #1
+time = 22424	Passenger #488	appeared on floor #1, goes to floor #11
+time = 22435	Passenger #489	appeared on floor #8, goes to floor #9
+time = 22439	Passenger #474	from floor #1 to floor #7	got off the elevator #1 (appeared t = 22151, in elevator t = 22291)
+time = 22443	Passenger #490	appeared on floor #9, goes to floor #10
+time = 22443	Passenger #470	from floor #7 to floor #2*	entered the elevator #1
+time = 22444	Passenger #476	from floor #1 to floor #7	got off the elevator #0 (appeared t = 22180, in elevator t = 22296)
+time = 22446	Passenger #479	from floor #4 to floor #7	got off the elevator #0 (appeared t = 22254, in elevator t = 22371)
+time = 22448	Passenger #481	from floor #4 to floor #7	got off the elevator #0 (appeared t = 22293, in elevator t = 22373)
+time = 22452	Passenger #484	from floor #7 to floor #9	entered the elevator #0
+time = 22466	Passenger #464	from floor #1 to floor #8	got off the elevator #1 (appeared t = 22007, in elevator t = 22283)
+time = 22468	Passenger #473	from floor #6 to floor #8	got off the elevator #1 (appeared t = 22136, in elevator t = 22416)
+time = 22472	Passenger #489	from floor #8 to floor #9	entered the elevator #1
+time = 22475	Passenger #480	from floor #1 to floor #8	got off the elevator #0 (appeared t = 22264, in elevator t = 22298)
+time = 22477	Passenger #469	from floor #5 to floor #8	got off the elevator #0 (appeared t = 22111, in elevator t = 22398)
+time = 22483	Passenger #491	appeared on floor #11, goes to floor #8
+time = 22486	Passenger #492	appeared on floor #6, goes to floor #7
+time = 22495	Passenger #463	from floor #1 to floor #9	got off the elevator #1 (appeared t = 21998, in elevator t = 22281)
+time = 22497	Passenger #471	from floor #1 to floor #9	got off the elevator #1 (appeared t = 22133, in elevator t = 22287)
+time = 22499	Passenger #475	from floor #1 to floor #9	got off the elevator #1 (appeared t = 22170, in elevator t = 22293)
+time = 22501	Passenger #489	from floor #8 to floor #9	got off the elevator #1 (appeared t = 22435, in elevator t = 22472)
+time = 22502	Passenger #477	from floor #4 to floor #9	got off the elevator #0 (appeared t = 22214, in elevator t = 22369)
+time = 22504	Passenger #484	from floor #7 to floor #9	got off the elevator #0 (appeared t = 22327, in elevator t = 22452)
+time = 22505	Passenger #490	from floor #9 to floor #10	entered the elevator #1
+time = 22522	Passenger #493	appeared on floor #10, goes to floor #11
+time = 22523	Passenger #494	appeared on floor #1, goes to floor #11
+time = 22529	Passenger #462	from floor #5 to floor #10	got off the elevator #1 (appeared t = 21978, in elevator t = 22131)
+time = 22531	Passenger #490	from floor #9 to floor #10	got off the elevator #1 (appeared t = 22443, in elevator t = 22505)
+time = 22532	Passenger #495	appeared on floor #1, goes to floor #6
+time = 22533	Passenger #493	from floor #10 to floor #11	entered the elevator #0
+time = 22556	Passenger #493	from floor #10 to floor #11	got off the elevator #0 (appeared t = 22522, in elevator t = 22533)
+time = 22556	Passenger #472	from floor #1 to floor #11	got off the elevator #1 (appeared t = 22134, in elevator t = 22289)
+time = 22560	Passenger #491	from floor #11 to floor #8	entered the elevator #0
+time = 22562	Passenger #496	appeared on floor #8, goes to floor #1
+time = 22585	Passenger #482	from floor #10 to floor #8	entered the elevator #1
+time = 22611	Passenger #497	appeared on floor #2, goes to floor #6
+time = 22611	Passenger #478	from floor #9 to floor #5	entered the elevator #0
+time = 22634	Passenger #491	from floor #11 to floor #8	got off the elevator #0 (appeared t = 22483, in elevator t = 22560)
+time = 22634	Passenger #482	from floor #10 to floor #8	got off the elevator #1 (appeared t = 22313, in elevator t = 22585)
+time = 22638	Passenger #496	from floor #8 to floor #1	entered the elevator #0
+time = 22708	Passenger #478	from floor #9 to floor #5	got off the elevator #0 (appeared t = 22252, in elevator t = 22611)
+time = 22710	Passenger #487	from floor #5 to floor #1	entered the elevator #1
+time = 22717	Passenger #498	appeared on floor #1, goes to floor #6
+time = 22766	Passenger #499	appeared on floor #6, goes to floor #2
+time = 22780	Passenger #470	from floor #7 to floor #2	got off the elevator #1 (appeared t = 22123, in elevator t = 22443)
+time = 22804	Passenger #496	from floor #8 to floor #1	got off the elevator #0 (appeared t = 22562, in elevator t = 22638)
+time = 22804	Passenger #487	from floor #5 to floor #1	got off the elevator #1 (appeared t = 22408, in elevator t = 22710)
+time = 22843	Passenger #483	from floor #1 to floor #2	entered the elevator #0
+time = 22843	Passenger #485	from floor #1 to floor #4	entered the elevator #1
+time = 22845	Passenger #486	from floor #1 to floor #8	entered the elevator #0
+time = 22845	Passenger #488	from floor #1 to floor #11	entered the elevator #1
+time = 22847	Passenger #494	from floor #1 to floor #11	entered the elevator #0
+time = 22847	Passenger #495	from floor #1 to floor #6	entered the elevator #1
+time = 22849	Passenger #498	from floor #1 to floor #6	entered the elevator #0
+time = 22859	Passenger #501	appeared on floor #1, goes to floor #7
+time = 22859	Passenger #500	appeared on floor #1, goes to floor #7
+time = 22872	Passenger #483	from floor #1 to floor #2	got off the elevator #0 (appeared t = 22321, in elevator t = 22843)
+time = 22874	Passenger #497	from floor #2 to floor #6	entered the elevator #1
+time = 22920	Passenger #485	from floor #1 to floor #4	got off the elevator #1 (appeared t = 22341, in elevator t = 22843)
+time = 22966	Passenger #498	from floor #1 to floor #6	got off the elevator #0 (appeared t = 22717, in elevator t = 22849)
+time = 22968	Passenger #495	from floor #1 to floor #6	got off the elevator #1 (appeared t = 22532, in elevator t = 22847)
+time = 22970	Passenger #492	from floor #6 to floor #7	entered the elevator #0
+time = 22970	Passenger #497	from floor #2 to floor #6	got off the elevator #1 (appeared t = 22611, in elevator t = 22874)
+time = 22993	Passenger #492	from floor #6 to floor #7	got off the elevator #0 (appeared t = 22486, in elevator t = 22970)
+time = 23018	Passenger #486	from floor #1 to floor #8	got off the elevator #0 (appeared t = 22360, in elevator t = 22845)
+time = 23087	Passenger #488	from floor #1 to floor #11	got off the elevator #1 (appeared t = 22424, in elevator t = 22845)
+time = 23100	Passenger #494	from floor #1 to floor #11	got off the elevator #0 (appeared t = 22523, in elevator t = 22847)
+time = 23125	Passenger #499	from floor #6 to floor #2	leaved the floor (waiting time = 359)
+time = 23254	Passenger #501	from floor #1 to floor #7	entered the elevator #0
+time = 23256	Passenger #500	from floor #1 to floor #7	entered the elevator #1
+time = 23393	Passenger #501	from floor #1 to floor #7	got off the elevator #0 (appeared t = 22859, in elevator t = 23254)
+time = 23393	Passenger #500	from floor #1 to floor #7	got off the elevator #1 (appeared t = 22859, in elevator t = 23256)

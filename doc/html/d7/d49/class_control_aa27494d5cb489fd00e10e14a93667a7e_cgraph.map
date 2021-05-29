@@ -1,4 +1,0 @@
-<map id="Control::MakeStep" name="Control::MakeStep">
-<area shape="rect" id="node1" title="Функция выполнения шага моделирования по времени" alt="" coords="5,5,136,32"/>
-<area shape="rect" id="node2" href="$d7/d49/class_control.html#ab446f2fd5dd6eb95053119e0629ec9f3" title="Функция запроса текущего времени" alt="" coords="184,5,343,32"/>
-</map>

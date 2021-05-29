@@ -1,5 +1,0 @@
-<map id="Control::isElevatorGoingUniformly" name="Control::isElevatorGoingUniformly">
-<area shape="rect" id="node1" title="Проверка того, что кабина лифта движется равномерно" alt="" coords="289,5,451,47"/>
-<area shape="rect" id="node2" href="$df/d0a/main_8cpp.html#aea9479afe83d190f4c92ca7c1688b32d" title="Основная функция системы управления" alt="" coords="104,13,241,39"/>
-<area shape="rect" id="node3" href="$df/d0a/main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,13,56,39"/>
-</map>

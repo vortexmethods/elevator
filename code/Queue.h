@@ -5,8 +5,8 @@
 \file
 \brief Заголовочный файл с описанием класса Queue
 \author Марчевский Илья Константинович
-\version 0.5
-\date 25 мая 2021 г.
+\version 0.6
+\date 29 мая 2021 г.
 */
 
 #pragma once
@@ -40,7 +40,9 @@ public:
 	/// \param[in] passProp_ константная ссылка на параметры добавляемого пассажира
 	void addPassenger(const PassengerProperties& passProp_)
 	{
-		passengers.emplace_back(passengers.size(), passProp_);
+		//Добавлена проверка //29.05.2021
+		if (passProp_.floorDestination != passProp_.floorDeparture)		
+			passengers.emplace_back(passengers.size(), passProp_);		
 	}
 };
 
