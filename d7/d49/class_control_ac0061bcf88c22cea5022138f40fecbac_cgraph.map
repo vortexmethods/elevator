@@ -1,0 +1,9 @@
+<map id="Control::getElevatorButton" name="Control::getElevatorButton">
+<area shape="rect" id="node2" href="$d7/d49/class_control.html#a585941066b04edf4df274530e63541b9" title="Функция добавления пассажира в очередь " alt="" coords="229,5,440,32"/>
+<area shape="rect" id="node3" href="$d7/d49/class_control.html#afa60538067330dfbc1beaacb9ddce8d9" title="Функция чтения расписания появления пассажиров на этажах " alt="" coords="253,56,417,83"/>
+<area shape="rect" id="node4" href="$d7/d49/class_control.html#ae93c176666dbc03a11eda4d78c81218b" title="Функция печати в файл или на экран состояния лифта в текущий момент времени " alt="" coords="245,107,424,133"/>
+<area shape="rect" id="node6" href="$d7/d49/class_control.html#a639d48d68f19c2fbc4217062522c0d98" title="Функция печати в файл или на экран состояния кнопок в кабинах и на этажах в текущий момент времени ..." alt="" coords="247,157,422,184"/>
+<area shape="rect" id="node7" href="$d7/d49/class_control.html#a74167f0e42697c9c457df24ec2e53c36" title="Функция печати в файл или на экран событий, произошедших с пассажирами за последний шаг (последнюю се..." alt="" coords="239,208,431,235"/>
+<area shape="rect" id="node8" href="$d7/d49/class_control.html#a9c6658d0e4e95f05cc775f498338b353" title="Функция печати в файл или на экран итоговой статистики, включая итоговый &quot;рейтинг&quot; (чем меньше &#45; тем ..." alt="" coords="257,259,412,285"/>
+<area shape="rect" id="node5" href="$d7/d49/class_control.html#a020eae00c35f38e1b887da487c27ed44" title="Функция запроса текущего времени " alt="" coords="488,183,651,209"/>
+</map>
