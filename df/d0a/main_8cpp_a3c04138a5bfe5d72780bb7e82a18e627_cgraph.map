@@ -1,0 +1,19 @@
+<map id="main" name="main">
+<area shape="rect" id="node2" href="$d7/d49/class_control.html#afa60538067330dfbc1beaacb9ddce8d9" title="Функция чтения расписания появления пассажиров на этажах " alt="" coords="118,5,282,32"/>
+<area shape="rect" id="node3" href="$d7/d49/class_control.html#aa27494d5cb489fd00e10e14a93667a7e" title="Функция выполнения шага моделирования по времени " alt="" coords="135,56,265,83"/>
+<area shape="rect" id="node4" href="$d7/d49/class_control.html#a020eae00c35f38e1b887da487c27ed44" title="Функция запроса текущего времени " alt="" coords="366,157,529,184"/>
+<area shape="rect" id="node5" href="$df/d0a/main_8cpp.html#aea9479afe83d190f4c92ca7c1688b32d" title="Основная функция системы управления " alt="" coords="129,360,271,387"/>
+<area shape="rect" id="node15" href="$d7/d49/class_control.html#ae93c176666dbc03a11eda4d78c81218b" title="Функция печати в файл или на экран состояния лифта в текущий момент времени " alt="" coords="111,157,289,184"/>
+<area shape="rect" id="node16" href="$d7/d49/class_control.html#a639d48d68f19c2fbc4217062522c0d98" title="Функция печати в файл или на экран состояния кнопок в кабинах и на этажах в текущий момент времени ..." alt="" coords="113,208,287,235"/>
+<area shape="rect" id="node17" href="$d7/d49/class_control.html#a74167f0e42697c9c457df24ec2e53c36" title="Функция печати в файл или на экран событий, произошедших с пассажирами за последний шаг (последнюю се..." alt="" coords="104,259,296,285"/>
+<area shape="rect" id="node18" href="$d7/d49/class_control.html#a9c6658d0e4e95f05cc775f498338b353" title="Функция печати в файл или на экран итоговой статистики, включая итоговый &quot;рейтинг&quot; (чем меньше &#45; тем ..." alt="" coords="123,309,277,336"/>
+<area shape="rect" id="node6" href="$d7/d49/class_control.html#a452bff3ad51327be43181710b7eee73d" title="Функция задания назначения лифту " alt="" coords="344,208,551,235"/>
+<area shape="rect" id="node7" href="$d7/d49/class_control.html#a96cd004fbddf03e59c9fef5aa1a0ac15" title="Функция задания состояния индикатора лифта (лампочка со стрелочкой, которую видят пассажиры) ..." alt="" coords="352,259,543,285"/>
+<area shape="rect" id="node8" href="$d7/d49/class_control.html#a4d070d869f8a1805f51875d2d882021a" title="Функция запроса состояний кнопок &quot;вверх&quot; на этажах " alt="" coords="357,309,538,336"/>
+<area shape="rect" id="node9" href="$d7/d49/class_control.html#addc69b6deeaf82329c95cc5c129b5ecc" title="Функция запроса состояний кнопок &quot;вниз&quot; на этажах " alt="" coords="357,360,538,387"/>
+<area shape="rect" id="node10" href="$d7/d49/class_control.html#a5a593ad31473efa0ae1a173a3d49961a" title="Проверка того, что лифт завершил выполнение текущего назначения " alt="" coords="355,411,539,453"/>
+<area shape="rect" id="node11" href="$d7/d49/class_control.html#ac6b0b65a0ba1a63beb28b590ea5cf761" title="Функция запроса текущего назначения " alt="" coords="345,477,549,504"/>
+<area shape="rect" id="node12" href="$d7/d49/class_control.html#ac06c372125ae6eec7f9b06c7f8a02281" title="Функция запроса текущего положения лифта " alt="" coords="355,528,540,555"/>
+<area shape="rect" id="node13" href="$d7/d49/class_control.html#a9c31c8a88d66b24ca04abe5ca216c4c4" title="Функция запроса текущего состояния индикатора " alt="" coords="353,579,541,605"/>
+<area shape="rect" id="node14" href="$d7/d49/class_control.html#aa996c156e5e8d89aea258173944bc174" title="Проверка того, что кабина лифта движется равномерно " alt="" coords="365,630,529,671"/>
+</map>

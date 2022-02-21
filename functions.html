@@ -1,0 +1,405 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>elevator: Члены классов</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/NativeMML"],
+});
+</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">elevator
+   &#160;<span id="projectnumber">0.7</span>
+   </div>
+   <div id="projectbrief">Симулятор пассажирского лифта</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Титульная&#160;страница</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Классы</span></a></li>
+      <li><a href="files.html"><span>Файлы</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Поиск" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Классы</span></a></li>
+      <li><a href="classes.html"><span>Алфавитный&#160;указатель&#160;классов</span></a></li>
+      <li class="current"><a href="functions.html"><span>Члены&#160;классов</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow3" class="tabs2">
+    <ul class="tablist">
+      <li class="current"><a href="functions.html"><span>Указатель</span></a></li>
+      <li><a href="functions_func.html"><span>Функции</span></a></li>
+      <li><a href="functions_vars.html"><span>Переменные</span></a></li>
+      <li><a href="functions_rela.html"><span>Относящиеся&#160;к&#160;классу&#160;функции</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow4" class="tabs3">
+    <ul class="tablist">
+      <li><a href="#index_a"><span>a</span></a></li>
+      <li><a href="#index_c"><span>c</span></a></li>
+      <li><a href="#index_e"><span>e</span></a></li>
+      <li><a href="#index_f"><span>f</span></a></li>
+      <li><a href="#index_g"><span>g</span></a></li>
+      <li><a href="#index_i"><span>i</span></a></li>
+      <li><a href="#index_m"><span>m</span></a></li>
+      <li><a href="#index_o"><span>o</span></a></li>
+      <li><a href="#index_p"><span>p</span></a></li>
+      <li><a href="#index_q"><span>q</span></a></li>
+      <li><a href="#index_r"><span>r</span></a></li>
+      <li><a href="#index_s"><span>s</span></a></li>
+      <li><a href="#index_t"><span>t</span></a></li>
+      <li><a href="#index_u"><span>u</span></a></li>
+      <li><a href="#index_v"><span>v</span></a></li>
+      <li><a href="#index_w"><span>w</span></a></li>
+      <li class="current"><a href="#index_0x7e"><span>~</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('functions.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="contents">
+<div class="textblock">Список всех членов классов со ссылками на классы, к которым они принадлежат.</div>
+
+<h3><a class="anchor" id="index_a"></a>- a -</h3><ul>
+<li>addPassenger()
+: <a class="el" href="d4/da4/class_queue.html#aa06392ee9529f69788f6722adcbdd4ec">Queue</a>
+</li>
+<li>AddPassengerToQueue()
+: <a class="el" href="d7/d49/class_control.html#a585941066b04edf4df274530e63541b9">Control</a>
+</li>
+<li>arbitraryParam
+: <a class="el" href="df/da2/structmy_params.html#a68ee53a0de65b9f64770bea9f4fe4db9">myParams</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_c"></a>- c -</h3><ul>
+<li>Control()
+: <a class="el" href="d7/d49/class_control.html#a603e4d87715759e77509c40dbaffa8ff">Control</a>
+, <a class="el" href="dc/d79/class_elevator.html#a9adf7c444a8611024541177662d4716a">Elevator</a>
+, <a class="el" href="d5/d6b/class_floor_buttons.html#a9adf7c444a8611024541177662d4716a">FloorButtons</a>
+, <a class="el" href="da/dc7/class_passenger.html#a9adf7c444a8611024541177662d4716a">Passenger</a>
+, <a class="el" href="d4/da4/class_queue.html#a9adf7c444a8611024541177662d4716a">Queue</a>
+</li>
+<li>criticalWaitTime
+: <a class="el" href="d0/d91/struct_passenger_properties.html#ae6da83360b7935a5081b2fdd6817e358">PassengerProperties</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_e"></a>- e -</h3><ul>
+<li>Elevator()
+: <a class="el" href="dc/d79/class_elevator.html#acb62be6b6a98aae69e36dcad3a22e4f6">Elevator</a>
+, <a class="el" href="da/dc7/class_passenger.html#a328f2299c36164452faff8464ff87e24">Passenger</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_f"></a>- f -</h3><ul>
+<li>FloorButtons()
+: <a class="el" href="d5/d6b/class_floor_buttons.html#acbdc31e329f1a233c5b3f7025158e8ff">FloorButtons</a>
+</li>
+<li>floorDeparture
+: <a class="el" href="d0/d91/struct_passenger_properties.html#a9140275f2066ecf7b7c1132042b421f7">PassengerProperties</a>
+</li>
+<li>floorDestination
+: <a class="el" href="d0/d91/struct_passenger_properties.html#a482b7e686ab4fdc513b5f2f5ce24b0fd">PassengerProperties</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_g"></a>- g -</h3><ul>
+<li>getCurrentTime()
+: <a class="el" href="d7/d49/class_control.html#a020eae00c35f38e1b887da487c27ed44">Control</a>
+</li>
+<li>getElevatorButton()
+: <a class="el" href="d7/d49/class_control.html#ac0061bcf88c22cea5022138f40fecbac">Control</a>
+</li>
+<li>getElevatorButtons()
+: <a class="el" href="d7/d49/class_control.html#a2df04a55f59247790cac21b0b8b4bbdf">Control</a>
+</li>
+<li>getElevatorDestination()
+: <a class="el" href="d7/d49/class_control.html#ac6b0b65a0ba1a63beb28b590ea5cf761">Control</a>
+</li>
+<li>getElevatorIndicator()
+: <a class="el" href="d7/d49/class_control.html#a9c31c8a88d66b24ca04abe5ca216c4c4">Control</a>
+</li>
+<li>getElevatorPosition()
+: <a class="el" href="d7/d49/class_control.html#ac06c372125ae6eec7f9b06c7f8a02281">Control</a>
+</li>
+<li>getFloorDnButton()
+: <a class="el" href="d7/d49/class_control.html#a1b3080f7931eb261167561bfded332dc">Control</a>
+</li>
+<li>getFloorDnButtons()
+: <a class="el" href="d7/d49/class_control.html#addc69b6deeaf82329c95cc5c129b5ecc">Control</a>
+</li>
+<li>getFloorUpButton()
+: <a class="el" href="d7/d49/class_control.html#aab7a5742754290b63f1da4b9b1f87425">Control</a>
+</li>
+<li>getFloorUpButtons()
+: <a class="el" href="d7/d49/class_control.html#a4d070d869f8a1805f51875d2d882021a">Control</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_i"></a>- i -</h3><ul>
+<li>isElevatorAccelerating()
+: <a class="el" href="d7/d49/class_control.html#a982ed25ef620c6fd7c2c37bc0d257558">Control</a>
+</li>
+<li>isElevatorAchievedDestination()
+: <a class="el" href="d7/d49/class_control.html#a5a593ad31473efa0ae1a173a3d49961a">Control</a>
+</li>
+<li>isElevatorBreaking()
+: <a class="el" href="d7/d49/class_control.html#a2496fb052805a10fc104338df24c2e4a">Control</a>
+</li>
+<li>isElevatorDoorsClosing()
+: <a class="el" href="d7/d49/class_control.html#a1c36689309369556c85e5376e8c6f569">Control</a>
+</li>
+<li>isElevatorDoorsOpened()
+: <a class="el" href="d7/d49/class_control.html#a193750ed264d878113a57d2f8f2ea528">Control</a>
+</li>
+<li>isElevatorDoorsOpening()
+: <a class="el" href="d7/d49/class_control.html#ad384c93f96945b447f1dbb9fb26b4e3e">Control</a>
+</li>
+<li>isElevatorEmpty()
+: <a class="el" href="d7/d49/class_control.html#af0ff68e9a67f8f532367722971959e75">Control</a>
+</li>
+<li>isElevatorEmptyAfterUnloading()
+: <a class="el" href="d7/d49/class_control.html#aa7d12108286b6ec5b7eaea59d2b5b01a">Control</a>
+</li>
+<li>isElevatorGoingDn()
+: <a class="el" href="d7/d49/class_control.html#a9593d12e27681f24d20b18db69e4dea3">Control</a>
+</li>
+<li>isElevatorGoingUniformly()
+: <a class="el" href="d7/d49/class_control.html#aa996c156e5e8d89aea258173944bc174">Control</a>
+</li>
+<li>isElevatorGoingUp()
+: <a class="el" href="d7/d49/class_control.html#af3ebd46ebd15e7003ccf2ac82d496306">Control</a>
+</li>
+<li>isElevatorStaying()
+: <a class="el" href="d7/d49/class_control.html#a0228cf7822384c0ad9a3e45e6688e5ec">Control</a>
+</li>
+<li>isElevatorStayingDoorsClosed()
+: <a class="el" href="d7/d49/class_control.html#a8df79f31fa339f9537c59dcfaa929b2b">Control</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_m"></a>- m -</h3><ul>
+<li>MakeStep()
+: <a class="el" href="d7/d49/class_control.html#aa27494d5cb489fd00e10e14a93667a7e">Control</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_o"></a>- o -</h3><ul>
+<li>operator&lt;()
+: <a class="el" href="da/dc7/class_passenger.html#ae8c2394e4b726241b712b5e65c615585">Passenger</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_p"></a>- p -</h3><ul>
+<li>Passenger()
+: <a class="el" href="da/dc7/class_passenger.html#a94cac7ffaffff549323af85cf34f0fd0">Passenger</a>
+</li>
+<li>pInverseStartWaiting
+: <a class="el" href="d0/d91/struct_passenger_properties.html#a51faf4250e80dac12b61449dce780f7e">PassengerProperties</a>
+</li>
+<li>pInverseStopWaiting
+: <a class="el" href="d0/d91/struct_passenger_properties.html#ac8206390816253fb1eeb204a596c47f6">PassengerProperties</a>
+</li>
+<li>PrintButtonsState()
+: <a class="el" href="d7/d49/class_control.html#a639d48d68f19c2fbc4217062522c0d98">Control</a>
+</li>
+<li>PrintElevatorState()
+: <a class="el" href="d7/d49/class_control.html#ae93c176666dbc03a11eda4d78c81218b">Control</a>
+</li>
+<li>PrintPassengerState()
+: <a class="el" href="d7/d49/class_control.html#a74167f0e42697c9c457df24ec2e53c36">Control</a>
+</li>
+<li>PrintStatistics()
+: <a class="el" href="d7/d49/class_control.html#a9c6658d0e4e95f05cc775f498338b353">Control</a>
+</li>
+<li>pStartGoing
+: <a class="el" href="d0/d91/struct_passenger_properties.html#a15653783626935de155e1684cbc0dd8d">PassengerProperties</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_q"></a>- q -</h3><ul>
+<li>Queue()
+: <a class="el" href="d4/da4/class_queue.html#ae9a4341218f607231a932d7514c4a83e">Queue</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_r"></a>- r -</h3><ul>
+<li>ReadTimeTable()
+: <a class="el" href="d7/d49/class_control.html#afa60538067330dfbc1beaacb9ddce8d9">Control</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_s"></a>- s -</h3><ul>
+<li>SetElevatorDestination()
+: <a class="el" href="d7/d49/class_control.html#a452bff3ad51327be43181710b7eee73d">Control</a>
+</li>
+<li>SetElevatorIndicator()
+: <a class="el" href="d7/d49/class_control.html#a96cd004fbddf03e59c9fef5aa1a0ac15">Control</a>
+</li>
+<li>started
+: <a class="el" href="df/da2/structmy_params.html#a919fdab01ef17c1a1dff4c2b855fb05e">myParams</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_t"></a>- t -</h3><ul>
+<li>timeAccelerating
+: <a class="el" href="d7/d49/class_control.html#a8726322f590afe14cdf99fd27236cbb2">Control</a>
+</li>
+<li>timeBreaking
+: <a class="el" href="d7/d49/class_control.html#a6257904094e1a7e3bb5f798634d6a29f">Control</a>
+</li>
+<li>timeClosing
+: <a class="el" href="d7/d49/class_control.html#a8d2d688eef4088a0c6cda1e26c982217">Control</a>
+</li>
+<li>timeEntering
+: <a class="el" href="d7/d49/class_control.html#ad8e27707c5bec6a332cd038366ae7c90">Control</a>
+</li>
+<li>timeInit
+: <a class="el" href="d0/d91/struct_passenger_properties.html#a42a9b3f70ec3df9e8aa1b4349fca4e07">PassengerProperties</a>
+</li>
+<li>timeLeaving
+: <a class="el" href="d7/d49/class_control.html#a8755f7ae4b3b07093621d05a05764dfc">Control</a>
+</li>
+<li>timeOpening
+: <a class="el" href="d7/d49/class_control.html#a2c6036e7f6f4d78a4fa3430180bc63bb">Control</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_u"></a>- u -</h3><ul>
+<li>unsetDnButton()
+: <a class="el" href="d7/d49/class_control.html#acfbbba80d9acb4ff35ccf3c5e2939c50">Control</a>
+</li>
+<li>unsetUpButton()
+: <a class="el" href="d7/d49/class_control.html#a63fc2225ceeabd2c5c6704f353827316">Control</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_v"></a>- v -</h3><ul>
+<li>veloUniform
+: <a class="el" href="d7/d49/class_control.html#a81bee73beaba5077167492d1d8081a86">Control</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_w"></a>- w -</h3><ul>
+<li>waitingTime
+: <a class="el" href="d7/d49/class_control.html#a5cdb5f3e018fca019f95ffc3fe316348">Control</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_0x7e"></a>- ~ -</h3><ul>
+<li>~Control()
+: <a class="el" href="d7/d49/class_control.html#aedda1328c4f8b8d49bca8f0812d3bfd1">Control</a>
+</li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Создано системой
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
+  </ul>
+</div>
+</body>
+</html>

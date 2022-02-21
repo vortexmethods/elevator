@@ -1,0 +1,12 @@
+<map id="CONTROLSYSTEM" name="CONTROLSYSTEM">
+<area shape="rect" id="node2" href="$d7/d49/class_control.html#a020eae00c35f38e1b887da487c27ed44" title="Функция запроса текущего времени " alt="" coords="218,5,381,32"/>
+<area shape="rect" id="node3" href="$d7/d49/class_control.html#a452bff3ad51327be43181710b7eee73d" title="Функция задания назначения лифту " alt="" coords="196,56,403,83"/>
+<area shape="rect" id="node4" href="$d7/d49/class_control.html#a96cd004fbddf03e59c9fef5aa1a0ac15" title="Функция задания состояния индикатора лифта (лампочка со стрелочкой, которую видят пассажиры) ..." alt="" coords="204,107,395,133"/>
+<area shape="rect" id="node5" href="$d7/d49/class_control.html#a4d070d869f8a1805f51875d2d882021a" title="Функция запроса состояний кнопок &quot;вверх&quot; на этажах " alt="" coords="209,157,390,184"/>
+<area shape="rect" id="node6" href="$d7/d49/class_control.html#addc69b6deeaf82329c95cc5c129b5ecc" title="Функция запроса состояний кнопок &quot;вниз&quot; на этажах " alt="" coords="209,208,390,235"/>
+<area shape="rect" id="node7" href="$d7/d49/class_control.html#a5a593ad31473efa0ae1a173a3d49961a" title="Проверка того, что лифт завершил выполнение текущего назначения " alt="" coords="207,259,391,301"/>
+<area shape="rect" id="node8" href="$d7/d49/class_control.html#ac6b0b65a0ba1a63beb28b590ea5cf761" title="Функция запроса текущего назначения " alt="" coords="197,325,401,352"/>
+<area shape="rect" id="node9" href="$d7/d49/class_control.html#ac06c372125ae6eec7f9b06c7f8a02281" title="Функция запроса текущего положения лифта " alt="" coords="207,376,392,403"/>
+<area shape="rect" id="node10" href="$d7/d49/class_control.html#a9c31c8a88d66b24ca04abe5ca216c4c4" title="Функция запроса текущего состояния индикатора " alt="" coords="205,427,393,453"/>
+<area shape="rect" id="node11" href="$d7/d49/class_control.html#aa996c156e5e8d89aea258173944bc174" title="Проверка того, что кабина лифта движется равномерно " alt="" coords="217,478,381,519"/>
+</map>
