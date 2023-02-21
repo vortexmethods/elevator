@@ -24,7 +24,8 @@ script:
 #  - echo $TRAVIS_BUILD_DIR 
 #  - cd $TRAVIS_BUILD_DIR
 #  - pwd 
-#  - ls   
+#  - ls  
+# 
   
 # Deploy using travis builtin GitHub Pages support
 deploy:

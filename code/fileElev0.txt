@@ -25999,3 +25999,4 @@ time = 25998, 	elev[0]: level = 0.95, dir. = dn,   ind. = down, acceler. = accel
 time = 25999, 	elev[0]: level = 0.87, dir. = dn,   ind. = down, acceler. = acceler., doors = closed       (pass.: )
 time = 26000, 	elev[0]: level = 0.75, dir. = dn,   ind. = down, acceler. = acceler., doors = closed       (pass.: )
 time = 26001, 	elev[0]: level = 0.50, dir. = dn,   ind. = up,   acceler. = uniform,  doors = closed       (pass.: )
+

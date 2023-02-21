@@ -3,4 +3,4 @@ project(Elevator)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(elevator main.cpp Control.cpp Passenger.h Queue.h Elevator.cpp FloorButtons.h)
+add_executable(elevator  main.cpp Control.cpp Passenger.h Queue.h Elevator.cpp FloorButtons.h)

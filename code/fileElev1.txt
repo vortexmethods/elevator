@@ -25999,3 +25999,4 @@ time = 25998, 	elev[1]: level = 0.75, dir. = up,   ind. = up,   acceler. = unifo
 time = 25999, 	elev[1]: level = 0.87, dir. = up,   ind. = up,   acceler. = breaking, doors = closed       (pass.: )
 time = 26000, 	elev[1]: level = 0.95, dir. = up,   ind. = up,   acceler. = breaking, doors = closed       (pass.: )
 time = 26001, 	elev[1]: level = 1.00, dir. = up,   ind. = up,   acceler. = breaking, doors = closed       (pass.: )
+

@@ -1480,3 +1480,4 @@ time = 23254	Passenger #501	from floor #1 to floor #7	entered the elevator #0
 time = 23256	Passenger #500	from floor #1 to floor #7	entered the elevator #1
 time = 23393	Passenger #501	from floor #1 to floor #7	got off the elevator #0 (appeared t = 22859, in elevator t = 23254)
 time = 23393	Passenger #500	from floor #1 to floor #7	got off the elevator #1 (appeared t = 22859, in elevator t = 23256)
+

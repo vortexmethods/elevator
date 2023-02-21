@@ -130002,4 +130002,3 @@ time = 26001:
  in elevator #0: 
  in elevator #1: 
  on floors: 
-

@@ -518,3 +518,4 @@ Leaved the floors, because of too large waiting time = 24
 Penalty for them = 48375
 
 TOTAL PENALTY = 200524
+
